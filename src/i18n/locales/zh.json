@@ -1,0 +1,219 @@
+{
+  "common": {
+    "getStarted": "开始使用",
+    "learnMore": "了解更多",
+    "signIn": "登录",
+    "signUp": "注册",
+    "cancel": "取消",
+    "save": "保存",
+    "loading": "加载中..."
+  },
+  "nav": {
+    "aboutus": "关于我们",
+    "explore": "探索",
+    "pricing": "价格",
+    "benefits": "优势",
+    "resources": "资源"
+  },
+  "home": {
+    "hero": {
+      "title": "一价全包，无限网红，最大影响力",
+      "subtitle": "找到合适的品牌大使，触达他们的社区，以简单的月费增长您的品牌。",
+      "cta": "免费试用"
+    },
+    "process": {
+      "title": "流程",
+      "subtitle": "将粉丝转化为客户，将大使转化为您的销售力量",
+      "description": "Ambassy是连接专业人士与精选社交媒体大使网络的终极平台，实现有针对性、可追踪和变革性的营销活动，将社交媒体覆盖转化为实际收入。"
+    }
+  },
+  "pricing": {
+    "title": "简单价格",
+    "subtitle": "选择适合您的方案。没有隐藏费用。没有意外。",
+    "description": "今天就开始使用Ambassy，享受我们专业计划的更多功能。",
+    "plans": {
+      "ambassador": {
+        "title": "大使",
+        "info": "适用于TikTok、Instagram、YouTube和所有社交媒体影响者",
+        "price": "永久免费"
+      },
+      "pro": {
+        "title": "专业版",
+        "info": "适用于寻求快速增长的商店和品牌",
+        "price": "39.99"
+      },
+      "vip": {
+        "title": "VIP",
+        "info": "适用于希望轻松推广的忙碌店主",
+        "price": "299.99"
+      }
+    }
+  },
+  "footer": {
+    "product": "产品",
+    "features": "功能",
+    "pricing": "价格",
+    "integration": "集成",
+    "payments": "支付",
+    "company": "公司",
+    "aboutUs": "关于我们",
+    "privacyPolicy": "隐私政策",
+    "termsConditions": "条款和条件",
+    "creatorTerms": "创作者条款",
+    "followUs": "关注我们",
+    "description": "连接品牌与完美的影响者，增加他们的覆盖面和影响力。",
+    "allRightsReserved": "版权所有。"
+  },
+  "aboutUs": {
+    "badge": "关于我们",
+    "title": "关于Ambassy",
+    "subtitle": "通过创新和真实的故事讲述，改变品牌与创作者的关系。",
+    "noCommitment": "无需承诺。随时取消。",
+    "cta": "关于我们",
+    "stats": {
+      "brands": "全球品牌",
+      "partnerships": "创作者合作",
+      "audience": "受众覆盖",
+      "satisfaction": "合作伙伴满意度"
+    },
+    "mission": {
+      "title": "我们的使命",
+      "description": "在Ambassy，我们的使命是革新品牌和创作者的合作方式。我们相信真实故事讲述的力量，能够建立有意义的连接和可衡量的结果。",
+      "approach": {
+        "title": "数据驱动方法",
+        "description": "我们利用分析来优化合作伙伴关系并提供卓越的投资回报率。"
+      },
+      "storytelling": {
+        "title": "有影响力的故事讲述",
+        "description": "我们帮助品牌创建能引起共鸣并推动真实参与的叙事。"
+      }
+    },
+    "values": {
+      "title": "我们的核心价值观",
+      "subtitle": "指导我们在Ambassy所做一切的原则",
+      "authenticity": {
+        "title": "真实性",
+        "description": "我们相信与受众产生共鸣的真实连接。"
+      },
+      "innovation": {
+        "title": "创新",
+        "description": "我们不断突破界限，提供尖端解决方案。"
+      },
+      "collaboration": {
+        "title": "协作",
+        "description": "我们培养基于相互成长和尊重的合作关系。"
+      },
+      "excellence": {
+        "title": "卓越",
+        "description": "我们在所做的一切中都追求卓越品质。"
+      }
+    },
+    "team": {
+      "title": "我们的团队",
+      "description": "认识Influencer的动力源泉：一个由梦想家、创造者和游戏规则改变者组成的充满活力的团队，重塑营销的未来。凭借集体热情和独特专业知识，我们的团队将数据转化为行动，创意转化为影响，新想法转化为新现实。",
+      "members": "团队成员",
+      "countries": "国家",
+      "languages": "语言",
+      "industries": "行业"
+    },
+    "journey": {
+      "title": "我们的旅程",
+      "subtitle": "塑造我们今天身份的里程碑",
+      "founded": {
+        "title": "成立",
+        "description": "Ambassy诞生于变革影响者营销的愿景。"
+      },
+      "expansion": {
+        "title": "全球扩张",
+        "description": "在全球范围内扩展业务。"
+      },
+      "platform": {
+        "title": "平台发布",
+        "description": "发布我们专有的合作伙伴关系管理平台。"
+      },
+      "innovation": {
+        "title": "行业创新",
+        "description": "我们计划将创作者经济代币化，使影响者能够将其数字存在货币化。"
+      }
+    },
+    "impact": {
+      "title": "我们的影响",
+      "description": "我们正在通过连接全球品牌和创作者来革新数字营销。对于电子商务专业人士，我们已经帮助数千家企业迅速提升他们的在线存在和销售，提供卓越的投资回报率。对于大使，我们已经启动了职业生涯，并帮助充满热情的个人建立蓬勃发展的个人品牌，触达数百万参与度高的粉丝。我们共同塑造数字营销的未来，改变品牌和创作者合作的方式，以实现前所未有的增长和参与度。",
+      "revenue": {
+        "title": "收入增长"
+      },
+      "engagement": {
+        "title": "参与率"
+      },
+      "conversion": {
+        "title": "转化率"
+      }
+    },
+    "partners": {
+      "title": "行业领导者信任",
+      "logo": "合作伙伴标志"
+    },
+    "cta": {
+      "title": "准备提升您的品牌？",
+      "description": "加入数千个信任Ambassy提供真实且有影响力的合作伙伴关系的品牌和创作者。"
+    }
+  },
+  "twoWays": {
+    "title": "开始行动",
+    "subtitle": "两种开始使用Ambassy的方式",
+    "description": "与Ambassy合作，通过我们充满热情的大使网络扩大您品牌的影响力。",
+    "ambassador": {
+      "title": "大使",
+      "description": "认识Influencer的动力源泉：一个由梦想家、创造者和游戏规则改变者组成的充满活力的团队，重塑营销的未来。"
+    },
+    "pro": {
+      "title": "专业版和VIP",
+      "description": "与Ambassy的专家团队合作，利用我们有影响力的大使军团为快速增长的电子商务品牌提供结果，扩大您品牌的影响力。"
+    }
+  },
+  "features": {
+    "title": "功能",
+    "subtitle": "像专业人士一样管理活动",
+    "description": "Ambassy：终极通信工具，在一个地方共享、货币化和组织所有活动。"
+  },
+  "cta": {
+    "title": "步入营销管理的未来",
+    "description": "体验改变您处理通信方式的尖端解决方案。通过我们的下一代平台提升您的在线形象。"
+  },
+  "process": {
+    "0": {
+      "title": "大使选择和入职",
+      "description": "战略性地寻找和招募与您品牌愿景和目标受众一致的完美社交媒体大使。"
+    },
+    "1": {
+      "title": "活动创建和执行",
+      "description": "设计引人注目的、特定平台的内容策略，将大使转变为您产品独特价值的有力讲述者。"
+    },
+    "2": {
+      "title": "性能跟踪和优化",
+      "description": "实施数据驱动的分析，持续测量、学习和发展您的影响者营销方法，以获得最大投资回报率。"
+    }
+  },
+  "stats": {
+    "campaigns": {
+      "value": "1500+",
+      "label": "活动",
+      "description": "触达新受众"
+    },
+    "reach": {
+      "value": "50M+",
+      "label": "覆盖",
+      "description": "跨所有平台"
+    },
+    "support": {
+      "value": "24/7",
+      "label": "支持",
+      "description": "随时为您提供帮助"
+    },
+    "engagement": {
+      "value": "X10",
+      "label": "参与度",
+      "description": "改善结果"
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "common": {
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "cancel": "Cancel",
+    "save": "Save",
+    "loading": "Loading..."
+  },
+  "nav": {
+    "aboutus": "About Us",
+    "explore": "Explore",
+    "pricing": "Pricing",
+    "benefits": "Benefits",
+    "resources": "Resources"
+  },
+  "home": {
+    "hero": {
+      "title": "One Price, Unlimited Influencers",
+      "subtitle": "Find the Right Ambassadors, Reach Their Communities, and Grow Your Brand All for a Simple Monthly Fee.",
+      "cta": "Try For Free"
+    },
+    "process": {
+      "title": "The Process",
+      "subtitle": "Transform Followers into Customers, Ambassadors into Your Sales Force"
+    }
+  },
+  "pricing": {
+    "title": "Simple Pricing",
+    "subtitle": "Choose a plan that works for you. No hidden fees. No surprises.",
+    "plans": {
+      "ambassador": {
+        "title": "Ambassador",
+        "info": "For TikTokers, Instagramers, YouTubers, and all social media influencers",
+        "price": "Always Free"
+      },
+      "pro": {
+        "title": "Pro",
+        "info": "For shops and brands looking to skyrocket their growth",
+        "price": "39.99"
+      },
+      "vip": {
+        "title": "VIP",
+        "info": "For busy shop owners who want effortless promotion and skyrocket",
+        "price": "299.99"
+      }
+    }
+  },
+  "footer": {
+    "product": "Product",
+    "features": "Features",
+    "pricing": "Pricing",
+    "integration": "Integration",
+    "payments": "Payments",
+    "company": "Company",
+    "aboutUs": "About Us",
+    "privacyPolicy": "Privacy Policy",
+    "termsConditions": "Terms & Conditions",
+    "creatorTerms": "Creator Terms",
+    "followUs": "Follow Us",
+    "description": "Connecting brands with the perfect influencers to grow their reach and impact.",
+    "allRightsReserved": "All rights reserved."
+  },
+  "aboutUs": {
+    "badge": "About Us",
+    "title": "About Ambassy",
+    "subtitle": "Transforming brand-creator relationships through innovation and authentic storytelling.",
+    "noCommitment": "No commitments. Cancel anytime.",
+    "stats": {
+      "brands": "Global Brands",
+      "partnerships": "Creator Partnerships",
+      "audience": "Audience Reach",
+      "satisfaction": "Partner Satisfaction"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "At Ambassy, our mission is to revolutionize the way brands and creators collaborate. We believe in the power of authentic storytelling to drive meaningful connections and measurable results.",
+      "approach": {
+        "title": "Data-Driven Approach",
+        "description": "We leverage analytics to optimize partnerships and deliver exceptional ROI."
+      },
+      "storytelling": {
+        "title": "Impactful Storytelling",
+        "description": "We help brands craft narratives that resonate and drive genuine engagement."
+      }
+    },
+    "values": {
+      "title": "Our Core Values",
+      "subtitle": "The principles that guide everything we do at Ambassy",
+      "authenticity": {
+        "title": "Authenticity",
+        "description": "We believe in genuine connections that resonate with audiences."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We constantly push boundaries to deliver cutting-edge solutions."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "We foster partnerships based on mutual growth and respect."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "We strive for exceptional quality in everything we do."
+      }
+    },
+    "team": {
+      "title": "Our Team",
+      "description": "Our team is made up of passionate individuals who are experts in marketing, technology, and creativity. Together, we're dedicated to helping brands and creators thrive in the digital age.",
+      "members": "Team Members",
+      "countries": "Countries",
+      "languages": "Languages",
+      "industries": "Industries"
+    },
+    "journey": {
+      "title": "Our Journey",
+      "subtitle": "Milestones that shaped who we are today",
+      "founded": {
+        "title": "Founded",
+        "description": "Ambassy was born with a vision to transform influencer marketing."
+      },
+      "expansion": {
+        "title": "Global Expansion",
+        "description": "Expanded operations worldwide."
+      },
+      "platform": {
+        "title": "Platform Launch",
+        "description": "Released our proprietary partnership management platform."
+      },
+      "innovation": {
+        "title": "Industry Innovation",
+        "description": "We're planning to tokenize the creator economy, empowering influencers to monetize their digital presence."
+      }
+    },
+    "impact": {
+      "title": "Our Impact",
+      "description": "We're revolutionizing digital marketing by connecting brands and creators worldwide. For E-commerce Pros, we've empowered thousands of businesses to skyrocket their online presence and sales, delivering exceptional ROI. For Ambassadors, we've launched careers and helped passionate individuals build thriving personal brands, reaching millions of engaged followers. Together, we're shaping the future of digital marketing, transforming the way brands and creators collaborate to achieve unprecedented growth and engagement.",
+      "revenue": {
+        "title": "Revenue Growth"
+      },
+      "engagement": {
+        "title": "Engagement Rate"
+      },
+      "conversion": {
+        "title": "Conversion Rate"
+      }
+    },
+    "partners": {
+      "title": "Trusted By Industry Leaders",
+      "logo": "PARTNER LOGO"
+    },
+    "cta": {
+      "title": "Ready to Elevate Your Brand?",
+      "description": "Join the thousands of brands and creators who trust Ambassy to deliver authentic and impactful partnerships."
+    }
+  },
+  "twoWays": {
+    "title": "Go For It",
+    "subtitle": "Two ways to get started with Ambassy"
+    "ambassador": {
+      "title": "Ambassador",
+      "description": "Meet the powerhouse of Influencer: a dynamic team of dreamers, makers, and game changers, reshaping the future of marketing."
+    },
+    "pro": {
+      "title": "Pro & VIP",
+      "description": "Partner with Ambassy's expert team to amplify your brand's reach, leveraging our Army of influential ambassadors to drive results for fast-growing e-commerce brands"
+    }
+  },
+  "stats": {
+    "campaigns": {
+      "value": "1500+",
+      "label": "Campaigns",
+      "description": "Reaching new audiences"
+    },
+    "reach": {
+      "value": "50M+",
+      "label": "Reach",
+      "description": "Across all platforms"
+    },
+    "support": {
+      "value": "24/7",
+      "label": "Support",
+      "description": "Always here to help"
+    },
+    "engagement": {
+      "value": "X10",
+      "label": "Engagement",
+      "description": "Improved results"
+    }
+  }
+}

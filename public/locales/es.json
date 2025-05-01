@@ -1,0 +1,190 @@
+{
+  "common": {
+    "getStarted": "Comenzar",
+    "learnMore": "Más información",
+    "signIn": "Iniciar sesión",
+    "signUp": "Registrarse",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "loading": "Cargando..."
+  },
+  "nav": {
+    "aboutus": "Sobre nosotros",
+    "explore": "Explorar",
+    "pricing": "Precios",
+    "benefits": "Beneficios",
+    "resources": "Recursos"
+  },
+  "home": {
+    "hero": {
+      "title": "Un precio, influencers ilimitados, máximo impacto",
+      "subtitle": "Encuentra a los embajadores adecuados, llega a sus comunidades y haz crecer tu marca, todo por una tarifa mensual simple.",
+      "cta": "Prueba gratis"
+    },
+    "process": {
+      "title": "El Proceso",
+      "subtitle": "Transforma seguidores en clientes, embajadores en tu fuerza de ventas"
+    }
+  },
+  "pricing": {
+    "title": "Precios simples",
+    "subtitle": "Elige un plan que funcione para ti. Sin tarifas ocultas. Sin sorpresas.",
+    "plans": {
+      "ambassador": {
+        "title": "Embajador",
+        "info": "Para TikTokers, Instagramers, YouTubers y todos los influencers de redes sociales",
+        "price": "Siempre gratis"
+      },
+      "pro": {
+        "title": "Pro",
+        "info": "Para tiendas y marcas que buscan disparar su crecimiento",
+        "price": "39.99"
+      },
+      "vip": {
+        "title": "VIP",
+        "info": "Para dueños de tiendas ocupados que desean promoción sin esfuerzo",
+        "price": "299.99"
+      }
+    }
+  },
+  "footer": {
+    "product": "Producto",
+    "features": "Características",
+    "pricing": "Precios",
+    "integration": "Integración",
+    "payments": "Pagos",
+    "company": "Empresa",
+    "aboutUs": "Sobre nosotros",
+    "privacyPolicy": "Política de privacidad",
+    "termsConditions": "Términos y condiciones",
+    "creatorTerms": "Términos para creadores",
+    "followUs": "Síguenos",
+    "description": "Conectando marcas con los influencers perfectos para aumentar su alcance e impacto.",
+    "allRightsReserved": "Todos los derechos reservados."
+  },
+  "aboutUs": {
+    "badge": "Sobre nosotros",
+    "title": "Sobre Ambassy",
+    "subtitle": "Transformando las relaciones entre marcas y creadores a través de la innovación y la narración auténtica.",
+    "noCommitment": "Sin compromisos. Cancela cuando quieras.",
+    "stats": {
+      "brands": "Marcas Globales",
+      "partnerships": "Colaboraciones con Creadores",
+      "audience": "Alcance de Audiencia",
+      "satisfaction": "Satisfacción de Socios"
+    },
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "En Ambassy, nuestra misión es revolucionar la forma en que las marcas y los creadores colaboran. Creemos en el poder de la narración auténtica para impulsar conexiones significativas y resultados medibles.",
+      "approach": {
+        "title": "Enfoque Basado en Datos",
+        "description": "Utilizamos análisis para optimizar asociaciones y ofrecer un ROI excepcional."
+      },
+      "storytelling": {
+        "title": "Narración Impactante",
+        "description": "Ayudamos a las marcas a crear narrativas que resuenen y generen un compromiso genuino."
+      }
+    },
+    "values": {
+      "title": "Nuestros Valores Fundamentales",
+      "subtitle": "Los principios que guían todo lo que hacemos en Ambassy",
+      "authenticity": {
+        "title": "Autenticidad",
+        "description": "Creemos en conexiones genuinas que resuenen con las audiencias."
+      },
+      "innovation": {
+        "title": "Innovación",
+        "description": "Constantemente empujamos los límites para ofrecer soluciones de vanguardia."
+      },
+      "collaboration": {
+        "title": "Colaboración",
+        "description": "Fomentamos asociaciones basadas en el crecimiento mutuo y el respeto."
+      },
+      "excellence": {
+        "title": "Excelencia",
+        "description": "Nos esforzamos por una calidad excepcional en todo lo que hacemos."
+      }
+    },
+    "team": {
+      "title": "Nuestro Equipo",
+      "description": "Nuestro equipo está formado por individuos apasionados que son expertos en marketing, tecnología y creatividad. Juntos, estamos dedicados a ayudar a marcas y creadores a prosperar en la era digital.",
+      "members": "Miembros del Equipo",
+      "countries": "Países",
+      "languages": "Idiomas",
+      "industries": "Industrias"
+    },
+    "journey": {
+      "title": "Nuestro Viaje",
+      "subtitle": "Hitos que formaron quiénes somos hoy",
+      "founded": {
+        "title": "Fundación",
+        "description": "Ambassy nació con una visión para transformar el marketing de influencers."
+      },
+      "expansion": {
+        "title": "Expansión Global",
+        "description": "Operaciones expandidas en todo el mundo."
+      },
+      "platform": {
+        "title": "Lanzamiento de Plataforma",
+        "description": "Lanzamos nuestra plataforma propietaria de gestión de asociaciones."
+      },
+      "innovation": {
+        "title": "Innovación Industrial",
+        "description": "Planeamos tokenizar la economía de creadores, permitiendo a los influencers monetizar su presencia digital."
+      }
+    },
+    "impact": {
+      "title": "Nuestro Impacto",
+      "description": "Estamos revolucionando el marketing digital conectando marcas y creadores en todo el mundo. Para los Profesionales de E-commerce, hemos empoderado a miles de negocios para catapultar su presencia online y ventas, entregando un ROI excepcional. Para los Embajadores, hemos lanzado carreras y ayudado a individuos apasionados a construir marcas personales prósperas, alcanzando a millones de seguidores comprometidos. Juntos, estamos dando forma al futuro del marketing digital, transformando la manera en que marcas y creadores colaboran para lograr un crecimiento y compromiso sin precedentes.",
+      "revenue": {
+        "title": "Crecimiento de Ingresos"
+      },
+      "engagement": {
+        "title": "Tasa de Engagement"
+      },
+      "conversion": {
+        "title": "Tasa de Conversión"
+      }
+    },
+    "partners": {
+      "title": "Confiado por Líderes de la Industria",
+      "logo": "LOGO DE SOCIO"
+    },
+    "cta": {
+      "title": "¿Listo para Elevar tu Marca?",
+      "description": "Únete a los miles de marcas y creadores que confían en Ambassy para ofrecer asociaciones auténticas e impactantes."
+    }
+  },
+  "twoWays": {
+    "ambassador": {
+      "title": "Embajador",
+      "description": "Conoce el motor de Influencer: un equipo dinámico de soñadores, creadores y cambiadores de juego, remodelando el futuro del marketing."
+    },
+    "pro": {
+      "title": "Pro y VIP",
+      "description": "Asóciate con el equipo experto de Ambassy para amplificar el alcance de tu marca, aprovechando nuestro Ejército de embajadores influyentes para impulsar resultados para marcas de comercio electrónico de rápido crecimiento."
+    }
+  },
+  "stats": {
+    "campaigns": {
+      "value": "1500+",
+      "label": "Campañas",
+      "description": "Alcanzando nuevas audiencias"
+    },
+    "reach": {
+      "value": "50M+",
+      "label": "Alcance",
+      "description": "A través de todas las plataformas"
+    },
+    "support": {
+      "value": "24/7",
+      "label": "Soporte",
+      "description": "Siempre aquí para ayudar"
+    },
+    "engagement": {
+      "value": "X10",
+      "label": "Engagement",
+      "description": "Resultados mejorados"
+    }
+  }
+}

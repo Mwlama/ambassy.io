@@ -1,0 +1,219 @@
+{
+  "common": {
+    "getStarted": "Commencer",
+    "learnMore": "En savoir plus",
+    "signIn": "Se connecter",
+    "signUp": "S'inscrire",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "loading": "Chargement..."
+  },
+  "nav": {
+    "aboutus": "À propos",
+    "explore": "Explorer",
+    "pricing": "Tarifs",
+    "benefits": "Avantages",
+    "resources": "Ressources"
+  },
+  "home": {
+    "hero": {
+      "title": "Un prix, des influenceurs illimités, un impact maximal",
+      "subtitle": "Trouvez les bons ambassadeurs, atteignez leurs communautés et développez votre marque pour un tarif mensuel simple.",
+      "cta": "Essayer gratuitement"
+    },
+    "process": {
+      "title": "Le Processus",
+      "subtitle": "Transformez les abonnés en clients, les ambassadeurs en votre force de vente",
+      "description": "Ambassy est la plateforme ultime qui connecte les professionnels avec un réseau sélectionné d'ambassadeurs de médias sociaux, permettant des campagnes marketing ciblées, traçables et transformatives qui convertissent la portée des médias sociaux en revenus réels."
+    }
+  },
+  "pricing": {
+    "title": "Prix simples",
+    "subtitle": "Choisissez un forfait qui vous convient. Pas de frais cachés. Pas de surprises.",
+    "description": "Commencez avec Ambassy aujourd'hui et profitez de plus de fonctionnalités avec nos forfaits pro.",
+    "plans": {
+      "ambassador": {
+        "title": "Ambassadeur",
+        "info": "Pour les TikTokers, Instagramers, YouTubers et tous les influenceurs des réseaux sociaux",
+        "price": "Toujours gratuit"
+      },
+      "pro": {
+        "title": "Pro",
+        "info": "Pour les boutiques et les marques qui cherchent à développer leur croissance",
+        "price": "39.99"
+      },
+      "vip": {
+        "title": "VIP",
+        "info": "Pour les propriétaires de boutiques occupés qui souhaitent une promotion sans effort",
+        "price": "299.99"
+      }
+    }
+  },
+  "footer": {
+    "product": "Produit",
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
+    "integration": "Intégration",
+    "payments": "Paiements",
+    "company": "Entreprise",
+    "aboutUs": "À propos",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsConditions": "Conditions générales",
+    "creatorTerms": "Conditions des créateurs",
+    "followUs": "Suivez-nous",
+    "description": "Connecter les marques avec les influenceurs parfaits pour développer leur portée et leur impact.",
+    "allRightsReserved": "Tous droits réservés."
+  },
+  "aboutUs": {
+    "badge": "À propos",
+    "title": "À propos d'Ambassy",
+    "subtitle": "Transformer les relations marque-créateur grâce à l'innovation et au storytelling authentique.",
+    "noCommitment": "Pas d'engagement. Annulez à tout moment.",
+    "cta": "À propos",
+    "stats": {
+      "brands": "Marques Mondiales",
+      "partnerships": "Partenariats Créateurs",
+      "audience": "Portée d'Audience",
+      "satisfaction": "Satisfaction Partenaires"
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Chez Ambassy, notre mission est de révolutionner la façon dont les marques et les créateurs collaborent. Nous croyons au pouvoir du storytelling authentique pour créer des connexions significatives et des résultats mesurables.",
+      "approach": {
+        "title": "Approche Basée sur les Données",
+        "description": "Nous utilisons l'analyse pour optimiser les partenariats et offrir un ROI exceptionnel."
+      },
+      "storytelling": {
+        "title": "Storytelling Impactant",
+        "description": "Nous aidons les marques à créer des récits qui résonnent et génèrent un engagement authentique."
+      }
+    },
+    "values": {
+      "title": "Nos Valeurs Fondamentales",
+      "subtitle": "Les principes qui guident tout ce que nous faisons chez Ambassy",
+      "authenticity": {
+        "title": "Authenticité",
+        "description": "Nous croyons aux connexions authentiques qui résonnent avec les audiences."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Nous repoussons constamment les limites pour offrir des solutions de pointe."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "Nous favorisons des partenariats basés sur la croissance mutuelle et le respect."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "Nous visons une qualité exceptionnelle dans tout ce que nous faisons."
+      }
+    },
+    "team": {
+      "title": "Notre Équipe",
+      "description": "Rencontrez la force motrice d'Influencer: une équipe dynamique de rêveurs, créateurs et innovateurs, qui redéfinissent l'avenir du marketing. Avec une passion collective et une expertise unique, nos collaborateurs transforment les données en action, la créativité en impact, et les nouvelles idées en nouvelles réalités.",
+      "members": "Membres d'Équipe",
+      "countries": "Pays",
+      "languages": "Langues",
+      "industries": "Industries"
+    },
+    "journey": {
+      "title": "Notre Parcours",
+      "subtitle": "Les étapes qui ont façonné qui nous sommes aujourd'hui",
+      "founded": {
+        "title": "Fondation",
+        "description": "Ambassy est né avec une vision de transformer le marketing d'influence."
+      },
+      "expansion": {
+        "title": "Expansion Mondiale",
+        "description": "Opérations étendues dans le monde entier."
+      },
+      "platform": {
+        "title": "Lancement de la Plateforme",
+        "description": "Lancement de notre plateforme propriétaire de gestion de partenariats."
+      },
+      "innovation": {
+        "title": "Innovation Industrielle",
+        "description": "Nous prévoyons de tokeniser l'économie des créateurs, permettant aux influenceurs de monétiser leur présence numérique."
+      }
+    },
+    "impact": {
+      "title": "Notre Impact",
+      "description": "Nous révolutionnons le marketing digital en connectant marques et créateurs dans le monde entier. Pour les Pros E-commerce, nous avons permis à des milliers d'entreprises de propulser leur présence en ligne et leurs ventes, offrant un ROI exceptionnel. Pour les Ambassadeurs, nous avons lancé des carrières et aidé des individus passionnés à construire des marques personnelles florissantes, atteignant des millions d'abonnés engagés. Ensemble, nous façonnons l'avenir du marketing digital, transformant la façon dont les marques et les créateurs collaborent pour atteindre une croissance et un engagement sans précédent.",
+      "revenue": {
+        "title": "Croissance des Revenus"
+      },
+      "engagement": {
+        "title": "Taux d'Engagement"
+      },
+      "conversion": {
+        "title": "Taux de Conversion"
+      }
+    },
+    "partners": {
+      "title": "Approuvé par les Leaders de l'Industrie",
+      "logo": "LOGO PARTENAIRE"
+    },
+    "cta": {
+      "title": "Prêt à Élever Votre Marque?",
+      "description": "Rejoignez les milliers de marques et créateurs qui font confiance à Ambassy pour offrir des partenariats authentiques et impactants."
+    }
+  },
+  "twoWays": {
+    "title": "Lancez-vous",
+    "subtitle": "Deux façons de commencer avec Ambassy",
+    "description": "Unissez vos forces avec Ambassy pour amplifier la présence de votre marque grâce à notre réseau d'ambassadeurs passionnés.",
+    "ambassador": {
+      "title": "Ambassadeur",
+      "description": "Rencontrez la force motrice d'Influencer: une équipe dynamique de rêveurs, créateurs et innovateurs, qui redéfinissent l'avenir du marketing."
+    },
+    "pro": {
+      "title": "Pro & VIP",
+      "description": "Collaborez avec l'équipe d'experts d'Ambassy pour amplifier la portée de votre marque, en exploitant notre armée d'ambassadeurs influents pour générer des résultats pour les marques e-commerce en pleine croissance."
+    }
+  },
+  "features": {
+    "title": "Fonctionnalités",
+    "subtitle": "Gérez vos campagnes comme un pro",
+    "description": "Ambassy: L'outil de communication ultime pour partager, monétiser et organiser toutes vos campagnes en un seul endroit."
+  },
+  "cta": {
+    "title": "Entrez dans le futur de la gestion marketing",
+    "description": "Découvrez la solution de pointe qui transforme votre façon de gérer votre communication. Élevez votre présence en ligne avec notre plateforme de nouvelle génération."
+  },
+  "process": {
+    "0": {
+      "title": "Sélection et Intégration d'Ambassadeurs",
+      "description": "Recrutez stratégiquement les ambassadeurs parfaits des médias sociaux qui s'alignent avec la vision et l'audience cible de votre marque."
+    },
+    "1": {
+      "title": "Création et Exécution de Campagnes",
+      "description": "Concevez des stratégies de contenu convaincantes et spécifiques à chaque plateforme qui transforment les Ambassadeurs en puissants narrateurs de la valeur unique de votre produit."
+    },
+    "2": {
+      "title": "Suivi et Optimisation des Performances",
+      "description": "Implémentez des analyses basées sur les données pour mesurer, apprendre et faire évoluer continuellement votre approche marketing d'influence pour un ROI maximal."
+    }
+  },
+  "stats": {
+    "campaigns": {
+      "value": "1500+",
+      "label": "Campagnes",
+      "description": "Atteignant de nouveaux publics"
+    },
+    "reach": {
+      "value": "50M+",
+      "label": "Portée",
+      "description": "Sur toutes les plateformes"
+    },
+    "support": {
+      "value": "24/7",
+      "label": "Support",
+      "description": "Toujours là pour aider"
+    },
+    "engagement": {
+      "value": "X10",
+      "label": "Engagement",
+      "description": "Résultats améliorés"
+    }
+  }
+}

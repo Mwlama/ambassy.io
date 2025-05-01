@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "Unlock the Creator Economy's Future: Gen Z, Social Commerce, AI",
+    "excerpt": "Welcome to our tech blog! Right now, this is just a placeholder filled with potential topics on web development, CMS...",
+    "date": "March 31, 2025",
+    "readTime": "4 MIN READ",
+    "category": "GUIDE",
+    "imageUrl": "/blog/Article1.jpg",
+    "author": {
+      "name": "Rhoda Brody",
+      "role": "Software Engineer",
+      "avatarUrl": "/api/placeholder/50/50"
+    },
+    "content": "The creator economy is evolving rapidly, with Gen Z leading the charge in redefining how content is created, consumed, and monetized. This article explores the intersection of social commerce, artificial intelligence, and the rising influence of young creators in shaping the digital marketplace.\n\nAs platforms continue to evolve, creators are finding innovative ways to build sustainable businesses around their personal brands. From TikTok Shop integration to AI-powered content optimization, the tools available to today's digital entrepreneurs are more sophisticated than ever.\n\nIn this comprehensive guide, we'll explore the latest trends, technologies, and strategies that are defining the future of the creator economy. Whether you're an established influencer or just starting your journey, understanding these dynamics will be crucial for success in the increasingly competitive digital landscape."
+  },
+  {
+    "id": 2,
+    "title": "Get started with NovaJAM",
+    "excerpt": "Learn how to launch fast and build iteratively with our JAMstack starter.",
+    "date": "March 28, 2025",
+    "readTime": "4 MIN READ",
+    "category": "GUIDE",
+    "imageUrl": "/api/placeholder/400/240",
+    "content": "JAMstack architecture has revolutionized web development by offering superior performance, security, and developer experience. In this guide, we'll walk through setting up a project with NovaJAM, our optimized JAMstack starter kit designed for modern web applications.\n\nNovaJAM combines the power of Next.js, content management systems, and serverless functions to create a seamless development workflow. By separating the frontend from the backend, you can focus on creating exceptional user experiences while leveraging the best tools for each part of your application.\n\nWe'll cover installation, configuration, content modeling, and deployment strategies to help you get your project up and running quickly. Whether you're building a personal blog, e-commerce site, or enterprise application, NovaJAM provides the flexibility and performance you need to succeed in today's competitive digital landscape."
+  },
+  {
+    "id": 3,
+    "title": "Grid system for better Design User Interface",
+    "excerpt": "Explore how to leverage a proper grid system in your UI design workflow.",
+    "date": "March 28, 2025",
+    "readTime": "7 MIN READ",
+    "category": "NEWS",
+    "imageUrl": "/api/placeholder/400/240",
+    "content": "A well-implemented grid system is the foundation of cohesive, balanced user interface design. This article explores how grid systems can transform your design workflow and elevate the quality of your digital products.\n\nWe'll examine different types of grid systems, from the classic 12-column grid to more flexible modular approaches, and discuss when to use each. You'll learn how grids establish visual hierarchy, create alignment, and ensure consistency across different screen sizes and devices.\n\nPractical examples will demonstrate how to implement grid systems in popular design tools like Figma and translate them into responsive code using CSS Grid and Flexbox. By the end of this article, you'll have a comprehensive understanding of how grid systems can streamline your design process and improve collaboration between designers and developers."
+  },
+  {
+    "id": 4,
+    "title": "How Headless CMS is Changing the Way We Build Websites",
+    "excerpt": "Why headless architecture is the future for content-driven websites.",
+    "date": "March 30, 2025",
+    "readTime": "4 MIN READ",
+    "category": "NEWS",
+    "imageUrl": "/api/placeholder/400/240",
+    "content": "Traditional content management systems have long been the backbone of website development, but the rise of headless CMS architecture is fundamentally changing how we approach digital experiences. This article examines the benefits, challenges, and future of headless CMS technology.\n\nUnlike traditional systems that combine content management with presentation, headless CMS platforms separate these concerns, delivering content via APIs that can be consumed by any frontend. This decoupling offers unprecedented flexibility, allowing developers to build with their preferred frameworks while content teams maintain familiar editing interfaces.\n\nWe'll explore real-world implementations across various industries, from e-commerce to publishing, and discuss how organizations are achieving faster performance, better security, and more engaging user experiences through headless architecture. Whether you're considering a migration or starting a new project, understanding the headless approach is essential for modern web development."
+  },
+  {
+    "id": 5,
+    "title": "Is Web3 the Future? Understanding Blockchain and DApps",
+    "excerpt": "Breaking down the promise and pitfalls of decentralized technologies.",
+    "date": "March 31, 2025",
+    "readTime": "4 MIN READ",
+    "category": "TECHNOLOGY",
+    "imageUrl": "/api/placeholder/400/240",
+    "content": "Web3 technologies promise to revolutionize the internet by introducing decentralization, transparency, and user ownership. This article provides a balanced examination of blockchain, cryptocurrencies, and decentralized applications (DApps) to help you separate hype from reality.\n\nWe'll explore the fundamental concepts behind Web3, including blockchain consensus mechanisms, smart contracts, and tokenomics. Through case studies of successful DApps and failed projects, we'll identify patterns that indicate where these technologies provide genuine value versus where traditional solutions might be more appropriate.\n\nThe article also addresses critical challenges facing Web3 adoption, from technical limitations like scalability and energy consumption to social concerns around accessibility and regulation. By the end, you'll have a clearer understanding of Web3's potential impact on various industries and how to evaluate opportunities in this rapidly evolving space."
+  }
+]

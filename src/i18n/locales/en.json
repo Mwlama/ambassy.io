@@ -1,0 +1,219 @@
+{
+  "common": {
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "cancel": "Cancel",
+    "save": "Save",
+    "loading": "Loading..."
+  },
+  "nav": {
+    "aboutus": "About Us",
+    "explore": "Explore",
+    "pricing": "Pricing",
+    "benefits": "Benefits",
+    "resources": "Resources"
+  },
+  "home": {
+    "hero": {
+      "title": "One Price, Unlimited Influencers",
+      "subtitle": "Find the Right Ambassadors, Reach Their Communities, and Grow Your Brand All for a Simple Monthly Fee.",
+      "cta": "Try For Free"
+    },
+    "process": {
+      "title": "The Process",
+      "subtitle": "Transform Followers into Customers, Ambassadors into Your Sales Force",
+      "description": "Ambassy is the ultimate platform that connects professionals with a curated network of social media ambassadors, enabling targeted, trackable, and transformative marketing campaigns that turn social media reach into real revenue."
+    }
+  },
+  "pricing": {
+    "title": "Simple Pricing",
+    "subtitle": "Choose a plan that works for you. No hidden fees. No surprises.",
+    "description": "Get started with Ambassy today and enjoy more features with our pro plans.",
+    "plans": {
+      "ambassador": {
+        "title": "Ambassador",
+        "info": "For TikTokers, Instagramers, YouTubers, and all social media influencers",
+        "price": "Always Free"
+      },
+      "pro": {
+        "title": "Pro",
+        "info": "For shops and brands looking to skyrocket their growth",
+        "price": "39.99"
+      },
+      "vip": {
+        "title": "VIP",
+        "info": "For busy shop owners who want effortless promotion and skyrocket",
+        "price": "299.99"
+      }
+    }
+  },
+  "footer": {
+    "product": "Product",
+    "features": "Features",
+    "pricing": "Pricing",
+    "integration": "Integration",
+    "payments": "Payments",
+    "company": "Company",
+    "aboutUs": "About Us",
+    "privacyPolicy": "Privacy Policy",
+    "termsConditions": "Terms & Conditions",
+    "creatorTerms": "Creator Terms",
+    "followUs": "Follow Us",
+    "description": "Connecting brands with the perfect influencers to grow their reach and impact.",
+    "allRightsReserved": "All rights reserved."
+  },
+  "aboutUs": {
+    "badge": "About Us",
+    "title": "About Ambassy",
+    "subtitle": "Transforming brand-creator relationships through innovation and authentic storytelling.",
+    "noCommitment": "No commitments. Cancel anytime.",
+    "cta": "About Us",
+    "stats": {
+      "brands": "Global Brands",
+      "partnerships": "Creator Partnerships",
+      "audience": "Audience Reach",
+      "satisfaction": "Partner Satisfaction"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "At Ambassy, our mission is to revolutionize the way brands and creators collaborate. We believe in the power of authentic storytelling to drive meaningful connections and measurable results.",
+      "approach": {
+        "title": "Data-Driven Approach",
+        "description": "We leverage analytics to optimize partnerships and deliver exceptional ROI."
+      },
+      "storytelling": {
+        "title": "Impactful Storytelling",
+        "description": "We help brands craft narratives that resonate and drive genuine engagement."
+      }
+    },
+    "values": {
+      "title": "Our Core Values",
+      "subtitle": "The principles that guide everything we do at Ambassy",
+      "authenticity": {
+        "title": "Authenticity",
+        "description": "We believe in genuine connections that resonate with audiences."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We constantly push boundaries to deliver cutting-edge solutions."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "We foster partnerships based on mutual growth and respect."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "We strive for exceptional quality in everything we do."
+      }
+    },
+    "team": {
+      "title": "Our Team",
+      "description": "Meet the powerhouse of Influencer: a dynamic team of dreamers, makers, and game changers, reshaping the future of marketing. With a collective passion and unique expertise, our people turn data into action, creativity into impact, and new ideas into new realities.",
+      "members": "Team Members",
+      "countries": "Countries",
+      "languages": "Languages",
+      "industries": "Industries"
+    },
+    "journey": {
+      "title": "Our Journey",
+      "subtitle": "Milestones that shaped who we are today",
+      "founded": {
+        "title": "Founded",
+        "description": "Ambassy was born with a vision to transform influencer marketing."
+      },
+      "expansion": {
+        "title": "Global Expansion",
+        "description": "Expanded operations worldwide."
+      },
+      "platform": {
+        "title": "Platform Launch",
+        "description": "Released our proprietary partnership management platform."
+      },
+      "innovation": {
+        "title": "Industry Innovation",
+        "description": "We're planning to tokenize the creator economy, empowering influencers to monetize their digital presence."
+      }
+    },
+    "impact": {
+      "title": "Our Impact",
+      "description": "We're revolutionizing digital marketing by connecting brands and creators worldwide. For E-commerce Pros, we've empowered thousands of businesses to skyrocket their online presence and sales, delivering exceptional ROI. For Ambassadors, we've launched careers and helped passionate individuals build thriving personal brands, reaching millions of engaged followers. Together, we're shaping the future of digital marketing, transforming the way brands and creators collaborate to achieve unprecedented growth and engagement.",
+      "revenue": {
+        "title": "Revenue Growth"
+      },
+      "engagement": {
+        "title": "Engagement Rate"
+      },
+      "conversion": {
+        "title": "Conversion Rate"
+      }
+    },
+    "partners": {
+      "title": "Trusted By Industry Leaders",
+      "logo": "PARTNER LOGO"
+    },
+    "cta": {
+      "title": "Ready to Elevate Your Brand?",
+      "description": "Join the thousands of brands and creators who trust Ambassy to deliver authentic and impactful partnerships."
+    }
+  },
+  "twoWays": {
+    "title": "Go For It",
+    "subtitle": "Two ways to get started with Ambassy",
+    "description": "Join forces with Ambassy to amplify your brand's presence through our network of passionate ambassadors.",
+    "ambassador": {
+      "title": "Ambassador",
+      "description": "Meet the powerhouse of Influencer: a dynamic team of dreamers, makers, and game changers, reshaping the future of marketing."
+    },
+    "pro": {
+      "title": "Pro & VIP",
+      "description": "Partner with Ambassy's expert team to amplify your brand's reach, leveraging our Army of influential ambassadors to drive results for fast-growing e-commerce brands"
+    }
+  },
+  "features": {
+    "title": "Features",
+    "subtitle": "Manage Campaigns Like a Pro",
+    "description": "Ambassy: The Ultimate Communication Tool to Share, Monetize & Organize All Your Campaigns in One Place."
+  },
+  "cta": {
+    "title": "Step into the future of Marketing management",
+    "description": "Experience the cutting-edge solution that transforms how you handle your communication. Elevate your online presence with our next-gen platform."
+  },
+  "process": {
+    "0": {
+      "title": "Ambassador Selection and Onboarding",
+      "description": "Strategically scout and recruit the perfect social media ambassadors who align with your brand's vision and target audience."
+    },
+    "1": {
+      "title": "Campaign Creation and Execution",
+      "description": "Design compelling, platform-specific content strategies that transform Ambassador into powerful storytellers of your product's unique value."
+    },
+    "2": {
+      "title": "Performance Tracking and Optimization",
+      "description": "Implement data-driven analytics to continuously measure, learn, and evolve your influencer marketing approach for maximum ROI."
+    }
+  },
+  "stats": {
+    "campaigns": {
+      "value": "1500+",
+      "label": "Campaigns",
+      "description": "Reaching new audiences"
+    },
+    "reach": {
+      "value": "50M+",
+      "label": "Reach",
+      "description": "Across all platforms"
+    },
+    "support": {
+      "value": "24/7",
+      "label": "Support",
+      "description": "Always here to help"
+    },
+    "engagement": {
+      "value": "X10",
+      "label": "Engagement",
+      "description": "Improved results"
+    }
+  }
+}
