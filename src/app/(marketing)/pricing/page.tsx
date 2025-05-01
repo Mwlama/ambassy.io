@@ -11,7 +11,7 @@ import React, { useState, useEffect } from "react";
 import MagicBadge from "@/components/ui/magic-badge";
 import { Vortex } from "@/components/ui/vortex";
 import { FAQ } from "@/utils/constants/faq";
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 import { useTranslation } from "react-i18next";
 
 const PricingPage = () => {

@@ -4,6 +4,7 @@ import "@/styles/globals.css";
 import { aeonik, cn, generateMetadata, inter } from "@/utils";
 import { Suspense } from 'react';
 
+
 export const metadata = generateMetadata();
 
 export default function RootLayout({

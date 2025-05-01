@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import AnimationContainer from "./global/animation-container";
 import GridGlobe from "./ui/GridGlobe";
-import { Search } from "lucide-react";
+import { Search, ArrowRight } from "lucide-react";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
 
@@ -49,7 +49,7 @@ const HeroSection: React.FC = () => {
               <h1 className="text-left text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white dark:text-black mb-4">
                 {t('home.hero.title')}{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600">
-                  Maximum Impact
+                {t('home.hero.titlee')}{" "}
                 </span>
               </h1>
 
@@ -89,7 +89,7 @@ const HeroSection: React.FC = () => {
                     ) : (
                       <>
                         <span className="hidden sm:inline">{t('home.hero.cta')}</span>
-                        <span className="inline sm:hidden">{t('home.hero.cta')}</span>
+                        <ArrowRight className="inline sm:hidden w-5 h-5" />
                       </>
                     )}
                   </button>

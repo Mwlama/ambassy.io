@@ -8,7 +8,7 @@ import MagicAmbassador from "@/components/ui/MagicAmbassador";
 import { Vortex } from "@/components/ui/vortex";
 import VideoBanner from "@/components/VideoBanner";
 import { COMPANIES } from "@/utils";
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 import { ArrowRightIcon, CheckCircle, Award, TrendingUp, DollarSign, Zap, Users, Shield, Globe } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";

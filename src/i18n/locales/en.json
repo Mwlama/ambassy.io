@@ -17,7 +17,8 @@
   },
   "home": {
     "hero": {
-      "title": "One Price, Unlimited Influencers",
+      "title": "One Price, Unlimited Influencers,",
+      "titlee": "maximum impact",
       "subtitle": "Find the Right Ambassadors, Reach Their Communities, and Grow Your Brand All for a Simple Monthly Fee.",
       "cta": "Try For Free"
     },
@@ -115,6 +116,7 @@
       "countries": "Countries",
       "languages": "Languages",
       "industries": "Industries"
+
     },
     "journey": {
       "title": "Our Journey",

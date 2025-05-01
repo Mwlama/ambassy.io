@@ -165,9 +165,9 @@ const HomePage = () => {
                 </AnimationContainer>
             </MaxWidthWrapper>
 
-            <AnimationContainer>
+            {/* <AnimationContainer>
                 <InternalLinksSection />
-            </AnimationContainer>
+            </AnimationContainer> */}
                 
             {/* CTA Section */}
             <MaxWidthWrapper className="mt-1 max-w-[100vw] overflow-x-hidden scrollbar-hide">

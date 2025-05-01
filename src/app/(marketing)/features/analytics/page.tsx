@@ -7,7 +7,7 @@ import { LampContainer } from "@/components/ui/lamp";
 import MagicBadge from "@/components/ui/magic-badge";
 import MagicVIP from "@/components/ui/MagicVIP";
 import { COMPANIES } from "@/utils";
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 import { ArrowRightIcon, CheckCircle, TrendingUp, DollarSign, Users, Globe, Zap, Shield, BarChart, MessageCircle, Settings, Video, Rocket, Target, PieChart, Headphones, ShoppingCart } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";

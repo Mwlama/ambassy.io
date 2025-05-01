@@ -116,7 +116,7 @@ export function Integrations({
 
 const Icons = {
     openai: (props: LucideProps) => (
-        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" viewBox="0 0 1024 1024" enable-background="new 0 0 1024 1024" xmlSpace="preserve">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" viewBox="0 0 1024 1024" enableBackground="new 0 0 1024 1024" xmlSpace="preserve">
 
         <path fill="#040813" opacity="1.000000" stroke="none" d="
         M786.994080,796.994263 

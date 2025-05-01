@@ -157,7 +157,7 @@ const Navbar = () => {
 
 const ListItem = React.forwardRef<
     React.ElementRef<"a">,
-    React.ComponentPropsWithoutRef<"a"> & { title: string; icon: LucideIcon }
+    React.ComponentPropsWithoutRef<"a"> & { title: string; icon: typeof LucideIcon }
 >(({ className, title, href, icon: Icon, children, ...props }, ref) => {
     return (
         <li>

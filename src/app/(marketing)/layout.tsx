@@ -2,6 +2,7 @@ import React from 'react';
 import { Footer, Navbar } from "@/components";
 import { ThemeProvider } from 'next-themes';
 import { Suspense } from 'react';
+import 'flag-icons/css/flag-icons.min.css';
 
 interface Props {
     children: React.ReactNode

@@ -6,7 +6,8 @@
     "signUp": "S'inscrire",
     "cancel": "Annuler",
     "save": "Enregistrer",
-    "loading": "Chargement..."
+    "loading": "Chargement...",
+    "boutton": "À propos"
   },
   "nav": {
     "aboutus": "À propos",
@@ -17,7 +18,8 @@
   },
   "home": {
     "hero": {
-      "title": "Un prix, des influenceurs illimités, un impact maximal",
+      "title": "Un prix, des influenceurs illimités,",
+      "titlee": "impact maximal",
       "subtitle": "Trouvez les bons ambassadeurs, atteignez leurs communautés et développez votre marque pour un tarif mensuel simple.",
       "cta": "Essayer gratuitement"
     },
@@ -69,7 +71,6 @@
     "title": "À propos d'Ambassy",
     "subtitle": "Transformer les relations marque-créateur grâce à l'innovation et au storytelling authentique.",
     "noCommitment": "Pas d'engagement. Annulez à tout moment.",
-    "cta": "À propos",
     "stats": {
       "brands": "Marques Mondiales",
       "partnerships": "Partenariats Créateurs",

@@ -27,12 +27,12 @@ export const NAV_LINKS = [
                 href: "/features/analytics",
                 icon: LineChartIcon,
             },
-            {
-                title: "Blog",
-                tagline: "We share the Best with you.",
-                href: "/features/qr-codes",
-                icon: QrCodeIcon,
-            },
+            // {
+            //     title: "Blog",
+            //     tagline: "We share the Best with you.",
+            //     href: "/features/qr-codes",
+            //     icon: QrCodeIcon,
+            // },
         ],
     },
     {
