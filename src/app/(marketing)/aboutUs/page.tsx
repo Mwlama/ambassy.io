@@ -93,7 +93,7 @@ const AboutUsPage = () => {
       >
         <AnimationContainer delay={0.1}>
           <MagicBadge title={t('aboutUs.badge')} />
-          <h1 className="text-2xl md:text-4xl lg:text-7xl font-semibold font-heading text-center mt-0 !leading-tight">
+          <h1 className="text-2xl md:text-4xl lg:text-7xl font-semibold font-heading text-center mt-20 !leading-tight">
             {t('aboutUs.title')}
           </h1>
           <p className="text-base md:text-lg mt-3 text-center text-muted-foreground">
@@ -113,7 +113,7 @@ const AboutUsPage = () => {
     </section>
 
       {/* Stats Section */}
-      <section className="py-16 bg-gradient-to-b from-black via-fuchsia-900 to-black">
+      <section className="py-16 bg-gradient-to-b from-transparent via-fuchsia-900 to-transparent">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             ref={ref}
@@ -153,7 +153,7 @@ const AboutUsPage = () => {
         whileInView="visible"
         viewport={{ once: true }}
         variants={staggerContainer}
-        className="py-24 bg-black"
+        className="py-24 bg-transparent"
       >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center gap-12">
@@ -168,7 +168,7 @@ const AboutUsPage = () => {
                   <span className="absolute -left-6 text-fuchsia-500 opacity-70">|</span>
                   {t('aboutUs.mission.title')}
                 </h2>
-                <p className="text-xl text-gray-300 mb-8 leading-relaxed">
+                <p className="text-xl text-white dark:text-black mb-8 leading-relaxed">
                   {t('aboutUs.mission.description')}
                 </p>
                 <div className="space-y-4 mb-8">
@@ -180,7 +180,7 @@ const AboutUsPage = () => {
                     </div>
                     <div>
                       <h3 className="text-xl font-semibold mb-1">{t('aboutUs.mission.approach.title')}</h3>
-                      <p className="text-gray-400">{t('aboutUs.mission.approach.description')}</p>
+                      <p className="text-gray-500">{t('aboutUs.mission.approach.description')}</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -191,7 +191,7 @@ const AboutUsPage = () => {
                     </div>
                     <div>
                       <h3 className="text-xl font-semibold mb-1">{t('aboutUs.mission.storytelling.title')}</h3>
-                      <p className="text-gray-400">{t('aboutUs.mission.storytelling.description')}</p>
+                      <p className="text-gray-500">{t('aboutUs.mission.storytelling.description')}</p>
                     </div>
                   </div>
                 </div>
@@ -202,19 +202,19 @@ const AboutUsPage = () => {
       </motion.section>
 
       {/* Core Values Section */}
-      <section className="py-24 bg-black">
+      <section className="py-24 bg-transparent">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
             variants={staggerContainer}
-            className="max-w-4xl mx-auto text-center mb-16"
+            className="max-w-4xl mx-auto text-center mb-16 "
           >
-            <motion.h2 variants={fadeInUp} className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
+            <motion.h2 variants={fadeInUp} className="text-white dark:text-black text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
               {t('aboutUs.values.title')}
             </motion.h2>
-            <motion.p variants={fadeInUp} className="text-xl text-gray-300">
+            <motion.p variants={fadeInUp} className="text-white dark:text-black text-xl text-gray-300">
               {t('aboutUs.values.subtitle')}
             </motion.p>
           </motion.div>
@@ -224,7 +224,7 @@ const AboutUsPage = () => {
             whileInView="visible"
             viewport={{ once: true }}
             variants={staggerContainer}
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+            className="text-white dark:text-black grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
           >
             {[
               { icon: "✦", titleKey: "aboutUs.values.authenticity.title", descriptionKey: "aboutUs.values.authenticity.description" },
@@ -241,7 +241,7 @@ const AboutUsPage = () => {
                   {value.icon}
                 </div>
                 <h3 className="text-2xl font-bold mb-3">{t(value.titleKey)}</h3>
-                <p className="text-gray-400">{t(value.descriptionKey)}</p>
+                <p className="text-white dark:text-black">{t(value.descriptionKey)}</p>
               </motion.div>
             ))}
           </motion.div>
@@ -254,7 +254,7 @@ const AboutUsPage = () => {
         whileInView="visible"
         viewport={{ once: true }}
         variants={staggerContainer}
-        className="py-24 bg-black"
+        className="py-24 bg-transparent"
       >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row-reverse items-center gap-12">
@@ -269,25 +269,25 @@ const AboutUsPage = () => {
                   <span className="absolute -left-6 text-blue-600 opacity-70">|</span>
                   {t('aboutUs.team.title')}
                 </h2>
-                <p className="text-xl text-gray-300 mb-8 leading-relaxed">
+                <p className="text-xl text-white dark:text-black mb-8 leading-relaxed">
                   {t('aboutUs.team.description')}
                 </p>
                 <div className="grid grid-cols-2 gap-4 mb-8">
                   <div className="p-4 bg-gray-800/30 rounded-xl border border-gray-700/30">
                     <p className="text-3xl font-bold text-blue-600 mb-1">35+</p>
-                    <p className="text-gray-400">{t('aboutUs.team.members')}</p>
+                    <p className="text-white dark:text-black">{t('aboutUs.team.members')}</p>
                   </div>
                   <div className="p-4 bg-gray-800/30 rounded-xl border border-gray-700/30">
                     <p className="text-3xl font-bold text-fuchsia-600 mb-1">12+</p>
-                    <p className="text-gray-400">{t('aboutUs.team.countries')}</p>
+                    <p className="text-white dark:text-black">{t('aboutUs.team.countries')}</p>
                   </div>
                   <div className="p-4 bg-gray-800/30 rounded-xl border border-gray-700/30">
                     <p className="text-3xl font-bold text-blue-600 mb-1">8+</p>
-                    <p className="text-gray-400">{t('aboutUs.team.languages')}</p>
+                    <p className="text-white dark:text-black">{t('aboutUs.team.languages')}</p>
                   </div>
                   <div className="p-4 bg-gray-800/30 rounded-xl border border-gray-700/30">
                     <p className="text-3xl font-bold text-fuchsia-600 mb-1">15+</p>
-                    <p className="text-gray-400">{t('aboutUs.team.industries')}</p>
+                    <p className="text-white dark:text-black">{t('aboutUs.team.industries')}</p>
                   </div>
                 </div>
               </div>
@@ -297,7 +297,7 @@ const AboutUsPage = () => {
       </motion.section>
 
       {/* Timeline Section */}
-      <section className="py-24 bg-black">
+      <section className="py-24 bg-transparent">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial="hidden"
@@ -306,8 +306,8 @@ const AboutUsPage = () => {
             variants={fadeInUp}
             className="max-w-4xl mx-auto text-center mb-16"
           >
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">{t('aboutUs.journey.title')}</h2>
-            <p className="text-xl text-gray-300">{t('aboutUs.journey.subtitle')}</p>
+            <h2 className="text-white dark:text-black text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">{t('aboutUs.journey.title')}</h2>
+            <p className="text-xl text-gray-500">{t('aboutUs.journey.subtitle')}</p>
           </motion.div>
 
           <div className="max-w-4xl mx-auto">
@@ -335,7 +335,7 @@ const AboutUsPage = () => {
                   )}
                   <div className="pt-1">
                     <h3 className="text-xl md:text-2xl font-bold mb-2">{t(item.titleKey)}</h3>
-                    <p className="text-gray-400">{t(item.descriptionKey)}</p>
+                    <p className="text-gray-500">{t(item.descriptionKey)}</p>
                   </div>
                 </div>
               </motion.div>
@@ -350,7 +350,7 @@ const AboutUsPage = () => {
         whileInView="visible"
         viewport={{ once: true }}
         variants={staggerContainer}
-        className="py-24 bg-black"
+        className="py-24 bg-transparent"
       >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center gap-12">
@@ -365,7 +365,7 @@ const AboutUsPage = () => {
                   <span className="absolute -left-6 text-fuchsia-500 opacity-70">|</span>
                   {t('aboutUs.impact.title')}
                 </h2>
-                <p className="text-xl text-gray-300 mb-8 leading-relaxed">
+                <p className="text-xl text-gray-500 mb-8 leading-relaxed">
                   {t('aboutUs.impact.description')}
                 </p>
                 <div className="space-y-6 mb-8">
@@ -460,7 +460,7 @@ const AboutUsPage = () => {
         whileInView="visible"
         viewport={{ once: true }}
         variants={staggerContainer}
-        className="py-24 bg-gradient-to-br from-fuchsia-900/20 to-blue-900/20 relative overflow-hidden"
+        className="py-24 bg-transparent"
       >
         <div className="absolute inset-0 z-0">
         </div>
@@ -474,14 +474,14 @@ const AboutUsPage = () => {
             </motion.h2>
             <motion.p
               variants={fadeInUp}
-              className="text-xl text-gray-300 mb-8"
+              className="text-xl text-gray-500 mb-8"
             >
               {t('aboutUs.cta.description')}
             </motion.p>
             <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row justify-center gap-4">
               <Link
                 href="/get-started"
-                className="px-8 py-4 bg-white/10 backdrop-blur-sm border border-white/20 text-white font-medium rounded-full hover:bg-white/20 transition-all duration-300"
+                className="px-8 py-4 bg-black backdrop-blur-sm border border-white/20 text-white font-medium rounded-full hover:bg-black/30 transition-all duration-300"
               >
                 {t('common.getStarted')}
               </Link>

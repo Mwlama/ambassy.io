@@ -9,12 +9,13 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./car
 import { Input } from "./input";
 import { Integrations } from "./integrations";
 import { Label } from "./label";
+import { t } from "i18next";
 
 export const CARDS = [
     {
         Icon: Link2Icon,
-        name: " Find and Hire Ambassadors in Seconds on the Marketplace ",
-        description: "Start sharing, track the sales and get your Money.",
+        name: t('features.bento.items.0.title'),
+        description: t('features.bento.items.0.subtitle') ,
         href: "/features/password-protection",
         cta: "Learn more",
         className: "col-span-3 lg:col-span-1",
@@ -22,19 +23,19 @@ export const CARDS = [
             <Card className="absolute top-10 left-10 origin-top rounded-none rounded-tl-md transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_0%,#000_100%)] group-hover:scale-105 border border-border border-r-0">
                 <CardHeader>
                     <CardTitle>
-                        Get Started
+                    {t('features.bento.items.0.cardTitle')}
                     </CardTitle>
                     <CardDescription>
-                        Send the procedure and affiliate links to the Ambassador
+                    {t('features.bento.items.0.cardDescription')}
                     </CardDescription>
                 </CardHeader>
                 <CardContent className="-mt-4">
                     <Label>
-                        Paste your procedure
+                    {t('features.bento.items.0.0')} 
                     </Label>
                     <Input
                         type="text"
-                        placeholder="Paste your link here..."
+                        placeholder={t('features.bento.items.0.1')}
                         className="w-full focus-visible:ring-0 focus-visible:ring-transparent"
                     />
                 </CardContent>
@@ -43,29 +44,29 @@ export const CARDS = [
     },
     {
         Icon: SearchIcon,
-        name: "Launch a campaign, empower ambassadors, and let your product spread like wildfire!",
-        description: "Quickly find, share and discuss with your Army of Ambassadors.",
+        name: t('features.bento.items.1.title'),
+        description: t('features.bento.items.1.subtitle'),
         href: "/features/password-protection",
         cta: "Learn more",
         className: "col-span-3 lg:col-span-2",
         background: (
             <Command className="absolute right-10 top-10 w-[70%] origin-to translate-x-0 border border-border transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_40%,#000_100%)] group-hover:-translate-x-10 p-2">
-                <Input placeholder="Type to search..." />
+                <Input placeholder= {t('features.bento.items.1.cardTitle')} />
                 <div className="mt-1 cursor-pointer">
-                    <div className="px-4 py-2 hover:bg-muted rounded-md">Nasdas.shopify/hdf00c</div>
-                    <div className="px-4 py-2 hover:bg-muted rounded-md">MrBeast.shopify/sdv0n0</div>
-                    <div className="px-4 py-2 hover:bg-muted rounded-md">candace.shopify/03gndo</div>
-                    <div className="px-4 py-2 hover:bg-muted rounded-md">Poupette.shopify/09vmmw</div>
-                    <div className="px-4 py-2 hover:bg-muted rounded-md">dylan.shopify/s09vws</div>
-                    <div className="px-4 py-2 hover:bg-muted rounded-md">julien.shopify/sd8fv5</div>
+                    <div className="px-4 py-2 hover:bg-muted rounded-md">{t('features.bento.items.1.0')}</div>
+                    <div className="px-4 py-2 hover:bg-muted rounded-md">{t('features.bento.items.1.1')}</div>
+                    <div className="px-4 py-2 hover:bg-muted rounded-md">{t('features.bento.items.1.2')}</div>
+                    <div className="px-4 py-2 hover:bg-muted rounded-md">{t('features.bento.items.1.3')}</div>
+                    <div className="px-4 py-2 hover:bg-muted rounded-md">{t('features.bento.items.1.4')}</div>
+                    <div className="px-4 py-2 hover:bg-muted rounded-md">{t('features.bento.items.1.5')}</div>
                 </div>
             </Command>
         ),
     },
     {
         Icon: WaypointsIcon,
-        name: "Manage your Army of Ambassadors",
-        description: "Integrate with your favorite apps, niche and location.",
+        name: t('features.bento.items.2.title'),
+        description: t('features.bento.items.2.subtitle'),
         href: "/features/password-protection",
         cta: "Learn more",
         className: "col-span-3 lg:col-span-2 max-w-full overflow-hidden",
@@ -75,8 +76,8 @@ export const CARDS = [
     },
     {
         Icon: CalendarIcon,
-        name: "Schedule campaigns",
-        description: "Track your campaigns in your Dashboard.",
+        name: t('features.bento.items.3.title'),
+        description: t('features.bento.items.3.subtitle'),
         className: "col-span-3 lg:col-span-1",
         href: "/features/password-protection",
         cta: "Learn more",

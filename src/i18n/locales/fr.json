@@ -307,10 +307,41 @@
     }
   },
   "features": {
-    "title": "Fonctionnalités",
-    "subtitle": "Gérez vos campagnes comme un pro",
-    "description": "Ambassy: L'outil de communication ultime pour partager, monétiser et organiser toutes vos campagnes en un seul endroit."
-  },
+  "title": "Fonctionnalités",
+  "subtitle": "Gérez vos Campagnes comme un Pro",
+  "description": "Ambassy : l’outil de communication ultime pour partager, monétiser et organiser toutes vos campagnes en un seul endroit.",
+  "bento": {
+    "items": {
+      "0": {
+        "title": "Trouvez et Recrutez des Ambassadeurs en Quelques Secondes",
+        "subtitle": "Commencez à partager, suivez les ventes et recevez votre argent.",
+        "cardTitle": "Commencer",
+        "cardDescription": "Envoyez la procédure et les liens d’affiliation à l’Ambassadeur",
+        "0": "Collez votre procédure",
+        "1": "Collez votre lien ici..."
+      },
+      "1": {
+        "title": "Lancez une Campagne, Donnez du Pouvoir aux Ambassadeurs et Laissez votre Produit se Répandre comme une Traînée de Poudre !",
+        "subtitle": "Trouvez rapidement, partagez et discutez avec votre armée d’Ambassadeurs.",
+        "cardTitle": "Cherchez votre Ambassadeur",
+        "0": "Hmi.shopify/hdf00c",
+        "1": "MrBeast.shopify/sdv0n0",
+        "2": "candace.shopify/03gndo",
+        "3": "Poupette.shopify/09vmmw",
+        "4": "dylan.shopify/s09vws",
+        "5": "julien.shopify/sd8fv5"
+      },
+      "2": {
+        "title": "Gérez votre Armée d’Ambassadeurs",
+        "subtitle": "Trouvez des ambassadeurs adaptés à votre niche, votre localisation et votre audience cible."
+      },
+      "3": {
+        "title": "Des Récompenses Équitables pour un Impact Réel",
+        "subtitle": "Vous rémunérez les ambassadeurs en fonction de l’impact réel de chaque campagne, garantissant à chacun une compensation juste pour les résultats obtenus."
+      }
+    }
+  }
+},
   "cta": {
     "title": "Entrez dans le futur de la gestion marketing",
     "description": "Découvrez la solution de pointe qui transforme votre façon de gérer votre communication. Élevez votre présence en ligne avec notre plateforme de nouvelle génération."

@@ -26,7 +26,7 @@ export default function PricingSection() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white p-4">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-transparent bg-clip-text text-white dark:text-black p-4">
       {/* Toggle Switch */}
       <div className="inline-flex bg-zinc-900 rounded-md mb-10">
         <button
@@ -52,7 +52,7 @@ export default function PricingSection() {
         {/* Ambassador Card */}
         <div className="rounded-lg border border-zinc-800 p-6 flex flex-col">
           <h2 className="text-xl font-bold mb-2">{t('pricing.plans.ambassador.title')}</h2>
-          <p className="text-sm text-gray-300 mb-4 h-24">
+          <p className="text-sm bg-clip-text text-white dark:text-black mb-4 h-24">
           {t('pricing.plans.ambassador.info')}
           </p>
           
@@ -96,7 +96,7 @@ export default function PricingSection() {
         {/* Pro Card */}
         <div className="rounded-lg border border-purple-700 bg-gradient-to-b from-purple-900/40 to-purple-900/10 p-6 flex flex-col">
           <h2 className="text-xl font-bold mb-2">{t('pricing.plans.pro.title')}</h2>
-          <p className="text-sm text-gray-300 mb-4 h-24">
+          <p className="text-sm bg-clip-text text-white dark:text-black mb-4 h-24">
           {t('pricing.plans.pro.info')} 
           </p>
           
@@ -147,7 +147,7 @@ export default function PricingSection() {
         {/* VIP Card */}
         <div className="rounded-lg border border-yellow-700 bg-gradient-to-b from-yellow-900/40 to-yellow-900/10 p-6 flex flex-col">
           <h2 className="text-xl font-bold mb-2">{t('pricing.plans.vip.title')}</h2>
-          <p className="text-sm text-gray-300 mb-4 h-24">
+          <p className="text-sm bg-clip-text text-white dark:text-black mb-4 h-24">
           {t('pricing.plans.vip.info')}
           </p>
           
