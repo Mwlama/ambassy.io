@@ -6,14 +6,9 @@ import { Star, Zap, TrendingUp, Users, Globe, DollarSign, Award, Rocket, Link } 
 import { AnimationContainer, MaxWidthWrapper } from '@/components';
 import MagicBadge from '@/components/ui/magic-badge';
 import { Vortex } from '@/components/ui/vortex';
+import { useTranslation } from 'react-i18next';
 
-interface BenefitCardProps {
-  icon: React.ElementType;
-  title: string;
-  description: string;
-}
-
-const BenefitCard: React.FC<BenefitCardProps> = ({ icon: Icon, title, description }) => (
+const BenefitCard = ({ icon: Icon, title, description }: { icon: React.ElementType; title: string; description: string }) => (
   <motion.div 
     whileHover={{ scale: 1.05 }}
     className="bg-gradient-to-br from-purple-500/10 to-pink-500/10 p-6 rounded-xl shadow-lg backdrop-blur-sm"
@@ -29,85 +24,87 @@ const fadeInUp = {
   visible: { opacity: 1, y: 0 },
 };
 
-const BenefitsPage: React.FC = () => {
+const BenefitsPage = () => {
+  const { t } = useTranslation();
+
   const proBenefits = [
     {
       icon: Users,
-      title: "Army of Promoters",
-      description: "Access a vast network of Ambassadors to promote your brand to millions for a fraction of traditional costs.",
+      title: t('benefits.pro.list.0.title'),
+      description: t('benefits.pro.list.0.description'),
     },
     {
       icon: Globe,
-      title: "Exponential Reach",
-      description: "Potentially reach millions of viewers and grow your audience rapidly through our Ambassador network.",
+      title: t('benefits.pro.list.1.title'),
+      description: t('benefits.pro.list.1.description'),
     },
     {
       icon: DollarSign,
-      title: "Cost-Effective Marketing",
-      description: "Achieve widespread brand exposure for just a few dollars compared to expensive traditional campaigns.",
+      title: t('benefits.pro.list.2.title'),
+      description: t('benefits.pro.list.2.description'),
     },
     {
       icon: Zap,
-      title: "AI-Powered Tools",
-      description: "Utilize cutting-edge AI tools for content creation and optimization to enhance your marketing efforts.",
+      title: t('benefits.pro.list.3.title'),
+      description: t('benefits.pro.list.3.description'),
     },
   ];
 
   const ambassadorBenefits = [
     {
       icon: TrendingUp,
-      title: "Massive Community Growth",
-      description: "Rapidly expand your follower base and online presence by promoting popular brands and products.",
+      title: t('benefits.ambassador.list.0.title'),
+      description: t('benefits.ambassador.list.0.description'),
     },
     {
       icon: Rocket,
-      title: "Viral Content Potential",
-      description: "Create content that could reach millions of views, boosting your profile and influence.",
+      title: t('benefits.ambassador.list.1.title'),
+      description: t('benefits.ambassador.list.1.description'),
     },
     {
       icon: Award,
-      title: "Monetization Opportunities",
-      description: "Earn income by promoting brands to your growing audience and leveraging your influence.",
+      title: t('benefits.ambassador.list.2.title'),
+      description: t('benefits.ambassador.list.2.description'),
     },
     {
       icon: Star,
-      title: "Networking Opportunities",
-      description: "Connect with other successful Ambassadors and Pro users to learn and grow together.",
+      title: t('benefits.ambassador.list.3.title'),
+      description: t('benefits.ambassador.list.3.description'),
     },
   ];
 
   return (
-        <div className="overflow-x-hidden scrollbar-hide size-full">
-                        {/* Hero Section */}
-                        <section className="relative flex items-center justify-center overflow-hidden bg-transparent">
-                          <Vortex containerClassName="absolute inset-0 z-0" className="w-full h-full" transparent />
-                      
-                          <motion.div
-                            initial={{ opacity: 0, y: 10 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 1 }}
-                            className="mx-auto flex max-w-5xl flex-col items-center justify-center px-4 text-center relative z-10"
-                          >
-                            <AnimationContainer delay={0.1}>
-                              <MagicBadge title="Benefits" />
-                              <h1 className="text-2xl md:text-4xl lg:text-7xl font-semibold font-heading text-center mt-0 !leading-tight">
-                              Unlock Your Potential
-                              </h1>
-                              <p className="text-base md:text-lg mt-3 text-center text-muted-foreground">
-                              Discover the amazing benefits our app offers to both Pro users and Ambassadors.
-                              </p>
-                            </AnimationContainer>
-                          </motion.div>
-                        </section>
+    <div className="overflow-x-hidden scrollbar-hide size-full">
+      {/* Hero Section */}
+      <section className="relative flex items-center justify-center overflow-hidden bg-transparent">
+        <Vortex containerClassName="absolute inset-0 z-0" className="w-full h-full" transparent />
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className="mx-auto flex max-w-5xl flex-col items-center justify-center px-4 text-center relative z-10"
+        >
+          <AnimationContainer delay={0.1}>
+            <MagicBadge title={t('benefits.badge')} />
+            <h1 className="text-2xl md:text-4xl lg:text-7xl font-semibold font-heading text-center mt-20 !leading-tight">
+              {t('benefits.title')}
+            </h1>
+            <p className="text-base md:text-lg mt-3 text-center text-muted-foreground">
+              {t('benefits.subtitle')}
+            </p>
+          </AnimationContainer>
+        </motion.div>
+      </section>
+
       <MaxWidthWrapper className="mb-40">
-        <h2 className="text-3xl font-semibold text-center mb-8">Pro User Benefits</h2>
+        <h2 className="text-3xl font-semibold text-center mb-8 mt-10">{t('benefits.pro.title')}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           {proBenefits.map((benefit, index) => (
             <BenefitCard key={`pro-${index}`} {...benefit} />
           ))}
         </div>
 
-        <h2 className="text-3xl font-semibold text-center mb-8">Ambassador Benefits</h2>
+        <h2 className="text-3xl font-semibold text-center mb-8">{t('benefits.ambassador.title')}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           {ambassadorBenefits.map((benefit, index) => (
             <BenefitCard key={`ambassador-${index}`} {...benefit} />
@@ -115,22 +112,22 @@ const BenefitsPage: React.FC = () => {
         </div>
 
         <div className="flex flex-col md:flex-row justify-center items-center gap-8">
-        <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row justify-center gap-4">
-                    <Link
-                      href="/get-started"
-                      className="mt-4 px-8 py-4 bg-white/10 backdrop-blur-sm border border-white/20 text-white font-medium rounded-full hover:bg-white/20 transition-all duration-300">
-                      Become a Pro
-                    </Link>
-        </motion.div>
-        <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row justify-center gap-4">
-             <Link
-                href="/get-started"
-                className="mt-4 px-8 py-4 bg-white/10 backdrop-blur-sm border border-white/20 text-white font-medium rounded-full hover:bg-white/20 transition-all duration-300">
-                  Ambassador
-             </Link>
-        </motion.div>
+          <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row justify-center gap-4">
+            <Link
+              href="/get-started"
+              className="mt-4 px-8 py-4 bg-white/10 backdrop-blur-sm border border-white/20 text-white font-medium rounded-full hover:bg-white/20 transition-all duration-300">
+              {t('benefits.cta.pro')}
+            </Link>
+          </motion.div>
+          <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row justify-center gap-4">
+            <Link
+              href="/get-started"
+              className="mt-4 px-8 py-4 bg-white/10 backdrop-blur-sm border border-white/20 text-white font-medium rounded-full hover:bg-white/20 transition-all duration-300">
+              {t('benefits.cta.ambassador')}
+            </Link>
+          </motion.div>
         </div>
-        </MaxWidthWrapper>
+      </MaxWidthWrapper>
     </div>
   );
 };

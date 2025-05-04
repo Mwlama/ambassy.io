@@ -6,7 +6,14 @@
     "signUp": "Registrarse",
     "cancel": "Cancelar",
     "save": "Guardar",
-    "loading": "Cargando..."
+    "loading": "Cargando...",
+    "boutton" : "Sobre nosotros",
+    "features" :"Funcionalidades",
+    "benefits" :"Beneficios",
+    "monthly" :"Mensual",
+    "yearly" :"Anual",
+    "monthlyy" :"/Mensual",
+    "yearlyy" :"/Anual" 
   },
   "nav": {
     "aboutus": "Sobre nosotros",
@@ -17,9 +24,9 @@
   },
   "home": {
     "hero": {
-      "title": "Un precio, influencers ilimitados,",
-      "titlee": "máximo impacto",
-      "subtitle": "Encuentra a los embajadores adecuados, llega a sus comunidades y haz crecer tu marca, todo por una tarifa mensual simple.",
+      "title": "Encuentra a los Embajadores ideales para hacer brillar ",
+      "titlee": "Tu Marca",
+      "subtitle": "Un clic. Miles de embajadores. ¡Una marca que despega! Conecta con las personas adecuadas para llegar a las audiencias adecuadas, ¡desde hoy!",
       "cta": "Prueba gratis"
     },
     "process": {
@@ -28,28 +35,84 @@
       "description": "Ambassy es la plataforma definitiva que conecta a profesionales con una red seleccionada de embajadores de redes sociales, permitiendo campañas de marketing dirigidas, rastreables y transformadoras que convierten el alcance de las redes sociales en ingresos reales."
     }
   },
-  "pricing": {
-    "title": "Precios simples",
-    "subtitle": "Elige un plan que funcione para ti. No hay tarifas ocultas. No hay sorpresas.",
-    "description": "Comienza con Ambassy hoy y disfruta de más funciones con nuestros planes pro.",
-    "plans": {
-      "ambassador": {
-        "title": "Embajador",
-        "info": "Para TikTokers, Instagramers, YouTubers y todos los influencers de redes sociales",
-        "price": "Siempre gratis"
-      },
-      "pro": {
-        "title": "Pro",
-        "info": "Para tiendas y marcas que buscan disparar su crecimiento",
-        "price": "39.99"
-      },
-      "vip": {
-        "title": "VIP",
-        "info": "Para dueños de tiendas ocupados que desean promoción sin esfuerzo",
-        "price": "299.99"
-      }
+  "badges": {
+    "simplePricing": "Precios",
+    "theProcess": "El Proceso",
+    "goForIt": "Empieza Ahora",
+    "features": "Funciones",
+    "aboutUs": "Sobre Nosotros",
+    "ambassador": "Embajador",
+    "whyJoin": "Por Qué Unirse",
+    "processus": "Proceso",
+    "avantages": "Ventajas",
+    "testimony": "Testimonio",
+    "faq": "Preguntas Frecuentes",
+    "joinUs": "Únete Hoy",
+    "pro": "PRO",
+    "whyPro": "¿Por Qué PRO?",
+    "successStories": "Historias de Éxito",
+    "vip": "VIP",
+    "whyVip": "¿Por Qué VIP?"
+},
+  "benef": {
+  "list": {
+    "0": {
+      "title": "Perfiles Auténticos",
+      "description": "Embajadores comprometidos, elegidos por su impacto real y su afinidad con tu marca."
+    },
+    "1": {
+      "title": "Búsqueda Ultra Dirigida",
+      "description": "Filtra por Producto, Nicho y Ubicación para identificar los mejores perfiles en pocos clics."
+    },
+    "2": {
+      "title": "Gestión Simplificada",
+      "description": "Lanza tu campaña, sigue tu rendimiento y aumenta tus ventas desde un panel intuitivo."
     }
-  },
+  }
+},
+  "pricing": {
+  "title": "Precios Simples",
+  "subtitle": "Elige un plan que se adapte a ti. Sin cargos ocultos. Sin sorpresas.",
+  "description": "Comienza con Ambassy hoy y desbloquea más funciones con nuestros planes pro.",
+  "plans": {
+    "ambassador": {
+      "title": "Embajador",
+      "info": "Para TikTokers, Instagrammers, YouTubers y todos los influencers de redes sociales",
+      "price": "Siempre Gratis",
+      "bullet0": "Perfil Personalizado",
+      "bullet1": "Conexión con tus Redes Sociales",
+      "bullet2": "Acceso a Campañas PRO",
+      "bullet3": "Mensajería Directa con Profesionales",
+      "bullet4": "Seguimiento del Rendimiento y Estadísticas",
+      "bullet5": "Chatbot con IA"
+    },
+    "pro": {
+      "title": "PRO",
+      "info": "Para tiendas y marcas que buscan hacer crecer su negocio",
+      "price": "39.99",
+      "bullet0": "Perfil PRO Personalizado",
+      "bullet1": "Acceso Ilimitado a Embajadores (1 red social)",
+      "bullet2": "Campañas Personalizadas Ilimitadas",
+      "bullet3": "Mensajería Directa con Embajadores",
+      "bullet4": "Seguimiento Analítico de Campañas",
+      "bullet5": "Chatbot con IA",
+      "bullet6": "Webinarios Exclusivos"
+    },
+    "vip": {
+      "title": "VIP",
+      "info": "Para propietarios de tiendas ocupados que desean una promoción sin esfuerzo",
+      "price": "299.99",
+      "bullet0": "Perfil VIP Personalizado",
+      "bullet1": "Promoción Destacada de tus Campañas",
+      "bullet2": "Lanzamiento Ilimitado de Campañas a Medida",
+      "bullet3": "Mensajería Directa con Embajadores",
+      "bullet4": "Acceso a Embajadores en Múltiples Redes",
+      "bullet5": "Panel de Rendimiento Avanzado",
+      "bullet6": "Chatbot con IA",
+      "bullet7": "Webinarios Exclusivos"
+    }
+  }
+},
   "footer": {
     "product": "Producto",
     "features": "Características",
@@ -70,7 +133,6 @@
     "title": "Sobre Ambassy",
     "subtitle": "Transformando las relaciones entre marcas y creadores a través de la innovación y la narración auténtica.",
     "noCommitment": "Sin compromisos. Cancela cuando quieras.",
-    "cta": "Sobre nosotros",
     "stats": {
       "brands": "Marcas Globales",
       "partnerships": "Colaboraciones con Creadores",
@@ -159,6 +221,53 @@
       "description": "Únete a los miles de marcas y creadores que confían en Ambassy para ofrecer asociaciones auténticas e impactantes."
     }
   },
+  "benefits": {
+    "badge": "Ventajas",
+    "title": "Desbloquea Tu Potencial",
+    "subtitle": "Descubre las increíbles ventajas que nuestra aplicación ofrece a los usuarios Pro y a los Embajadores.",
+    "pro": {
+      "title": "Ventajas para Usuarios Pro",
+      "list": {
+        "0": {
+          "title": "Ejército de Promotores",
+          "description": "Accede a una amplia red de Embajadores para promocionar tu marca ante millones de personas a bajo costo."
+        },
+        "1": {
+          "title": "Alcance Exponencial",
+          "description": "Llega potencialmente a millones de espectadores y haz crecer tu audiencia rápidamente gracias a nuestra red de Embajadores."
+        },
+        "2": {
+          "title": "Marketing Rentable",
+          "description": "Obtén gran visibilidad por solo unos pocos euros, en comparación con las costosas campañas tradicionales."
+        },
+        "3": {
+          "title": "Herramientas Potenciadas por IA",
+          "description": "Utiliza herramientas de IA de última generación para crear y optimizar contenido que potencie tu marketing."
+        }
+      }
+    },
+    "ambassador": {
+      "title": "Ventajas para Embajadores",
+      "list": {
+        "0": {
+          "title": "Crecimiento Masivo de Comunidad",
+          "description": "Haz crecer rápidamente tu base de seguidores y presencia online promocionando marcas populares."
+        },
+        "1": {
+          "title": "Potencial de Contenido Viral",
+          "description": "Crea contenido que pueda alcanzar millones de visualizaciones, impulsando tu perfil e influencia."
+        },
+        "2": {
+          "title": "Oportunidades de Monetización",
+          "description": "Gana dinero promocionando marcas ante tu audiencia en crecimiento y aprovechando tu influencia."
+        },
+        "3": {
+          "title": "Oportunidades de Networking",
+          "description": "Conéctate con otros Embajadores y usuarios Pro para aprender y crecer juntos."
+        }
+      }
+    }
+  },
   "twoWays": {
     "title": "Adelante",
     "subtitle": "Dos formas de comenzar con Ambassy",
@@ -216,5 +325,273 @@
       "label": "Engagement",
       "description": "Resultados mejorados"
     }
-  }
+  },
+  "ambassador": {
+    "hero": {
+      "titl" : "EMBAJADOR",
+      "title": "Convierte tu Influencia en Impacto",
+      "subtitle": "Únete a una comunidad vibrante de creadores que convierten su pasión en una carrera. Asociaciones auténticas, incentivos gratificantes y potencial ilimitado.",
+      "cta": "Comenzar Ahora"
+    },
+    "journey": {
+      "title": "Tu Viaje como Embajador",
+      "subtitle": "Un camino suave y gratificante desde el registro hasta la recompensa, con pasos claros y transparentes en el camino.",
+      "steps": {
+        "0": {
+          "title": "Aplicar",
+          "description": "Muestra tu mundo único y tu audiencia en solo unos clics. Destaca tu estilo, nosotros nos encargamos del resto."
+        },
+        "1": {
+          "title": "Verificación",
+          "description": "Nuestro equipo revisará rápidamente tu perfil y asegurará la autenticidad de tu aplicación, con respuesta en 24 horas."
+        },
+        "2": {
+          "title": "Conoce Marcas Inspiradoras",
+          "description": "Accede a una selección de marcas que comparten tus valores y visión. Encuentra colaboraciones que resuenen contigo."
+        },
+        "3": {
+          "title": "Expresa tu Creatividad",
+          "description": "Crea y comparte contenido auténtico que cautive a tu audiencia y maximice tu impacto."
+        },
+        "4": {
+          "title": "Gana y Recibe Recompensas",
+          "description": "Monetiza tu influencia: cada clic cuenta, y tus esfuerzos son recompensados con ganancias transparentes y motivadoras."
+        }
+      }
+    },
+    "benefits": {
+      "title": "Lo que Ganarás",
+      "subtitle": "Más que solo una asociación, Ambassy abre las puertas a un ecosistema dedicado al crecimiento y éxito de los creadores.",
+      "list": {
+        "0": {
+          "title": "Conexiones con Marcas Premium",
+          "description": "Colabora con marcas prestigiosas que buscan embajadores auténticos para relaciones a largo plazo y gratificantes."
+        },
+        "1": {
+          "title": "Compensación Transparente y Justa",
+          "description": "Comparte tus enlaces de afiliados únicos y gana. A mayor influencia, mayores ganancias, tu impacto es recompensado."
+        },
+        "2": {
+          "title": "Desarrollo Profesional",
+          "description": "Accede a recursos exclusivos y coaching personalizado para mejorar tus habilidades de creación de contenido."
+        },
+        "3": {
+          "title": "Oportunidades de Crecimiento",
+          "description": "Aumenta tu audiencia y construye tu marca personal con el poder de nuestra plataforma."
+        },
+        "4": {
+          "title": "Comunidad Comprometida",
+          "description": "Únete a una red dinámica de creadores apasionados, comparte experiencias y colabora para llegar más lejos juntos."
+        },
+        "5": {
+          "title": "Alcance Internacional",
+          "description": "Conéctate con marcas y audiencias globales a través de nuestra plataforma de gran alcance."
+        }
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Convertirte en Embajador?",
+      "description": "Únete a nuestra comunidad y comienza a colaborar con marcas hoy mismo.",
+      "apply": "Aplicar Ahora"
+    },
+    "metrics": {
+      "title": "Los Números Hablan por Sí Mismos",
+      "subtitle": "Rendimiento promedio de los embajadores en nuestra plataforma",
+      "items": {
+        "0": {
+          "label": "Ganancias Promedio",
+          "value": "€1,200",
+          "period": "por mes"
+        },
+        "1": {
+          "label": "Colaboraciones con Marcas",
+          "value": "5-10",
+          "period": "por trimestre"
+        },
+        "2": {
+          "label": "Crecimiento de Audiencia",
+          "value": "35%",
+          "period": "aumento promedio"
+        },
+        "3": {
+          "label": "Compromiso con el Contenido",
+          "value": "x3",
+          "period": "comparado con el promedio de la industria"
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Testimonios de Embajadores",
+      "subtitle": "Descubre las historias de éxito de nuestra comunidad",
+      "items": {
+        "0": {
+          "name": "Sara J.",
+          "role": "Creadora de Belleza",
+          "quote": "Ambassy convirtió mi pasión en una carrera. Trabajé con las marcas de mis sueños y dupliqué mis ingresos mensuales.",
+          "metrics": "2K seguidores • 15 colaboraciones"
+        },
+        "1": {
+          "name": "Mark T.",
+          "role": "Embajador de Fitness",
+          "quote": "La plataforma es fácil de usar y las colaboraciones de alta calidad marcan la diferencia. Me concentro en el contenido, Ambassy se encarga del resto.",
+          "metrics": "33K seguidores • 22 colaboraciones"
+        },
+        "2": {
+          "name": "Elena R.",
+          "role": "Creadora de Viajes",
+          "quote": "Como principiante, Ambassy me abrió las puertas al mundo. Ahora viajo haciendo lo que amo.",
+          "metrics": "11K seguidores • 8 colaboraciones"
+        }
+      }
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "subtitle": "Todo lo que necesitas saber antes de unirte a Ambassy",
+      "items": {
+        "0": {
+          "question": "¿Necesito un número mínimo de seguidores?",
+          "answer": "Valoramos la calidad del compromiso. Los microinfluencers con comunidades comprometidas son bienvenidos."
+        },
+        "1": {
+          "question": "¿Cómo me pagan?",
+          "answer": "Los pagos se procesan de manera segura a través de nuestra plataforma. Las opciones incluyen transferencia bancaria, PayPal y criptomonedas. Generalmente dentro de los 7-14 días después de una campaña."
+        },
+        "2": {
+          "question": "¿Puedo unirme si no estoy en EE.UU.?",
+          "answer": "¡Absolutamente! Ambassy es una plataforma global presente en más de 40 países."
+        },
+        "3": {
+          "question": "¿Qué tipo de soporte ofrecen?",
+          "answer": "Incorporación personalizada, gestor de cuenta, asesoramiento estratégico, ayuda en la negociación y soporte técnico 24/7."
+        }
+      }
+    },
+    "Colab": {
+      "title": "Colabora con Marcas Líderes en Diversas Industrias"
+    },
+    "finalCta": {
+      "title": "¿Listo para Elevar tu Influencia?",
+      "description": "Comienza tu carrera como embajador. Aplica ahora y colabora con las mejores marcas en menos de 24 horas.",
+      "apply": "Aplicar Ahora",
+      "support": "Contactar Soporte",
+      "note": "Sin compromisos. Sin tarifas ocultas. Comienza gratis."
+    }
+  },
+  "proPlan": {
+      "hero": {
+        "titl" : "PRO",
+        "title": "Desbloquea Funciones Premium con Nuestro Plan Pro",
+        "subtitle": "Mejora tu experiencia con herramientas avanzadas y beneficios exclusivos. Perfecto para creadores que buscan maximizar su impacto y crecimiento.",
+        "cta": "Mejorar Ahora"
+      },
+      "features": {
+        "title": "Lo que Obtienes con el Plan Pro",
+        "subtitle": "Mejora tus capacidades con una suite de funciones potentes diseñadas para ayudarte a tener éxito.",
+        "list": {
+          "0": {
+            "title": "Análisis Avanzados",
+            "description": "Obtén información más profunda sobre tu audiencia y el rendimiento de tu contenido con análisis detallados e informes."
+          },
+          "1": {
+            "title": "Soporte Prioritario",
+            "description": "Obtén soporte rápido y dedicado de nuestro equipo de expertos, asegurando que tus preguntas sean respondidas rápidamente."
+          },
+          "2": {
+            "title": "Personalización de Marca",
+            "description": "Personaliza tu perfil y contenido con opciones de personalización de marca para causar una impresión duradera."
+          },
+          "3": {
+            "title": "Recursos Exclusivos",
+            "description": "Accede a una biblioteca de recursos premium, incluyendo guías, plantillas y seminarios web para ayudarte a crecer."
+          },
+          "4": {
+            "title": "Colaboraciones Ilimitadas",
+            "description": "Colabora con tantas marcas como desees, sin restricciones en el número de asociaciones."
+          },
+          "5": {
+            "title": "Acceso Anticipado a Nuevas Funciones",
+            "description": "Sé el primero en probar nuevas funciones y herramientas antes de que sean lanzadas al público general."
+          }
+        }
+      },
+      "metrics": {
+        "title": "Éxito del Plan Pro",
+        "subtitle": "Rendimiento promedio de los usuarios del Plan Pro en nuestra plataforma",
+        "items": {
+          "0": {
+            "label": "Alcance Mensual",
+            "value": "1M+",
+            "period": "en todas las plataformas"
+          },
+          "1": {
+            "label": "Tasa de Participación",
+            "value": "25%",
+            "period": "aumento promedio"
+          },
+          "2": {
+            "label": "Tasa de Conversión",
+            "value": "20%",
+            "period": "aumento promedio"
+          },
+          "3": {
+            "label": "ROI",
+            "value": "4x",
+            "period": "retorno promedio de la inversión"
+          }
+        }
+      },
+      "testimonials": {
+        "title": "Lo que Dicen Nuestros Usuarios Pro",
+        "subtitle": "Escucha a los creadores que han elevado su trayectoria con nuestro Plan Pro",
+        "items": {
+          "0": {
+            "name": "Dermadia",
+            "role": "Cosmética",
+            "quote": "Gracias a Ambassy, he notado un verdadero aumento en mi tráfico y mis ventas. Su acompañamiento me permitió llevar mi negocio al siguiente nivel.",
+            "metrics": ""
+          },
+          "1": {
+            "name": "Welcome To Dubai",
+            "role": "Servicios de creación de empresas",
+            "quote": "El soporte prioritario es increíble. Cada vez que tengo una pregunta, recibo una respuesta rápida y útil del equipo.",
+            "metrics": ""
+          },
+          "2": {
+            "name": "Rentop.io",
+            "role": "Alquiler de coches de lujo",
+            "quote": "Las opciones de personalización de marca realmente me han ayudado a destacar. Mi perfil se ve profesional y he notado un aumento en la participación.",
+            "metrics": ""
+          }
+        }
+      },
+      "faq": {
+        "title": "Preguntas Frecuentes",
+        "subtitle": "Todo lo que necesitas saber antes de actualizar al Plan Pro",
+        "items": {
+          "0": {
+            "question": "¿Qué incluye el Plan Pro?",
+            "answer": "El Plan Pro incluye análisis avanzados, soporte prioritario, personalización de marca, recursos exclusivos, colaboraciones ilimitadas y acceso anticipado a nuevas funciones."
+          },
+          "1": {
+            "question": "¿Cuánto cuesta el Plan Pro?",
+            "answer": "El Plan Pro está disponible por una suscripción mensual de $39.99 o una suscripción anual de $422."
+          },
+          "2": {
+            "question": "¿Puedo cancelar mi suscripción al Plan Pro?",
+            "answer": "Sí, puedes cancelar tu suscripción al Plan Pro en cualquier momento. No hay compromisos a largo plazo."
+          },
+          "3": {
+            "question": "¿Qué métodos de pago se aceptan?",
+            "answer": "Aceptamos pagos a través de tarjeta de crédito, PayPal. Tu información de pago se procesa de manera segura."
+          }
+        }
+      },
+      "cta": {
+        "title": "¿Listo para Mejorar tu Experiencia?",
+        "description": "Actualiza al Plan Pro hoy y desbloquea funciones avanzadas para ayudarte a crecer y tener éxito.",
+        "apply": "Mejorar Ahora",
+        "support": "Contactar Soporte",
+        "note": "Sin compromisos a largo plazo. Cancela en cualquier momento. Comienza tu prueba gratuita de 7 días ahora."
+      }
+    }
 }

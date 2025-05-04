@@ -12,6 +12,7 @@ import { ArrowRightIcon, CheckCircle, TrendingUp, DollarSign, Users, Globe, Zap,
 import Image from "next/image";
 import Link from "next/link";
 import { Vortex } from "@/components/ui/vortex";
+import { t } from "i18next";
 
 // Animation variants
 const fadeInUp = {
@@ -32,97 +33,97 @@ const staggerChildren = {
 // Pro Plan Benefits
 const proBenefits = [
   {
-    title: "All Ambassador Features",
-    description: "Access all the tools and benefits of our Ambassador Plan, plus exclusive Pro features.",
+    title: t('proPlan.features.list.0.title'),
+    description: t('proPlan.features.list.0.description'),
     icon: <CheckCircle className="h-6 w-6" />
   },
   {
-    title: "Advanced Campaign Analytics",
-    description: "Track your campaign performance with real-time insights and detailed metrics.",
+    title: t('proPlan.features.list.1.title'),
+    description: t('proPlan.features.list.1.description'),
     icon: <BarChart className="h-6 w-6" />
   },
   {
-    title: "Priority Support",
-    description: "Get 24/7 access to a dedicated account manager and premium support.",
+    title: t('proPlan.features.list.2.title'),
+    description: t('proPlan.features.list.2.description'),
     icon: <Shield className="h-6 w-6" />
   },
   {
-    title: "Custom Campaign Creation",
-    description: "Design tailored campaigns that align with your brand’s goals and audience.",
+    title: t('proPlan.features.list.3.title'),
+    description: t('proPlan.features.list.3.description'),
     icon: <Settings className="h-6 w-6" />
   },
   {
-    title: "Unlimited Influencer Outreach",
-    description: "Connect with an unlimited number of influencers to promote your brand.",
+    title: t('proPlan.features.list.4.title'),
+    description: t('proPlan.features.list.4.description'),
     icon: <Users className="h-6 w-6" />
   },
   {
-    title: "Performance Tracking",
-    description: "Monitor your ROI, engagement, and conversions with advanced tracking tools.",
+    title: t('proPlan.features.list.5.title'),
+    description: t('proPlan.features.list.5.description'),
     icon: <TrendingUp className="h-6 w-6" />
   },
   {
-    title: "AI-Powered Chatbot",
-    description: "Automate customer interactions and streamline communication with AI technology.",
+    title: t('proPlan.features.list.6.title'),
+    description: t('proPlan.features.list.6.description'),
     icon: <MessageCircle className="h-6 w-6" />
   },
   {
-    title: "Exclusive Webinars",
-    description: "Gain access to exclusive training sessions and industry insights.",
+    title: t('proPlan.features.list.7.title'),
+    description: t('proPlan.features.list.7.description'),
     icon: <Video className="h-6 w-6" />
   }
 ];
 
 // Pro Plan Success Metrics
 const successMetrics = [
-  { metric: "Monthly Reach", value: "1M+", period: "across all platforms" },
-  { metric: "Engagement Rate", value: "25%", period: "average increase" },
-  { metric: "Conversion Rate", value: "20%", period: "average increase" },
-  { metric: "ROI", value: "4x", period: "average return on investment" }
+  { metric: t('proPlan.metrics.items.0.label'), value: t('proPlan.metrics.items.0.value'), period: t('proPlan.metrics.items.0.period') },
+  { metric: t('proPlan.metrics.items.1.label'), value: t('proPlan.metrics.items.1.value'), period: t('proPlan.metrics.items.1.period') },
+  { metric: t('proPlan.metrics.items.2.label'), value: t('proPlan.metrics.items.2.value'), period: t('proPlan.metrics.items.2.period') },
+  { metric: t('proPlan.metrics.items.3.label'), value: t('proPlan.metrics.items.3.value'), period: t('proPlan.metrics.items.3.period') }
 ];
 
 // Testimonials
 const testimonials = [
   {
-    name: "Alex M.",
-    role: "E-commerce Brand Owner",
-    image: "/api/placeholder/100/100",
-    quote: "The Pro Plan transformed my business. My sales increased by 200% in just 3 months thanks to the ambassador network and advanced analytics.",
-    metrics: "$50K revenue • 10K new customers"
+    name: t('proPlan.testimonials.items.0.name'),
+    role: t('proPlan.testimonials.items.0.role'),
+    image: "/pro1.png",
+    quote: t('proPlan.testimonials.items.0.quote'),
+    metrics: t('proPlan.testimonials.items.0.metrics')
   },
   {
-    name: "Jessica L.",
-    role: "Fitness Brand Founder",
-    image: "/api/placeholder/100/100",
-    quote: "For $39.99/month, I got access to an army of promoters and AI tools that helped me grow my Instagram following by 35%.",
-    metrics: "35% growth • 15K new followers"
+    name: t('proPlan.testimonials.items.1.name'),
+    role: t('proPlan.testimonials.items.1.role'),
+    image: "/pro2.png",
+    quote: t('proPlan.testimonials.items.1.quote'),
+    metrics: t('proPlan.testimonials.items.1.metrics')
   },
   {
-    name: "Ryan T.",
-    role: "Tech Startup CEO",
-    image: "/api/placeholder/100/100",
-    quote: "The ROI is insane. I spent $120 on the Pro Plan and generated $10K in sales within a month using custom campaigns and performance tracking.",
-    metrics: "$10K revenue • 5K new leads"
+    name: t('proPlan.testimonials.items.2.name'),
+    role: t('proPlan.testimonials.items.2.role'),
+    image: "/pro4.png",
+    quote: t('proPlan.testimonials.items.2.quote'),
+    metrics: t('proPlan.testimonials.items.2.metrics')
   }
 ];
 
 // FAQ Items
 const faqItems = [
   {
-    question: "How does the ambassador army work?",
-    answer: "Your brand gets promoted by hundreds of ambassadors who share your products with their audiences, driving traffic and sales."
+    question: t('proPlan.faq.items.0.question'),
+    answer: t('proPlan.faq.items.0.answer')
   },
   {
-    question: "Is there a long-term commitment?",
-    answer: "No, the Pro Plan is a monthly subscription. You can cancel anytime."
+    question: t('proPlan.faq.items.1.question'),
+    answer: t('proPlan.faq.items.1.answer')
   },
   {
-    question: "What kind of brands can benefit?",
-    answer: "E-commerce, fitness, tech, fashion, and more. Any brand looking to scale quickly can benefit."
+    question: t('proPlan.faq.items.2.question'),
+    answer: t('proPlan.faq.items.2.answer')
   },
   {
-    question: "How do I track my results?",
-    answer: "You’ll get access to advanced analytics that show reach, engagement, and ROI in real-time."
+    question: t('proPlan.faq.items.3.question'),
+    answer: t('proPlan.faq.items.3.answer')
   }
 ];
 
@@ -149,12 +150,12 @@ const ProPlanPage = () => {
             className="mx-auto flex max-w-5xl flex-col items-center justify-center px-4 text-center relative z-10"
           >
             <AnimationContainer delay={0.1}>
-            <MagicBadge title="PRO Plan" />
-            <h1 className="text-2xl md:text-4xl lg:text-7xl font-semibold font-heading text-center mt-0 !leading-tight">
-              Scale Your Brand with Advanced Tools
+            <MagicBadge title={t('proPlan.hero.titl')} />
+            <h1 className="text-2xl md:text-4xl lg:text-7xl font-semibold font-heading text-center mt-20 !leading-tight">
+              {t('proPlan.hero.title')}
             </h1>
             <p className="text-base md:text-lg mt-6 text-center text-muted-foreground">
-              For just <span className="font-bold text-fuchsia-500">$39.99/month</span>, unlock exclusive features like advanced analytics, AI chatbots, and unlimited influencer outreach.
+            {t('proPlan.hero.subtitle')}
             </p>
             </AnimationContainer>
             <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row justify-center gap-4">
@@ -162,10 +163,12 @@ const ProPlanPage = () => {
                 href="/get-started"
                 className="mt-4 px-8 py-4 bg-fuchsia-500/50 backdrop-blur-sm border border-white/20 text-white font-medium rounded-full hover:bg-neutral-500/30 transition-all duration-300"
               >
-                Get Started
+                {t('proPlan.hero.cta')}
               </Link>
             </motion.div>
-            <p className="mt-4 text-sm text-gray-400">No commitments. Cancel anytime.</p>
+            <p className="mt-4 text-sm text-gray-400">
+              {t('proPlan.cta.note')}
+              </p>
           </motion.div>
           
         </section>
@@ -176,9 +179,11 @@ const ProPlanPage = () => {
         <AnimationContainer delay={0.1} className="w-full mb-20">
           <div className="text-center mb-12">
             <MagicBadge title="Why Pro?" />
-            <h2 className="text-3xl md:text-4xl font-bold mt-6">The Pro Plan Advantage</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mt-6">
+            {t('proPlan.features.title')}
+            </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mt-4">
-              Unlock the power of advanced tools and take your brand to the next level.
+            {t('proPlan.features.subtitle')}
             </p>
           </div>
 
@@ -188,20 +193,20 @@ const ProPlanPage = () => {
               variant={activeTab === "features" ? "primary" : "outline"}
               onClick={() => setActiveTab("features")}
             >
-              Features
+              {t('common.features')}
             </Button>
             <Button
               variant={activeTab === "benefits" ? "primary" : "outline"}
               onClick={() => setActiveTab("benefits")}
             >
-              Benefits
+              {t('common.benefits')}
             </Button>
           </div>
 
           {/* Features/Benefits Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {(activeTab === "features" ? proBenefits.slice(0, 3) : proBenefits.slice(3, 6)).map((benefit, index) => (
-              <div key={index} className="bg-black/40 backdrop-blur-sm border border-gray-800 rounded-2xl p-8 hover:border-gray-700 transition-all">
+              <div key={index} className="bg-black/8 backdrop-blur-sm border border-fuchsia-600 rounded-2xl p-8 hover:border-gray-700 transition-all">
                 <div className="w-12 h-12 bg-gradient-to-br from-purple-600 to-blue-600 rounded-xl flex items-center justify-center mb-6">
                   {benefit.icon}
                 </div>
@@ -215,10 +220,12 @@ const ProPlanPage = () => {
         {/* Success Metrics */}
         <AnimationContainer delay={0.2} className="w-full mb-20">
           <div className="bg-gradient-to-br from-gray-900 to-black border border-gray-800 rounded-2xl p-10">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold">The Numbers Speak</h2>
+            <div className="text-white text-center mb-12">
+              <h2 className="text-3xl font-bold">
+              {t('proPlan.metrics.title')}
+                </h2>
               <p className="text-muted-foreground mt-4">
-                Average performance of Pro Plan users
+              {t('proPlan.metrics.subtitle')}
               </p>
             </div>
 
@@ -240,9 +247,11 @@ const ProPlanPage = () => {
         <AnimationContainer delay={0.3} className="w-full mb-20">
           <div className="text-center mb-12">
             <MagicBadge title="Success Stories" />
-            <h2 className="text-3xl md:text-4xl font-bold mt-6">From Our Pro Plan Users</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mt-6">
+            {t('proPlan.testimonials.title')}
+            </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mt-4">
-              Hear directly from brands that scaled with our advanced tools.
+            {t('proPlan.testimonials.subtitle')}
             </p>
           </div>
 
@@ -254,7 +263,7 @@ const ProPlanPage = () => {
                 whileInView="visible"
                 viewport={{ once: true }}
                 variants={fadeInUp}
-                className="p-6 bg-black/40 backdrop-blur-sm border border-gray-800 rounded-xl flex flex-col"
+                className="p-6 bg-black/8 backdrop-blur-sm border border-fuchsia-600 rounded-xl flex flex-col"
               >
                 <div className="mb-4">
                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -267,13 +276,13 @@ const ProPlanPage = () => {
                     </defs>
                   </svg>
                 </div>
-                <p className="italic text-gray-300 mb-6">&quot;{testimonial.quote}&quot;</p>
+                <p className="italic text-gray-500 mb-6">&quot;{testimonial.quote}&quot;</p>
                 <div className="mt-auto flex items-center">
                   <Image 
                     src={testimonial.image} 
                     alt={testimonial.name} 
-                    width={48} 
-                    height={48} 
+                    width={58} 
+                    height={58} 
                     className="rounded-full mr-4"
                   />
                   <div>
@@ -288,12 +297,14 @@ const ProPlanPage = () => {
         </AnimationContainer>
 
         {/* FAQ Section */}
-        <AnimationContainer delay={0.4} className="w-full mb-20">
+        <AnimationContainer delay={0.4} className="w-full">
           <div className="text-center mb-12">
             <MagicBadge title="FAQ" />
-            <h2 className="text-3xl md:text-4xl font-bold mt-6">Common Questions</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mt-6">
+              {t('proPlan.faq.title')}
+            </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mt-4">
-              Everything you need to know about the Pro Plan.
+            {t('proPlan.faq.subtitle')}
             </p>
           </div>
 
@@ -330,33 +341,32 @@ const ProPlanPage = () => {
 
       {/* Final CTA Section */}
       <section className="py-20 relative">
-        <div className="absolute inset-0 bg-gradient-to-b from-black via-purple-950/20 to-black z-0"></div>
+        <div className="absolute inset-0 bg-transparent"></div>
         
         <MaxWidthWrapper className="relative z-10">
           <AnimationContainer delay={0.5} className="w-full">
             <div className="flex flex-col items-center justify-center text-center">
               <MagicBadge title="Join Today" />
-              <h2 className="mt-6 bg-gradient-to-b from-white to-gray-400 bg-clip-text text-4xl font-bold text-transparent sm:text-5xl md:text-6xl">
-                Ready to Scale Your Brand?
+              <h2 className="mt-6 bg-gradient-to-b from-gray-200 via-gray-500 to-gray-400 bg-clip-text text-4xl font-bold text-transparent sm:text-5xl md:text-6xl">
+              {t('proPlan.cta.title')}
               </h2>
-              <p className="mt-6 max-w-2xl text-lg text-gray-300">
-                For just $39.99/month, unlock the power of advanced tools and watch your sales skyrocket.
+              <p className="mt-6 max-w-2xl text-lg text-gray-400">
+              {t('proPlan.cta.description')}
               </p>
               <div className="mt-10 flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="px-10 py-7 text-lg" asChild>
                   <Link href="/dashboard">
-                    Get Started
+                  {t('proPlan.cta.apply')}
                     <ArrowRightIcon className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" className="px-10 py-7 text-lg" asChild>
                   <Link href="/contact">
-                    Contact Support
-                  </Link>
+                  {t('proPlan.cta.support')}                  </Link>
                 </Button>
               </div>
               <p className="mt-6 text-sm text-muted-foreground">
-                No obligations. No hidden fees. Start for $39.99/month.
+              {t('proPlan.cta.note')}
               </p>
             </div>
           </AnimationContainer>

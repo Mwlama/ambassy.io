@@ -32,12 +32,42 @@ const HomePage = () => {
                     <SearchBar />
                 </div>
             </MaxWidthWrapper >
+          {/* Key Advantages Section */}
+          <AnimationContainer delay={0.1} >
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-20 mx-auto max-w-7xl">
+            <div className="bg-black/8 backdrop-blur-sm border border-fuchsia-800 rounded-2xl p-8 hover:border-gray-500 transition-all mx-auto max-w-sm text-center">
+                <h3 className="text-xl font-bold mb-3">
+                {t('benef.list.0.title')}
+                </h3>
+                <p className="text-muted-foreground">
+                {t('benef.list.0.description')}
+                </p>
+            </div>
+            <div className="bg-black/8 backdrop-blur-sm border border-fuchsia-800 rounded-2xl p-8 hover:border-gray-700 transition-all mx-auto max-w-sm text-center">
+                <h3 className="text-xl font-bold mb-3">
+                {t('benef.list.1.title')}
+                </h3>
+                <p className="text-muted-foreground">
+                {t('benef.list.1.description')}
+                </p>
+            </div>
+            <div className="bg-black/8 backdrop-blur-sm border border-fuchsia-800 rounded-2xl p-8 hover:border-gray-700 transition-all mx-auto max-w-sm text-center">
+                <h3 className="text-xl font-bold mb-3">
+                {t('benef.list.2.title')}
+                </h3>
+                <p className="text-muted-foreground">
+                {t('benef.list.2.description')}
+                </p>
+            </div>
+            </div>
+
+          </AnimationContainer>
             
             {/* Pricing Section */}
             <MaxWidthWrapper >
                 <AnimationContainer delay={0.1}>
                     <div className="flex flex-col items-center lg:items-center justify-center w-full py-8 max-w-xl mx-auto">
-                        <MagicBadge title={t('pricing.title')} />
+                        <MagicBadge title={t('badges.simplePricing')} />
                         <h2 className="text-center lg:text-center text-3xl md:text-5xl !leading-[1.1] font-medium font-heading text-foreground mt-6">
                             {t('pricing.subtitle')}
                         </h2>

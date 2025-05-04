@@ -1,157 +1,204 @@
 "use client";
 
-import { buttonVariants } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
-import { cn, PLANS } from "@/utils";
-import { motion } from 'framer-motion';
-import { CheckCircleIcon } from "lucide-react";
-import Link from "next/link";
-import { useState } from "react";
-import { useTranslation } from "react-i18next";
+import { t } from 'i18next';
+import { useState } from 'react';
 
-type Tab = "monthly" | "yearly";
+export default function PricingSection() {
+  const [billingType, setBillingType] = useState<'monthly' | 'yearly'>('monthly');
 
-const PricingCards = () => {
-  const MotionTabTrigger = motion(TabsTrigger);
-  const [activeTab, setActiveTab] = useState<Tab>("monthly");
-  const { t } = useTranslation();
+  const handleBillingToggle = (type: 'monthly' | 'yearly') => {
+    setBillingType(type);
+  };
+
+  const pricingData = {
+    ambassador: {
+      monthly: { price: t('pricing.plans.ambassador.price'), period: " "},
+      yearly: { price: t('pricing.plans.ambassador.price'), period: '' }
+    },
+    pro: {
+      monthly: { price: '$39.99', period: t('common.monthlyy') },
+      yearly: { price: '$422', period: t('common.yearlyy') }
+    },
+    vip: {
+      monthly: { price: '$299.99', period: t('common.monthlyy') },
+      yearly: { price: '$3168', period: t('common.yearlyy') }
+    }
+  };
 
   return (
-    <Tabs defaultValue="monthly" className="w-full flex bg-transparent flex-col items-center justify-center">
-      <TabsList>
-        <MotionTabTrigger
-          value="monthly"
-          onClick={() => setActiveTab("monthly")}
-          className="relative"
+    <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white p-4">
+      {/* Toggle Switch */}
+      <div className="inline-flex bg-zinc-900 rounded-md mb-10">
+        <button
+          className={`px-4 py-2 text-sm rounded-md ${
+            billingType === 'monthly' ? 'bg-zinc-800 text-white' : 'text-gray-400'
+          }`}
+          onClick={() => handleBillingToggle('monthly')}
         >
-          {activeTab === "monthly" && (
-            <motion.div
-              layoutId="active-tab-indicator"
-              transition={{ type: "spring", bounce: 0.5 }}
-              className="absolute top-0 left-0 w-full h-full bg-background shadow-sm rounded-md z-10"
-            />
-          )}
-          <span className="z-20">Monthly</span>
-        </MotionTabTrigger>
-        <MotionTabTrigger
-          value="yearly"
-          onClick={() => setActiveTab("yearly")}
-          className="relative"
+         {t('common.monthly')}
+        </button>
+        <button
+          className={`px-4 py-2 text-sm rounded-md ${
+            billingType === 'yearly' ? 'bg-zinc-800 text-white' : 'text-gray-400'
+          }`}
+          onClick={() => handleBillingToggle('yearly')}
         >
-          {activeTab === "yearly" && (
-            <motion.div
-              layoutId="active-tab-indicator"
-              transition={{ type: "spring", bounce: 0.5 }}
-              className="absolute top-0 left-0 w-full h-full bg-background shadow-sm rounded-md z-10"
-            />
-          )}
-          <span className="z-20">Yearly</span>
-        </MotionTabTrigger>
-      </TabsList>
+          {t('common.yearly')}
+        </button>
+      </div>
 
-      {(["monthly", "yearly"] as Tab[]).map((billingCycle) => (
-        <TabsContent
-          key={billingCycle}
-          value={billingCycle}
-          className="grid grid-cols-1 lg:grid-cols-3 gap-5 w-full md:gap-8 flex-wrap max-w-5xl mx-auto pt-6"
-        >
-          {PLANS.map((plan) => (
-            <Card
-              key={plan.name}
-              className={cn(
-                "flex flex-col w-full border-border rounded-xl",
-                plan.name === "Pro" && "border-2 border-purple-500",
-                plan.name === "VIP" && "border-2 border-yellow-500"
-              )}
-            >
-              <CardHeader
-                className={cn(
-                  "border-b border-border",
-                  plan.name === "Pro" ? "bg-purple-500/[0.07]" : "",
-                  plan.name === "VIP" ? "bg-yellow-500/[0.07]" : "",
-                  plan.name === "Free" ? "bg-gray-200/[0.07]" : ""
-                )}
-              >
-                <CardTitle
-                  className={cn(
-                    plan.name !== "Pro" && plan.name !== "VIP" && plan.name !== "Free" && "text-muted-foreground",
-                    "text-lg font-medium"
-                  )}
-                >
-                  {t(`pricing.plans.${plan.name.toLowerCase()}.title`)}
-                </CardTitle>
-                <CardDescription>{t(`pricing.plans.${plan.name.toLowerCase()}.info`)}</CardDescription>
-                <h5 className="text-3xl font-semibold flex items-end">
-                  {/* Render the dollar sign ($) only for non-Free plans */}
-                  {plan.name !== "Free" && "$"}
-                  {plan.name === "Free" ? t(`pricing.plans.${plan.name.toLowerCase()}.price`) : plan.price[billingCycle]}
-                  {/* Add /month or /year only for non-Free plans */}
-                  {plan.name !== "Free" && (
-                    <span className="text-base text-muted-foreground font-normal">
-                      /{billingCycle}
-                    </span>
-                  )}
-                  {/* Render -12% badge ONLY for Pro and VIP plans */}
-                  {billingCycle === "yearly" &&
-                    (plan.name === "Pro" || plan.name === "VIP") && (
-                      <motion.span
-                        initial={{ opacity: 0, y: 10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: 10 }}
-                        transition={{ duration: 0.3, type: "spring", bounce: 0.25 }}
-                        className="px-2 py-0.5 ml-2 rounded-md bg-purple-500 text-white text-sm font-medium"
-                      >
-                        -12%
-                      </motion.span>
-                    )}
-                </h5>
-              </CardHeader>
-              <CardContent className="pt-6 space-y-4">
-                {plan.features.map((feature, index) => (
-                  <div key={index} className="flex items-center gap-2">
-                    <CheckCircleIcon className="text-purple-500 w-4 h-4" />
-                    <TooltipProvider>
-                      {feature.tooltip ? (
-                        <Tooltip delayDuration={0}>
-                          <TooltipTrigger asChild>
-                            <p className="border-b !border-dashed border-border cursor-pointer">
-                              {feature.text}
-                            </p>
-                          </TooltipTrigger>
-                          <TooltipContent>
-                            <p>{feature.tooltip}</p>
-                          </TooltipContent>
-                        </Tooltip>
-                      ) : (
-                        <p>{feature.text}</p>
-                      )}
-                    </TooltipProvider>
-                  </div>
-                ))}
-              </CardContent>
-              <CardFooter className="w-full mt-auto">
-                <Link
-                  href={plan.btn.href}
-                  style={{ width: "100%" }}
-                  className={buttonVariants({
-                    className:
-                      (plan.name === "Pro" &&
-                        "bg-purple-500 hover:bg-purple-500/80 text-white") ||
-                      (plan.name === "VIP" &&
-                        "bg-yellow-500 hover:bg-yellow-600/80 text-white"),
-                  })}
-                >
-                  {plan.btn.text}
-                </Link>
-              </CardFooter>
-            </Card>
-          ))}
-        </TabsContent>
-      ))}
-    </Tabs>
+      {/* Pricing Cards */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-6xl">
+        {/* Ambassador Card */}
+        <div className="rounded-lg border border-zinc-800 p-6 flex flex-col">
+          <h2 className="text-xl font-bold mb-2">{t('pricing.plans.ambassador.title')}</h2>
+          <p className="text-sm text-gray-300 mb-4 h-24">
+          {t('pricing.plans.ambassador.info')}
+          </p>
+          
+          <div className="mb-6">
+            <span className="text-3xl font-bold">{pricingData.ambassador[billingType].price}</span>
+            <span className="text-gray-400 text-sm">{pricingData.ambassador[billingType].period}</span>
+          </div>
+          
+          <div className="flex flex-col space-y-3 mb-auto">
+            <div className="flex items-center">
+              <span className="text-purple-500 mr-2">✓</span>
+              <span className="text-sm">{t('pricing.plans.ambassador.bullet0')}</span>
+            </div>
+            <div className="flex items-center">
+              <span className="text-purple-500 mr-2">✓</span>
+              <span className="text-sm">{t('pricing.plans.ambassador.bullet1')}</span>
+            </div>
+            <div className="flex items-center">
+              <span className="text-purple-500 mr-2">✓</span>
+              <span className="text-sm">{t('pricing.plans.ambassador.bullet2')}</span>
+            </div>
+            <div className="flex items-center">
+              <span className="text-purple-500 mr-2">✓</span>
+              <span className="text-sm">{t('pricing.plans.ambassador.bullet3')}</span>
+            </div>
+            <div className="flex items-center">
+              <span className="text-purple-500 mr-2">✓</span>
+              <span className="text-sm">{t('pricing.plans.ambassador.bullet4')}</span>
+            </div>
+            <div className="flex items-center">
+              <span className="text-purple-500 mr-2">✓</span>
+              <span className="text-sm">{t('pricing.plans.ambassador.bullet5')}</span>
+            </div>
+          </div>
+          
+          <button className="mt-6 bg-white text-black py-3 rounded-md hover:bg-gray-200 transition-colors w-full">
+          {t('common.getStarted')}
+          </button>
+        </div>
+        
+        {/* Pro Card */}
+        <div className="rounded-lg border border-purple-700 bg-gradient-to-b from-purple-900/40 to-purple-900/10 p-6 flex flex-col">
+          <h2 className="text-xl font-bold mb-2">{t('pricing.plans.pro.title')}</h2>
+          <p className="text-sm text-gray-300 mb-4 h-24">
+          {t('pricing.plans.pro.info')} 
+          </p>
+          
+          <div className="mb-6 flex items-center">
+            <span className="text-3xl font-bold">{pricingData.pro[billingType].price}</span>
+            <span className="text-gray-400 text-sm">{pricingData.pro[billingType].period}</span>
+            {billingType === 'yearly' && (
+              <span className="ml-2 bg-purple-500 text-white text-xs px-2 py-0.5 rounded">-12%</span>
+            )}
+          </div>
+          
+          <div className="flex flex-col space-y-3 mb-auto">
+            <div className="flex items-center">
+              <span className="text-purple-500 mr-2">✓</span>
+              <span className="text-sm">{t('pricing.plans.pro.bullet0')}</span>
+            </div>
+            <div className="flex items-center">
+              <span className="text-purple-500 mr-2">✓</span>
+              <span className="text-sm">{t('pricing.plans.pro.bullet1')}</span>
+            </div>
+            <div className="flex items-center">
+              <span className="text-purple-500 mr-2">✓</span>
+              <span className="text-sm">{t('pricing.plans.pro.bullet2')}</span>
+            </div>
+            <div className="flex items-center">
+              <span className="text-purple-500 mr-2">✓</span>
+              <span className="text-sm">{t('pricing.plans.pro.bullet3')}</span>
+            </div>
+            <div className="flex items-center">
+              <span className="text-purple-500 mr-2">✓</span>
+              <span className="text-sm">{t('pricing.plans.pro.bullet4')}</span>
+            </div>
+            <div className="flex items-center">
+              <span className="text-purple-500 mr-2">✓</span>
+              <span className="text-sm">{t('pricing.plans.pro.bullet5')}</span>
+            </div>
+            <div className="flex items-center">
+              <span className="text-purple-500 mr-2">✓</span>
+              <span className="text-sm">{t('pricing.plans.pro.bullet6')}</span>
+            </div>
+          </div>
+          
+          <button className="mt-6 bg-purple-500 text-white py-3 rounded-md hover:bg-purple-600 transition-colors w-full">
+          {t('common.getStarted')}
+          </button>
+        </div>
+        
+        {/* VIP Card */}
+        <div className="rounded-lg border border-yellow-700 bg-gradient-to-b from-yellow-900/40 to-yellow-900/10 p-6 flex flex-col">
+          <h2 className="text-xl font-bold mb-2">{t('pricing.plans.vip.title')}</h2>
+          <p className="text-sm text-gray-300 mb-4 h-24">
+          {t('pricing.plans.vip.info')}
+          </p>
+          
+          <div className="mb-6 flex items-center">
+            <span className="text-3xl font-bold">{pricingData.vip[billingType].price}</span>
+            <span className="text-gray-400 text-sm">{pricingData.vip[billingType].period}</span>
+            {billingType === 'yearly' && (
+              <span className="ml-2 bg-purple-500 text-white text-xs px-2 py-0.5 rounded">-12%</span>
+            )}
+          </div>
+          
+          <div className="flex flex-col space-y-3 mb-auto">
+            <div className="flex items-center">
+              <span className="text-purple-500 mr-2">✓</span>
+              <span className="text-sm">{t('pricing.plans.vip.bullet0')}</span>
+            </div>
+            <div className="flex items-center">
+              <span className="text-purple-500 mr-2">✓</span>
+              <span className="text-sm">{t('pricing.plans.vip.bullet1')}</span>
+            </div>
+            <div className="flex items-center">
+              <span className="text-purple-500 mr-2">✓</span>
+              <span className="text-sm">{t('pricing.plans.vip.bullet2')}</span>
+            </div>
+            <div className="flex items-center">
+              <span className="text-purple-500 mr-2">✓</span>
+              <span className="text-sm">{t('pricing.plans.vip.bullet3')}</span>
+            </div>
+            <div className="flex items-center">
+              <span className="text-purple-500 mr-2">✓</span>
+              <span className="text-sm">{t('pricing.plans.vip.bullet4')}</span>
+            </div>
+            <div className="flex items-center">
+              <span className="text-purple-500 mr-2">✓</span>
+              <span className="text-sm">{t('pricing.plans.vip.bullet5')}</span>
+            </div>
+            <div className="flex items-center">
+              <span className="text-purple-500 mr-2">✓</span>
+              <span className="text-sm">{t('pricing.plans.vip.bullet6')}</span>
+            </div>
+            <div className="flex items-center">
+              <span className="text-purple-500 mr-2">✓</span>
+              <span className="text-sm">{t('pricing.plans.vip.bullet7')}</span>
+            </div>
+          </div>
+          
+          <button className="mt-6 bg-yellow-500 text-black py-3 rounded-md hover:bg-yellow-400 transition-colors w-full">
+          {t('common.getStarted')}
+          </button>
+        </div>
+      </div>
+    </div>
   );
-};
-
-export default PricingCards;
+}

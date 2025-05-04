@@ -31,10 +31,10 @@ const PricingPage = () => {
                   >
                     <AnimationContainer delay={0.1}>
                       <MagicBadge title={t('pricing.title')} />
-                      <h1 className="text-2xl md:text-4xl lg:text-7xl font-semibold font-heading text-center mt-0 !leading-tight">
+                      <h1 className="text-2xl md:text-4xl lg:text-7xl font-semibold font-heading text-center mt-20 !leading-tight">
                       {t('pricing.subtitle')}
                       </h1>
-                      <p className="text-base md:text-lg mt-3 text-center text-muted-foreground">
+                      <p className="text-base md:text-lg mb-10 mt-3 text-center text-muted-foreground">
                       Choose a plan that works for you. No hidden fees. No surprises.
                       </p>
                     </AnimationContainer>
