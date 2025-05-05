@@ -95,12 +95,12 @@ export function Globe({ globeConfig, data, logos }: WorldProps) {
 
   const defaultProps = {
     pointSize: 1,
-    atmosphereColor: "rgb(255, 242, 0)", // Fully transparent atmosphere
+    atmosphereColor: "", // Fully transparent atmosphere
     showAtmosphere: true,
     atmosphereAltitude: 0.1,
     polygonColor: "rgba(255, 49, 149, 0.8)", // Semi-transparent land areas
-    globeColor: "rgba(0, 0, 0, 0)", // Fully transparent globe (water area)
-    emissive: "rgba(0, 0, 0, 0)", // Fully transparent emissive
+    globeColor: "", // Fully transparent globe (water area)
+    emissive: "", // Fully transparent emissive
     emissiveIntensity: 0.1,
     shininess: 0.9,
     arcTime: 2000,

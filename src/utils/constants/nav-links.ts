@@ -43,23 +43,23 @@ export const NAV_LINKS = [
         title: "Benefits",
         href: "/enterprise",
     },
-    {
-        title: "Resources",
-        href: "/resources",
-        menu: [
-            {
-                title: "AI Tools",
-                tagline: "Use Our AIs to generate, create and much more.",
-                href: "/resources/Aitools",
-                icon: NewspaperIcon,
-            },
-            {
-                title: "Guides",
-                tagline: "Get the best practices in digital, business and AI.",
-                href: "/resources/help",
-                icon: HelpCircleIcon,
-            },
-        ]
-    },
+    // {
+    //     title: "Resources",
+    //     href: "/resources",
+    //     menu: [
+    //         {
+    //             title: "AI Tools",
+    //             tagline: "Use Our AIs to generate, create and much more.",
+    //             href: "/resources/Aitools",
+    //             icon: NewspaperIcon,
+    //         },
+    //         {
+    //             title: "Guides",
+    //             tagline: "Get the best practices in digital, business and AI.",
+    //             href: "/resources/help",
+    //             icon: HelpCircleIcon,
+    //         },
+    //     ]
+    // },
   
 ];

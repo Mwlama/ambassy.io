@@ -88,7 +88,7 @@ export default function PricingSection() {
             </div>
           </div>
           
-          <button className="mt-6 bg-white text-black py-3 rounded-md hover:bg-gray-200 transition-colors w-full">
+          <button className="mt-6 bg-black text-white border border-white py-3 rounded-md hover:bg-gray-500 transition-colors w-full">
           {t('common.getStarted')}
           </button>
         </div>

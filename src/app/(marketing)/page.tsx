@@ -209,7 +209,7 @@ const HomePage = () => {
                             <p className="text-muted-foreground mt-6 max-w-md mx-auto">
                                 {t('cta.description')}
                             </p>
-                            <div className="mt-6">
+                            <div className="mt-6 mb-10">
                                 <Button>
                                     {t('common.getStarted')}
                                     <ArrowRightIcon className="w-4 h-4 ml-2" />

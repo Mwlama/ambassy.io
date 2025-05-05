@@ -10,18 +10,18 @@ const World = dynamic(() => import("./Globe").then((m) => m.World), {
 const GridGlobe = () => {
   const globeConfig = {
     pointSize: 9,
-    globeColor: "#212121", // Fully transparent
-    showAtmosphere: true,
-    atmosphereColor: "#212121", // Semi-transparent white
+    globeColor: "#000000", // Fully transparent
+    showAtmosphere: false,
+    atmosphereColor: "#000000", // Semi-transparent white
     atmosphereAltitude: 0.15,
-    emissive: "#212121", // Fully transparent
+    emissive: "#000000", // Fully transparent
     emissiveIntensity: 1,
     shininess: 3,
-    polygonColor: "rgb(255, 49, 149)",
-    ambientLight: "#ffffff",
+    polygonColor: "#ffffff",
+    ambientLight: "#cc007d",
     directionalLeftLight: "#ffffff",
     directionalTopLight: "#ffffff",
-    pointLight: "#ffffff",
+    pointLight: "#cc007d",
     arcTime: 1000,
     arcLength: 0.9,
     rings: 1,
