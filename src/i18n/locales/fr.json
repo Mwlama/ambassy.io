@@ -27,7 +27,8 @@
       "title": "Trouver les bons Ambassadeurs pour faire briller ",
       "titlee": "Votre Marque",
       "subtitle": "Un clic. Des milliers d'Ambassadeurs. Une marque qui Explose!!! Connectez-vous aux bonnes personnes pour toucher les bonnes audiences, dès aujourd'hui.",
-      "cta": "Essayer gratuitement"
+      "cta": "Essayer gratuitement",
+      "search":"Rechercher par produit, niche ou localisation..."
     },
     "process": {
       "title": "Le Processus",
@@ -73,7 +74,7 @@
   },
   "pricing": {
     "title": "Prix simples",
-    "subtitle": "Choisissez un forfait qui vous convient. Pas de frais cachés. Pas de surprises.",
+    "subtitle": "Choisissez un forfait qui vous convient.",
     "description": "Commencez avec Ambassy aujourd'hui et profitez de plus de fonctionnalités avec nos forfaits pro.",
     "plans": {
       "ambassador": {
@@ -133,7 +134,8 @@
   "aboutUs": {
     "badge": "À propos",
     "title": "À propos d'Ambassy",
-    "subtitle": "Transformer les relations marque-créateur grâce à l'innovation et au storytelling authentique.",
+    "subtitle": "Nous ne faisons pas que connecter les marques aux créateurs. Nous vous accompagnons pour faire décoller votre business et marquer les esprits.",
+    "boutton": "Lancez-vous dès maintenant.",
     "noCommitment": "Pas d'engagement. Annulez à tout moment.",
     "stats": {
       "brands": "Marques Mondiales",
@@ -387,50 +389,50 @@
   "hero": {
     "titl" : "AMBASSADOR",
     "title": "Transformez Votre Influence en Impact Durable",
-    "subtitle": "Rejoignez une communauté dynamique de créateurs qui transforment leur passion en carrière. Partenariats authentiques, récompenses attractives, et potentiel illimité.",
+    "subtitle": "Rejoignez une communauté de créateurs qui transforment leur passion en véritable métier. Des partenariats authentiques, des revenus concrets, un potentiel illimité.",
     "cta": "Commencer Maintenant"
   },
   "journey": {
-    "title": "Votre Parcours d'Ambassadeur",
+    "title": "Votre Compte d’Ambassadeur",
     "subtitle": "Un parcours fluide et valorisant, de votre inscription à la récompense, avec des étapes claires et transparentes à chaque instant.",
     "steps": {
       "0": {
         "title": "Postulez",
-        "description": "Mettez en avant votre univers unique et présentez votre audience en quelques clics. Valorisez votre style, nous nous occupons du reste !"
+        "description": "Créez votre profil, mettez en avant votre style unique et votre audience."
       },
       "1": {
-        "title": "Vérification",
-        "description": "Notre équipe valide rapidement votre profil et s’assure de l’authenticité de votre démarche – une réponse sous 24 heures."
+        "title": "Connexion",
+        "description": "Trouvez des marques qui partagent vos valeurs et votre univers."
       },
       "2": {
-        "title": "Rencontrez des Marques Inspirantes",
-        "description": "Accédez à une sélection de marques qui partagent vos valeurs et votre vision. Trouvez des collaborations qui vous ressemblent."
+        "title": "Collaboration",
+        "description": "Communiquer avec des Pros de votre domaine"
       },
       "3": {
         "title": "Exprimez votre Créativité",
         "description": "Imaginez et partagez du contenu authentique qui captive votre communauté et maximise votre impact."
       },
       "4": {
-        "title": "Gagnez et Soyez Récompensé(e)",
-        "description": "Monétisez votre influence : chaque clic compte, et vos efforts sont récompensés par des gains transparents et motivants."
+        "title": "Gagnez",
+        "description": "Monétisez votre influence avec différents modèles de rémunération."
       }
     }
   },
   "benefits": {
-    "title": "Ce Que Vous Gagnerez",
-    "subtitle": "Bien plus qu’un simple partenariat, Ambassy vous ouvre les portes d’un véritable écosystème dédié à la croissance et à la réussite des créateurs.",
+    "title": "L’Avantage Ambassy",
+    "subtitle": "Chez Ambassy, nous révolutionnons la collaboration entre marques et créateurs en transformant les passionnés en ambassadeurs professionnels.",
     "list": {
       "0": {
         "title": "Connexions avec des Marques Premium",
-        "description": "Collaborez avec des marques prestigieuses à la recherche d’ambassadeurs authentiques pour des relations durables et valorisantes."
+        "description": "Fini la prospection à froid. Nous vous mettons en relation avec des marques sélectionnées qui recherchent des ambassadeurs authentiques comme vous. "
       },
       "1": {
-        "title": "Rémunération transparente et équitable",
-        "description": "Partagez vos liens d’affiliation unique et gagnez de l’argent. Plus votre influence est grande, plus vos revenus augmentent : votre engagement est récompensé à la hauteur de votre impact."
+        "title": "Sécurisé & Transparence",
+        "description": "Paiements garantis, protection des créateurs, on s’occupe du business, vous vous concentrez sur la création."
       },
       "2": {
-        "title": "Développement professionnel",
-        "description": "Accédez à des ressources exclusives et à des coachings personnalisés pour perfectionner vos compétences en création de contenu."
+        "title": "Écosystème de Croissance",
+        "description": "Accédez aux statistiques et à une communauté soudée pour élever votre contenu et étendre votre influence."
       },
       "3": {
         "title": "Opportunités de croissance",
@@ -443,6 +445,36 @@
       "5": {
         "title": "Rayonnement international",
         "description": "Touchez des marques et des audiences du monde entier grâce à notre plateforme à portée globale."
+      }
+    }
+  },
+  "win": {
+    "title": "Ce que vous Gagnez avec Ambassy",
+    "subtitle": "Profitez d’un écosystème pensé pour révéler tout votre potentiel, accélérer votre réussite et vous ouvrir à de nouvelles opportunités, partout dans le monde.",
+    "list": {
+      "0": {
+        "title": "Partenariats exclusifs avec des marques haut de gamme",
+        "description": "Collaborez avec des marques qui misent sur des relations durables"
+      },
+      "1": {
+        "title": "Flexibilité totale",
+        "description": "Produits gratuits, commissions, rémunération fixe ou modèle hybride : vous choisissez. "
+      },
+      "2": {
+        "title": "Croissance personnelle et professionnelle ",
+        "description": "Développez votre image de marque et votre portée grâce à nos outils et ressources."
+      },
+      "3": {
+        "title": "Coaching & accompagnement",
+        "description": "Accédez à des formations et conseils exclusifs pour améliorer vos contenus."
+      },
+      "4": {
+        "title": "Communauté inspirante",
+        "description": "Collaborez avec des créateurs qui partagent votre vision."
+      },
+      "5": {
+        "title": "Portée internationale",
+        "description": "Connectez-vous avec des marques et audiences dans le monde entier."
       }
     }
   },
@@ -614,7 +646,7 @@
             "metrics": ""
           },
           "2": {
-            "name": "Rentop.io",
+            "name": "Rentop.co",
             "role": "Location de voitures de luxe",
             "quote": "Les options de personnalisation de la marque m'ont vraiment aidé à me démarquer. Mon profil a l'air professionnel, et j'ai vu une augmentation de l'engagement.",
             "metrics": ""
@@ -650,7 +682,128 @@
         "support": "Contacter le Support",
         "note": "Pas d'engagements à long terme. Annulez à tout moment."
       }
-    }
+    },
+    "vipPlan": {
+  "hero": {
+    "badge": "Plan VIP",
+    "title": "Le Marketing Nouvelle Génération",
+    "subtitle": "Pour seulement 299,99 $/mois, bénéficiez d’une Gestion totalement Automatisée par un gestionnaire de compte dédié et une mise en avant de vos campagnes afin de propulsé votre Business.",
+    "getStarted": "Commencer",
+    "noCommitments": "Sans engagement. Annulable à tout moment."
+  },
+  "advantages": {
+    "badge": "Pourquoi VIP ?",
+    "title": "L'Avantage du Plan VIP",
+    "subtitle": "Accédez à des outils exclusifs et à un accompagnement personnalisé pour dominer votre marché.",
+    "features": "Fonctionnalités",
+    "benefits": "Avantages",
+      "0": {
+              "title": "Gestion automatisée et intelligente des campagnes",
+              "description": "Lancez et pilotez toutes vos campagnes marketing sans effort grâce à une automatisation complète : sélection des créateurs, diffusion multicanale, suivi et optimisation en temps réel."
+            },
+            "1": {
+              "title": "Segmentation avancée et ciblage précis",
+              "description": "Profitez d’une segmentation poussée selon vos critères (niche, localisation, audience cible) pour garantir que chaque campagne touche le bon public au bon moment."
+            },
+            "2": {
+              "title": "Rapports personnalisés et analyses approfondies",
+              "description": "Recevez des rapports détaillés et des insights exploitables pour mesurer l’impact réel de vos actions et ajuster votre stratégie instantanément."
+            },
+            "3": {
+              "title": "Gain de temps et efficacité maximale",
+              "description": "Libérez-vous des tâches chronophages : concentrez-vous sur votre croissance pendant que la plateforme gère tout pour vous."
+            },
+            "4": {
+              "title": "Expérience client ultra-personnalisée",
+              "description": "Bénéficiez d’un accompagnement sur-mesure, d’un gestionnaire de compte dédié et d’avantages exclusifs réservés aux membres VIP."
+            },
+            "5": {
+              "title": "Accès à des opportunités exclusives et premium",
+              "description": "Profitez de partenariats haut de gamme, d’offres personnalisées et d’une visibilité renforcée pour accélérer votre succès et dominer votre marché."
+            }    
+  },
+  "metrics": {
+    "title": "Les Chiffres Parlent",
+    "subtitle": "Performance moyenne des utilisateurs du Plan VIP",
+            "1": {
+              "metric": "Portée Mensuelle",
+              "value": "2M+",
+              "period": "toutes plateformes confondues"
+            },
+            "2": {
+              "metric": "Taux d’Engagement",
+              "value": "30%",
+              "period": "augmentation moyenne"
+            },
+            "3": {
+              "metric": "Taux de Conversion",
+              "value": "25%",
+              "period": "augmentation moyenne"
+            },
+            "4": {
+              "metric": "ROI",
+              "value": "5x",
+              "period": "retour sur investissement moyen"
+            }
+  },
+  "testimonials": {
+    "badge": "Histoires de Réussite",
+    "title": "Avis de nos Utilisateurs VIP",
+    "subtitle": "Découvrez les témoignages de marques ayant évolué grâce à nos outils VIP.",
+    "testimonials": [
+      {
+        "0": {
+          "name": "Dermadia",
+          "role": "Cosmétique",
+          "quote": "Grâce à Ambassy, j’ai constaté une réelle hausse de mon trafic et de mes ventes. Leur accompagnement m’a permis de franchir un cap dans le développement de mon activité.",
+          "metrics": ""
+        },
+        "1": {
+          "name": "Welcome To Dubai",
+          "role": "Services de Création d’Entreprise",
+          "quote": "Le support prioritaire est incroyable. Chaque fois que j'ai une question, je reçois une réponse rapide et utile de l'équipe.",
+          "metrics": ""
+        },
+        "2": {
+          "name": "Rentop.co",
+          "role": "Location de voitures de luxe",
+          "quote": "Les options de personnalisation de la marque m'ont vraiment aidé à me démarquer. Mon profil a l'air professionnel, et j'ai vu une augmentation de l'engagement.",
+          "metrics": ""
+        }
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Questions Fréquentes",
+    "subtitle": "Tout ce que vous devez savoir sur le Plan VIP.",
+            "1": {
+              "question": "Qu’est-ce qui différencie le Plan VIP ?",
+              "answer": "Le Plan VIP inclut toutes les fonctionnalités des plans Ambassadeur et Pro, ainsi que des outils exclusifs comme les publicités TikTok, Google Ads et un gestionnaire de compte dédié."
+            },
+            "2": {
+              "question": "Y a-t-il un engagement à long terme ?",
+              "answer": "Non, le Plan VIP est un abonnement mensuel. Vous pouvez annuler à tout moment."
+            },
+            "3": {
+              "question": "Comment suivre mes résultats ?",
+              "answer": "Vous aurez accès à des rapports personnalisés et à des analyses avancées en temps réel : portée, engagement, ROI, etc."
+            },
+            "4": {
+              "question": "Quel type de marques peut en bénéficier ?",
+              "answer": "E-commerce, fitness, tech, mode et bien d’autres. Toute marque souhaitant se développer rapidement peut en profiter."
+            }
+  },
+  "cta": {
+    "badge": "Rejoignez-nous",
+    "title": "Prêt à Dominer Votre Marché ?",
+    "subtitle": "Débloquez toute la puissance du Plan VIP et faites passer votre marque au niveau supérieur.",
+    "getStarted": "Commencer",
+    "contact": "Contacter le Support",
+    "noObligations": "Aucune obligation. Aucun frais caché. Commencez votre aventure VIP dès aujourd’hui."
+  }
+}
+
   }
 
   

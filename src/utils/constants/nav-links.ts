@@ -39,10 +39,10 @@ export const NAV_LINKS = [
         title: "Pricing",
         href: "/pricing",
     },
-    {
-        title: "Benefits",
-        href: "/enterprise",
-    },
+    // {
+    //     title: "Benefits",
+    //     href: "/enterprise",
+    // },
     // {
     //     title: "Resources",
     //     href: "/resources",

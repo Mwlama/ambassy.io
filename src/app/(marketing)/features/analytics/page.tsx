@@ -12,6 +12,8 @@ import { ArrowRightIcon, CheckCircle, TrendingUp, DollarSign, Users, Globe, Zap,
 import Image from "next/image";
 import Link from "next/link";
 import { Vortex } from "@/components/ui/vortex";
+import { t } from "i18next";
+import { AnimatedTestimonialsDemo } from "@/components/ui/animatedTest";
 
 // Animation variants
 const fadeInUp = {
@@ -32,99 +34,66 @@ const staggerChildren = {
 // VIP Plan Benefits
 const vipBenefits = [
   {
-    title: "All Ambassador & Pro Features",
-    description: "Access every feature from our Ambassador and Pro plans, plus exclusive VIP tools.",
-    icon: <CheckCircle className="h-6 w-6" />
+    title: t('vipPlan.advantages.0.title'),
+    description: t('vipPlan.advantages.0.description'),
+    icon: <Globe className="h-6 w-6" />
   },
   {
-    title: "Fully Automated Management",
-    description: "Let our system handle campaign management, influencer outreach, and performance tracking.",
-    icon: <Rocket className="h-6 w-6" />
-  },
-  {
-    title: "Google Ads Campaign",
-    description: "Run high-performing Google Ads campaigns optimized for your brand.",
+    title: t('vipPlan.advantages.1.title'),
+    description: t('vipPlan.advantages.1.description'),
     icon: <Target className="h-6 w-6" />
   },
   {
-    title: "TikTok Ads Campaign",
-    description: "Leverage TikTok Ads to reach younger, highly engaged audiences.",
-    icon: <Video className="h-6 w-6" />
+    title: t('vipPlan.advantages.2.title'),
+    description: t('vipPlan.advantages.2.description'),
+    icon: <Rocket className="h-6 w-6" />
   },
   {
-    title: "TikTok Shop Integration",
-    description: "Seamlessly integrate your products into TikTok Shop for direct sales.",
-    icon: <ShoppingCart className="h-6 w-6" />
-  },
-  {
-    title: "Dedicated Account Manager",
-    description: "Get personalized support from a dedicated account manager.",
-    icon: <Headphones className="h-6 w-6" />
-  },
-  {
-    title: "Custom Reporting",
-    description: "Receive tailored reports with actionable insights for your campaigns.",
+    title: t('vipPlan.advantages.3.title'),
+    description: t('vipPlan.advantages.3.description'),
     icon: <PieChart className="h-6 w-6" />
   },
   {
-    title: "Exclusive Partnerships",
-    description: "Access exclusive brand partnerships and premium collaborations.",
-    icon: <Globe className="h-6 w-6" />
-  }
+    title: t('vipPlan.advantages.4.title'),
+    description: t('vipPlan.advantages.4.description'),
+    icon: <CheckCircle className="h-6 w-6" />
+  },
+  {
+    title: t('vipPlan.advantages.5.title'),
+    description: t('vipPlan.advantages.5.description'),
+    icon: <Headphones className="h-6 w-6" />
+  },
+  
 ];
 
 // VIP Plan Success Metrics
 const successMetrics = [
-  { metric: "Monthly Reach", value: "2M+", period: "across all platforms" },
-  { metric: "Engagement Rate", value: "30%", period: "average increase" },
-  { metric: "Conversion Rate", value: "25%", period: "average increase" },
-  { metric: "ROI", value: "5x", period: "average return on investment" }
-];
-
-// Testimonials
-const testimonials = [
-  {
-    name: "Alex M.",
-    role: "E-commerce Brand Owner",
-    image: "/api/placeholder/100/100",
-    quote: "The VIP Plan is a game-changer. My sales tripled in just 2 months thanks to TikTok Ads and automated management.",
-    metrics: "$150K revenue • 20K new customers"
-  },
-  {
-    name: "Jessica L.",
-    role: "Fitness Brand Founder",
-    image: "/api/placeholder/100/100",
-    quote: "The dedicated account manager and custom reporting made all the difference. I’ve never seen such growth!",
-    metrics: "50% growth • 25K new followers"
-  },
-  {
-    name: "Ryan T.",
-    role: "Tech Startup CEO",
-    image: "/api/placeholder/100/100",
-    quote: "The ROI is incredible. I spent $500 on the VIP Plan and generated $50K in sales within a month.",
-    metrics: "$50K revenue • 10K new leads"
-  }
+  { metric: t('vipPlan.metrics.1.metric'), value: "2M+", period: t('vipPlan.metrics.1.period') },
+  { metric: t('vipPlan.metrics.2.metric'), value: "30%", period: t('vipPlan.metrics.2.period') },
+  { metric: t('vipPlan.metrics.3.metric'), value: "25%", period: t('vipPlan.metrics.3.period') },
+  { metric: t('vipPlan.metrics.4.metric'), value: "5x", period: t('vipPlan.metrics.4.period') }
 ];
 
 // FAQ Items
 const faqItems = [
   {
-    question: "What makes the VIP Plan different?",
-    answer: "The VIP Plan includes all features from the Ambassador and Pro plans, plus exclusive tools like TikTok Ads, Google Ads, and a dedicated account manager."
+    question: t('vipPlan.faq.1.question'),
+    answer: t('ambassador.faq.1.answer')
   },
   {
-    question: "Is there a long-term commitment?",
-    answer: "No, the VIP Plan is a monthly subscription. You can cancel anytime."
+    question: t('vipPlan.faq.2.question'),
+    answer: t('ambassador.faq.2.answer')
   },
   {
-    question: "How do I track my results?",
-    answer: "You’ll get access to custom reporting and advanced analytics that show reach, engagement, and ROI in real-time."
+    question: t('vipPlan.faq.3.question'),
+    answer: t('ambassador.faq.3.answer')
   },
   {
-    question: "What kind of brands can benefit?",
-    answer: "E-commerce, fitness, tech, fashion, and more. Any brand looking to scale quickly can benefit."
+    question: t('vipPlan.faq.4.question'),
+    answer: t('ambassador.faq.4.answer')
   }
 ];
+
 
 const VIPPlanPage = () => {
   const [openFAQ, setOpenFAQ] = useState<number | null>(null);
@@ -149,23 +118,22 @@ const VIPPlanPage = () => {
             className="mx-auto flex max-w-5xl flex-col items-center justify-center px-4 text-center relative z-10"
           >
             <AnimationContainer delay={0.1}>
-            <MagicBadge title="VIP Plan" />
-            <h1 className="text-2xl md:text-4xl lg:text-7xl font-semibold font-heading text-center mt-0 !leading-tight">
-            The Ultimate Marketing Suite
+            <MagicBadge title= {t('vipPlan.hero.badge')} />
+            <h1 className="text-2xl md:text-4xl lg:text-7xl font-semibold font-heading text-center mt-20 !leading-tight">
+            {t('vipPlan.hero.title')}
             </h1>
             <p className="text-base md:text-lg mt-6 text-center text-muted-foreground">
-              For just <span className="font-bold text-fuchsia-500">$299.99/month</span>, unlock exclusive assistance like TikTok Ads & Shop, Google Ads, Meta Ads and the ultimate support of a dedicated account manager to elevate your brand’s success!.
-            </p>
+            {t('vipPlan.hero.subtitle')}            </p>
             </AnimationContainer>
             <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row justify-center gap-4">
               <Link
                 href="/get-started"
                 className="mt-4 px-8 py-4 bg-fuchsia-500/50 backdrop-blur-sm border border-white/20 text-white font-medium rounded-full hover:bg-neutral-500/30 transition-all duration-300"
               >
-                Get Started
+                {t('vipPlan.hero.getStarted')}
               </Link>
             </motion.div>
-            <p className="mt-4 text-sm text-gray-400">No commitments. Cancel anytime.</p>
+            <p className="mt-4 text-sm text-gray-400">{t('vipPlan.hero.noCommitments')}</p>
           </motion.div>
           
         </section>
@@ -174,10 +142,10 @@ const VIPPlanPage = () => {
         {/* Key Advantages Section */}
         <AnimationContainer delay={0.1} className="w-full mb-20">
           <div className="text-center mb-12">
-            <MagicBadge title="Why VIP?" />
-            <h2 className="text-3xl md:text-4xl font-bold mt-6">The VIP Plan Advantage</h2>
+            <MagicBadge title={t('vipPlan.advantages.badge')} />
+            <h2 className="text-3xl md:text-4xl font-bold mt-6">{t('vipPlan.advantages.title')}</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mt-4">
-              Access exclusive tools and personalized support to dominate your market.
+            {t('vipPlan.advantages.subtitle')}
             </p>
           </div>
 
@@ -187,20 +155,20 @@ const VIPPlanPage = () => {
               variant={activeTab === "features" ? "subtle" : "outline"}
               onClick={() => setActiveTab("features")}
             >
-              Features
+              {t('vipPlan.advantages.features')}
             </Button>
             <Button
               variant={activeTab === "benefits" ? "primary" : "outline"}
               onClick={() => setActiveTab("benefits")}
             >
-              Benefits
+              {t('vipPlan.advantages.benefits')}
             </Button>
           </div>
 
           {/* Features/Benefits Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {(activeTab === "features" ? vipBenefits.slice(0, 3) : vipBenefits.slice(3, 6)).map((benefit, index) => (
-              <div key={index} className="bg-black/40 backdrop-blur-sm border border-gray-800 rounded-2xl p-8 hover:border-gray-700 transition-all">
+              <div key={index} className="bg-black/10 backdrop-blur-sm border border-gray-800 rounded-2xl p-8 hover:border-gray-700 transition-all">
                 <div className="w-12 h-12 bg-gradient-to-br from-purple-600 to-blue-600 rounded-xl flex items-center justify-center mb-6">
                   {benefit.icon}
                 </div>
@@ -215,9 +183,9 @@ const VIPPlanPage = () => {
         <AnimationContainer delay={0.2} className="w-full mb-20">
           <div className="bg-gradient-to-br from-gray-900 to-black border border-gray-800 rounded-2xl p-10">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold">The Numbers Speak</h2>
+              <h2 className="text-white text-3xl font-bold">{t('vipPlan.metrics.title')}</h2>
               <p className="text-muted-foreground mt-4">
-                Average performance of VIP Plan users
+              {t('vipPlan.metrics.subtitle')}
               </p>
             </div>
 
@@ -238,61 +206,22 @@ const VIPPlanPage = () => {
         {/* Testimonials */}
         <AnimationContainer delay={0.3} className="w-full mb-20">
           <div className="text-center mb-12">
-            <MagicBadge title="Success Stories" />
-            <h2 className="text-3xl md:text-4xl font-bold mt-6">From Our VIP Plan Users</h2>
+            <MagicBadge title={t('vipPlan.testimonials.badge')} />
+            <h2 className="text-3xl md:text-4xl font-bold mt-6">{t('vipPlan.testimonials.title')}</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mt-4">
-              Hear directly from brands that scaled with our VIP tools.
+            {t('vipPlan.testimonials.title')}
             </p>
           </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <motion.div
-                key={index}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-                variants={fadeInUp}
-                className="p-6 bg-black/40 backdrop-blur-sm border border-gray-800 rounded-xl flex flex-col"
-              >
-                <div className="mb-4">
-                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10.8 16.2C12.1255 16.2 13.2 17.2745 13.2 18.6C13.2 19.9255 12.1255 21 10.8 21C9.47452 21 8.4 19.9255 8.4 18.6C8.4 18.3392 8.44381 18.0895 8.52428 17.8576L5.2 12V8.4H9.6V12H7.87587L10.8 16.2ZM22.8 16.2C24.1255 16.2 25.2 17.2745 25.2 18.6C25.2 19.9255 24.1255 21 22.8 21C21.4745 21 20.4 19.9255 20.4 18.6C20.4 18.3392 20.4438 18.0895 20.5243 17.8576L17.2 12V8.4H21.6V12H19.8759L22.8 16.2Z" fill="url(#paint0_linear_123_456)"/>
-                    <defs>
-                      <linearGradient id="paint0_linear_123_456" x1="5.2" y1="8.4" x2="25.2" y2="21" gradientUnits="userSpaceOnUse">
-                        <stop stopColor="#8B5CF6"/>
-                        <stop offset="1" stopColor="#3B82F6"/>
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                </div>
-                <p className="italic text-gray-300 mb-6">&quot;{testimonial.quote}&quot;</p>
-                <div className="mt-auto flex items-center">
-                  <Image 
-                    src={testimonial.image} 
-                    alt={testimonial.name} 
-                    width={48} 
-                    height={48} 
-                    className="rounded-full mr-4"
-                  />
-                  <div>
-                    <div className="font-bold">{testimonial.name}</div>
-                    <div className="text-sm text-muted-foreground">{testimonial.role}</div>
-                    <div className="text-xs text-gray-500 mt-1">{testimonial.metrics}</div>
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
+              <AnimatedTestimonialsDemo />
         </AnimationContainer>
 
         {/* FAQ Section */}
         <AnimationContainer delay={0.4} className="w-full mb-20">
           <div className="text-center mb-12">
-            <MagicBadge title="FAQ" />
-            <h2 className="text-3xl md:text-4xl font-bold mt-6">Common Questions</h2>
+            <MagicBadge title={t('vipPlan.faq.badge')} />
+            <h2 className="text-3xl md:text-4xl font-bold mt-6">{t('vipPlan.faq.title')}</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mt-4">
-              Everything you need to know about the VIP Plan.
+            {t('vipPlan.faq.subtitle')}
             </p>
           </div>
 
@@ -329,33 +258,33 @@ const VIPPlanPage = () => {
 
       {/* Final CTA Section */}
       <section className="py-20 relative">
-        <div className="absolute inset-0 bg-gradient-to-b from-black via-purple-950/20 to-black z-0"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-fuchsia-700 to-transparent z-0"></div>
         
         <MaxWidthWrapper className="relative z-10">
           <AnimationContainer delay={0.5} className="w-full">
             <div className="flex flex-col items-center justify-center text-center">
-              <MagicBadge title="Join Today" />
+              <MagicBadge title={t('vipPlan.cta.badge')} />
               <h2 className="mt-6 bg-gradient-to-b from-white to-gray-400 bg-clip-text text-4xl font-bold text-transparent sm:text-5xl md:text-6xl">
-                Ready to Dominate Your Market?
+              {t('vipPlan.cta.title')}
               </h2>
               <p className="mt-6 max-w-2xl text-lg text-gray-300">
-                Unlock the full power of the VIP Plan and take your brand to the next level.
+              {t('vipPlan.cta.subtitle')} 
               </p>
               <div className="mt-10 flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="px-10 py-7 text-lg" asChild>
                   <Link href="/dashboard">
-                    Get Started
+                  {t('vipPlan.cta.getStarted')}
                     <ArrowRightIcon className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" className="px-10 py-7 text-lg" asChild>
                   <Link href="/contact">
-                    Contact Support
+                  {t('vipPlan.cta.contact')}
                   </Link>
                 </Button>
               </div>
-              <p className="mt-6 text-sm text-muted-foreground">
-                No obligations. No hidden fees. Start your VIP journey today.
+              <p className="mt-6 text-gray-300 text-sm text-muted-foreground">
+              {t('vipPlan.cta.noObligations')}
               </p>
             </div>
           </AnimationContainer>

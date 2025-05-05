@@ -53,9 +53,8 @@ const Navbar = () => {
                         <Image
                             src="/icons/Ambassylogo.png"
                             alt="Ambassy Logo"
-                            className="w-10 h-10"
-                            width={10}
-                            height={10}
+                            width={40}
+                            height={40}
                         />
                         <span className="text-lg font-bold font-heading ">Ambassy</span>
                     </Link>

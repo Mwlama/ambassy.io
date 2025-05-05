@@ -27,7 +27,7 @@ const InternalLinksSection = () => {
                   href="/aboutUs"
                   className="inline-flex items-center px-8 py-4 bg-gray-500/50 backdrop-blur-sm border border-white/30 text-white font-medium rounded-full hover:bg-neutral-500/30 transition-all duration-300"
                 >
-                  {t('common.boutton')}
+                  {t('aboutUs.boutton')}
                   <svg
                     className="w-5 h-5 ml-3"
                     fill="none"

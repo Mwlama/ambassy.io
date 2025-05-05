@@ -70,7 +70,7 @@ const HeroSection: React.FC = () => {
                       type="text"
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
-                      placeholder="Search by product, niche, or location..."
+                      placeholder={t('home.hero.search')}
                       className="w-full px-4 py-3 sm:py-4 bg-transparent text-white placeholder-white/50 focus:outline-none text-base sm:text-lg"
                     />
                   </div>

@@ -13,6 +13,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Vortex } from "@/components/ui/vortex";
 import { t } from "i18next";
+import { AnimatedTestPro } from "@/components/ui/animatedTestPro";
 
 // Animation variants
 const fadeInUp = {
@@ -255,45 +256,7 @@ const ProPlanPage = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <motion.div
-                key={index}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-                variants={fadeInUp}
-                className="p-6 bg-black/8 backdrop-blur-sm border border-fuchsia-600 rounded-xl flex flex-col"
-              >
-                <div className="mb-4">
-                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10.8 16.2C12.1255 16.2 13.2 17.2745 13.2 18.6C13.2 19.9255 12.1255 21 10.8 21C9.47452 21 8.4 19.9255 8.4 18.6C8.4 18.3392 8.44381 18.0895 8.52428 17.8576L5.2 12V8.4H9.6V12H7.87587L10.8 16.2ZM22.8 16.2C24.1255 16.2 25.2 17.2745 25.2 18.6C25.2 19.9255 24.1255 21 22.8 21C21.4745 21 20.4 19.9255 20.4 18.6C20.4 18.3392 20.4438 18.0895 20.5243 17.8576L17.2 12V8.4H21.6V12H19.8759L22.8 16.2Z" fill="url(#paint0_linear_123_456)"/>
-                    <defs>
-                      <linearGradient id="paint0_linear_123_456" x1="5.2" y1="8.4" x2="25.2" y2="21" gradientUnits="userSpaceOnUse">
-                        <stop stopColor="#8B5CF6"/>
-                        <stop offset="1" stopColor="#3B82F6"/>
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                </div>
-                <p className="italic text-gray-500 mb-6">&quot;{testimonial.quote}&quot;</p>
-                <div className="mt-auto flex items-center">
-                  <Image 
-                    src={testimonial.image} 
-                    alt={testimonial.name} 
-                    width={58} 
-                    height={58} 
-                    className="rounded-full mr-4"
-                  />
-                  <div>
-                    <div className="font-bold">{testimonial.name}</div>
-                    <div className="text-sm text-muted-foreground">{testimonial.role}</div>
-                    <div className="text-xs text-gray-500 mt-1">{testimonial.metrics}</div>
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
+          <AnimatedTestPro />
         </AnimationContainer>
 
         {/* FAQ Section */}

@@ -1,6 +1,7 @@
 "use client";
 
 import { AnimationContainer, MaxWidthWrapper } from "@/components";
+import { AnimatedTestAmb } from "@/components/ui/animatedTestAmb";
 import { Button } from "@/components/ui/button";
 import MagicBadge from "@/components/ui/magic-badge";
 import MagicAmbassador from "@/components/ui/MagicAmbassador";
@@ -98,6 +99,39 @@ const benefits = [
   }
 ];
 
+const win = [
+  {
+    title:  t('ambassador.win.list.0.title'),
+    description: t('ambassador.win.list.0.description'),
+    icon: <Award className="h-6 w-6" />
+  },
+  {
+    title: t('ambassador.win.list.1.title'),
+    description: t('ambassador.win.list.1.description'),
+    icon: <DollarSign className="h-6 w-6" />
+  },
+  {
+    title: t('ambassador.win.list.2.title'),
+    description: t('ambassador.win.list.2.description'),
+    icon: <TrendingUp className="h-6 w-6" />
+  },
+  {
+    title: t('ambassador.win.list.3.title'),
+    description: t('ambassador.win.list.3.description'),
+    icon: <Zap className="h-6 w-6" />
+  },
+  {
+    title: t('ambassador.win.list.4.title'),
+    description: t('ambassador.win.list.4.description'),
+    icon: <Users className="h-6 w-6" />
+  },
+  {
+    title: t('ambassador.win.list.5.title'),
+    description: t('ambassador.win.list.5.description'),
+    icon: <Globe className="h-6 w-6" />
+  }
+];
+
 // Ambassador success metrics
 const successMetrics = [
   { metric: t('ambassador.metrics.items.0.label'), value: "1 200€", period: t('ambassador.metrics.items.0.period') },
@@ -106,30 +140,6 @@ const successMetrics = [
   { metric: t('ambassador.metrics.items.3.label'), value: "x3", period: t('ambassador.metrics.items.3.period') }
 ];
 
-// Ambassador testimonials
-const testimonials = [
-  {
-    name: "Sarah J.",
-    role: t('ambassador.testimonials.items.0.role'),
-    image: "/Testamonial3.jpg",
-    quote: t('ambassador.testimonials.items.0.quote'),
-    metrics: t('ambassador.testimonials.items.0.metrics')
-  },
-  {
-    name: "Mark T.",
-    role: t('ambassador.testimonials.items.1.role'),
-    image: "/Testamonial2.jpg",
-    quote: t('ambassador.testimonials.items.1.quote'),
-    metrics: t('ambassador.testimonials.items.1.metrics')
-  },
-  {
-    name: "Elena R.",
-    role: t('ambassador.testimonials.items.2.role'),
-    image: "/Testamonial4.jpg",
-    quote: t('ambassador.testimonials.items.2.quote'),
-    metrics: t('ambassador.testimonials.items.2.metrics')
-  }
-];
 
 // FAQ items
 const faqItems = [
@@ -298,10 +308,10 @@ const ForAmbassadorsPage = () => {
             <div className="text-center mt-5 mb-12">
               <MagicBadge title={t('badges.avantages')} />
               <h2 className="text-3xl md:text-4xl font-bold mt-6">
-                {t('ambassador.benefits.title')}
+                {t('ambassador.win.title')}
                 </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto mt-4">
-              {t('ambassador.benefits.subtitle')} 
+              {t('ambassador.win.subtitle')} 
               </p>
             </div>
 
@@ -312,19 +322,19 @@ const ForAmbassadorsPage = () => {
               viewport={{ once: true }}
               className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
             >
-              {benefits.map((benefit, index) => (
+              {win.map((win, index) => (
                 <motion.div
                   key={index}
                   variants={fadeInUp}
-                  className="p-6 bg-black/40 backdrop-blur-sm border border-gray-800 rounded-xl hover:border-gray-700 transition-all"
+                  className="p-6 bg-black/8 backdrop-blur-sm border border-gray-800 rounded-xl hover:border-gray-700 transition-all"
                 >
                   <div className="flex items-start mb-4">
                     <div className="mr-4 mt-1 text-blue-500">
-                      {benefit.icon}
+                      {win.icon}
                     </div>
                     <div>
-                      <h3 className="text-lg font-bold mb-2">{benefit.title}</h3>
-                      <p className="text-sm text-muted-foreground">{benefit.description}</p>
+                      <h3 className="text-lg font-bold mb-2">{win.title}</h3>
+                      <p className="text-sm text-muted-foreground">{win.description}</p>
                     </div>
                   </div>
                 </motion.div>
@@ -368,45 +378,7 @@ const ForAmbassadorsPage = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {testimonials.map((testimonial, index) => (
-                <motion.div
-                  key={index}
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true }}
-                  variants={fadeInUp}
-                  className="p-6 bg-black/8 backdrop-blur-sm border border-fuchsia-600 rounded-xl flex flex-col"
-                >
-                  <div className="mb-4">
-                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.8 16.2C12.1255 16.2 13.2 17.2745 13.2 18.6C13.2 19.9255 12.1255 21 10.8 21C9.47452 21 8.4 19.9255 8.4 18.6C8.4 18.3392 8.44381 18.0895 8.52428 17.8576L5.2 12V8.4H9.6V12H7.87587L10.8 16.2ZM22.8 16.2C24.1255 16.2 25.2 17.2745 25.2 18.6C25.2 19.9255 24.1255 21 22.8 21C21.4745 21 20.4 19.9255 20.4 18.6C20.4 18.3392 20.4438 18.0895 20.5243 17.8576L17.2 12V8.4H21.6V12H19.8759L22.8 16.2Z" fill="url(#paint0_linear_123_456)"/>
-                      <defs>
-                        <linearGradient id="paint0_linear_123_456" x1="5.2" y1="8.4" x2="25.2" y2="21" gradientUnits="userSpaceOnUse">
-                          <stop stopColor="#8B5CF6"/>
-                          <stop offset="1" stopColor="#3B82F6"/>
-                        </linearGradient>
-                      </defs>
-                    </svg>
-                  </div>
-                  <p className="italic text-gray-600 mb-6">&quot;{testimonial.quote}&quot;</p>
-                  <div className="mt-auto flex items-center">
-                    <Image
-                      src={testimonial.image}
-                      alt={testimonial.name}
-                      width={48}
-                      height={48}
-                      className="rounded-full mr-4"
-                    />
-                    <div>
-                      <div className="font-bold">{testimonial.name}</div>
-                      <div className="text-sm text-muted-foreground">{testimonial.role}</div>
-                      <div className="text-xs text-gray-500 mt-1">{testimonial.metrics}</div>
-                    </div>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
+            <AnimatedTestAmb />
           </AnimationContainer>
 
           {/* Featured Brands */}

@@ -105,7 +105,7 @@ const AboutUsPage = () => {
             href="/get-started"
             className="mt-4 px-8 py-4 bg-fuchsia-500/50 backdrop-blur-sm border border-white/20 text-white font-medium rounded-full hover:bg-neutral-500/30 transition-all duration-300"
           >
-            {t('common.getStarted')}
+            {t('aboutUs.boutton')}
           </Link>
         </motion.div>
         <p className="mt-4 text-sm text-gray-400">{t('aboutUs.noCommitment')}</p>
@@ -249,7 +249,7 @@ const AboutUsPage = () => {
       </section>
 
       {/* Team Section with improved layout */}
-      <motion.section
+      {/* <motion.section
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
@@ -294,10 +294,10 @@ const AboutUsPage = () => {
             </motion.div>
           </div>
         </div>
-      </motion.section>
+      </motion.section> */}
 
       {/* Timeline Section */}
-      <section className="py-24 bg-transparent">
+      {/* <section className="py-24 bg-transparent">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial="hidden"
@@ -342,7 +342,7 @@ const AboutUsPage = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Impact Section with data visualization */}
       <motion.section

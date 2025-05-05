@@ -27,7 +27,8 @@
       "title": "Find the right Ambassadors to make your ",
       "titlee": "Brand Shine",
       "subtitle": "One click. Thousands of ambassadors. A brand that takes off! Connect with the right people to reach the right audiences-starting today.",
-      "cta": "Try For Free"
+      "cta": "Try For Free",
+      "search":"Search by product, niche, or location..."
     },
     "process": {
       "title": "The Process",
@@ -72,7 +73,7 @@
 },
   "pricing": {
   "title": "Simple Pricing",
-  "subtitle": "Choose a plan that fits you. No hidden fees. No surprises.",
+  "subtitle": "Choose a plan that fits you.",
   "description": "Start with Ambassy today and unlock more features with our pro plans.",
   "plans": {
     "ambassador": {
@@ -392,35 +393,65 @@
         }
       },
       "benefits": {
-        "title": "What You’ll Gain",
-        "subtitle": "More than just a partnership—Ambassy opens the doors to an ecosystem dedicated to creator growth and success.",
-        "list": {
-          "0": {
-            "title": "Connections with Premium Brands",
-            "description": "Collaborate with prestigious brands seeking authentic ambassadors for long-term, rewarding relationships."
-          },
-          "1": {
-            "title": "Transparent & Fair Compensation",
-            "description": "Share your unique affiliate links and earn. The greater your influence, the more you earn—your impact is rewarded."
-          },
-          "2": {
-            "title": "Professional Development",
-            "description": "Access exclusive resources and personalized coaching to enhance your content creation skills."
-          },
-          "3": {
-            "title": "Growth Opportunities",
-            "description": "Grow your audience and build your personal brand with the power of our platform."
-          },
-          "4": {
-            "title": "Engaged Community",
-            "description": "Join a dynamic network of passionate creators, share experiences, and collaborate to go further together."
-          },
-          "5": {
-            "title": "International Reach",
-            "description": "Connect with global brands and audiences through our far-reaching platform."
-          }
-        }
+    "title": "The Ambassy Advantage",
+    "subtitle": "At Ambassy, we revolutionize collaboration between brands and creators by turning passionate individuals into professional ambassadors.",
+    "list": {
+      "0": {
+        "title": "Connections with Premium Brands",
+        "description": "Say goodbye to cold outreach. We connect you with handpicked brands looking for authentic ambassadors like you."
       },
+      "1": {
+        "title": "Secure & Transparent",
+        "description": "Guaranteed payments, creator protection—we handle the business so you can focus on creating."
+      },
+      "2": {
+        "title": "Growth Ecosystem",
+        "description": "Access analytics and a close-knit community to elevate your content and expand your influence."
+      },
+      "3": {
+        "title": "Opportunities for Growth",
+        "description": "Grow your audience and build your personal brand with the power of our platform."
+      },
+      "4": {
+        "title": "Engaged Community",
+        "description": "Join a dynamic network of passionate creators, share experiences, and collaborate to grow together."
+      },
+      "5": {
+        "title": "Global Reach",
+        "description": "Connect with brands and audiences around the world through our globally accessible platform."
+      }
+    }
+  },
+  "win": {
+    "title": "What You Gain with Ambassy",
+  "subtitle": "Take advantage of an ecosystem designed to unlock your full potential, accelerate your success, and open up new opportunities around the world.",
+    "list": {
+      "0": {
+        "title": "Exclusive Partnerships with Premium Brands",
+        "description": "Collaborate with brands that value long-term relationships."
+      },
+      "1": {
+        "title": "Total Flexibility",
+        "description": "Free products, commissions, fixed fees, or hybrid models: you choose."
+      },
+      "2": {
+        "title": "Personal and Professional Growth",
+        "description": "Boost your brand image and reach with our tools and resources."
+      },
+      "3": {
+        "title": "Coaching & Support",
+        "description": "Access exclusive training and tips to improve your content."
+      },
+      "4": {
+        "title": "Inspiring Community",
+        "description": "Collaborate with creators who share your vision."
+      },
+      "5": {
+        "title": "International Reach",
+        "description": "Connect with brands and audiences worldwide."
+      }
+    }
+  },
       "cta": {
         "title": "Ready to Become an Ambassador?",
         "description": "Join our community and start collaborating with brands today.",
@@ -625,5 +656,125 @@
         "support": "Contact Support",
         "note": "No long-term commitments. Cancel anytime. Start your 7-day free trial now."
       }
+    },
+    "vipPlan": {
+  "hero": {
+    "badge": "VIP Plan",
+    "title": "Next-Generation Marketing",
+    "subtitle": "For only $299.99/month, benefit from fully automated management by a dedicated account manager and enhanced campaign visibility to boost your business.",
+    "getStarted": "Get Started",
+    "noCommitments": "No commitments. Cancel anytime."
+  },
+  "advantages": {
+    "badge": "Why VIP?",
+    "title": "The VIP Plan Advantage",
+    "subtitle": "Access exclusive tools and personalized support to dominate your market.",
+    "features": "Features",
+    "benefits": "Benefits",
+    "0": {
+      "title": "Automated and Smart Campaign Management",
+      "description": "Launch and manage all your marketing campaigns effortlessly with complete automation: creator selection, multichannel distribution, real-time tracking and optimization."
+    },
+    "1": {
+      "title": "Advanced Segmentation and Precise Targeting",
+      "description": "Take advantage of advanced segmentation based on your criteria (niche, location, target audience) to ensure every campaign reaches the right audience at the right time."
+    },
+    "2": {
+      "title": "Custom Reports and In-Depth Analytics",
+      "description": "Receive detailed reports and actionable insights to measure the real impact of your efforts and instantly adjust your strategy."
+    },
+    "3": {
+      "title": "Time Savings and Maximum Efficiency",
+      "description": "Free yourself from time-consuming tasks: focus on growth while the platform handles everything for you."
+    },
+    "4": {
+      "title": "Ultra-Personalized Customer Experience",
+      "description": "Enjoy tailored support, a dedicated account manager, and exclusive benefits reserved for VIP members."
+    },
+    "5": {
+      "title": "Access to Exclusive and Premium Opportunities",
+      "description": "Benefit from high-end partnerships, personalized offers, and increased visibility to accelerate your success and dominate your market."
     }
+  },
+  "metrics": {
+    "title": "The Numbers Speak",
+    "subtitle": "Average performance of VIP Plan users",
+      "1":{
+        "metric": "Monthly Reach",
+        "value": "2M+",
+        "period": "across all platforms"
+      },
+      "2":{
+        "metric": "Engagement Rate",
+        "value": "30%",
+        "period": "average increase"
+      },
+      "3":{
+        "metric": "Conversion Rate",
+        "value": "25%",
+        "period": "average increase"
+      },
+      "4":{
+        "metric": "ROI",
+        "value": "5x",
+        "period": "average return on investment"
+      }
+  },
+  "testimonials": {
+    "badge": "Success Stories",
+    "title": "Feedback from Our VIP Users",
+    "subtitle": "Hear from brands that grew with our VIP tools.",
+    "testimonials": [
+      {
+        "0": {
+          "name": "Dermadia",
+          "role": "Cosmetics",
+          "quote": "Thanks to Ambassy, I saw a real increase in traffic and sales. Their support helped me take my business to the next level.",
+          "metrics": ""
+        },
+        "1": {
+          "name": "Welcome To Dubai",
+          "role": "Business Setup Services",
+          "quote": "The priority support is incredible. Every time I have a question, I get a quick and helpful response from the team.",
+          "metrics": ""
+        },
+        "2": {
+          "name": "Rentop.co",
+          "role": "Luxury Car Rentals",
+          "quote": "The brand customization options really helped me stand out. My profile looks professional, and I saw an increase in engagement.",
+          "metrics": ""
+        }
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about the VIP Plan.",
+      "1":  {
+        "question": "What makes the VIP Plan different?",
+        "answer": "The VIP Plan includes all features from the Ambassador and Pro plans, along with exclusive tools like TikTok Ads, Google Ads, and a dedicated account manager."
+      },
+      "2":{
+        "question": "Is there a long-term commitment?",
+        "answer": "No, the VIP Plan is a monthly subscription. You can cancel anytime."
+      },
+      "3":{
+        "question": "How do I track my results?",
+        "answer": "You’ll have access to custom reports and advanced real-time analytics: reach, engagement, ROI, and more."
+      },
+      "4":{
+        "question": "What types of brands can benefit?",
+        "answer": "E-commerce, fitness, tech, fashion, and many others. Any brand looking to grow quickly can benefit."
+      }
+  },
+  "cta": {
+    "badge": "Join Us",
+    "title": "Ready to Dominate Your Market?",
+    "subtitle": "Unlock the full power of the VIP Plan and take your brand to the next level.",
+    "getStarted": "Get Started",
+    "contact": "Contact Support",
+    "noObligations": "No obligations. No hidden fees. Start your VIP journey today."
   }
+}
+}
