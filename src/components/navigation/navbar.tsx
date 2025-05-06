@@ -51,7 +51,7 @@ const Navbar = () => {
                     {/* Logo and Brand Name */}
                     <Link href="/#home" className="flex items-center space-x-3">
                         <Image
-                            src="/icons/Ambassylogo.png"
+                            src="/icons/ambassy2Dok.png"
                             alt="Ambassy Logo"
                             width={40}
                             height={40}

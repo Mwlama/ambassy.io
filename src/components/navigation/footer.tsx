@@ -19,7 +19,7 @@ const Footer = () => {
                 <AnimationContainer delay={0.1}>
                     <div className="flex flex-col items-start justify-start md:max-w-[200px]">
                     <div className="flex items-start">
-                        <Image src="/icons/Ambassylogo.png" alt="Ambassy Logo"  width={200} height={200}  />
+                        <Image src="/icons/ambassy3Dok.png" alt="Ambassy Logo"  width={200} height={200}  />
                     </div>
                         
                     </div>
