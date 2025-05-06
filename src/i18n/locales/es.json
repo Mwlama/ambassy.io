@@ -18,6 +18,18 @@
   "nav": {
     "aboutus": "Sobre nosotros",
     "explore": "Explorar",
+    "amb": {
+      "title": "Para Embajadores",
+      "tagline": "Acepta, Comparte y Gana."
+    },
+    "pro": {
+      "title": "Para Profesionales",
+      "tagline": "Crea tu Ejército."
+    },
+    "vip": {
+      "title": "Para VIP",
+      "tagline": "Promoción totalmente automatizada."
+    },
     "pricing": "Precios",
     "benefits": "Beneficios",
     "resources": "Recursos"
@@ -133,6 +145,7 @@
     "badge": "Sobre nosotros",
     "title": "Sobre Ambassy",
     "subtitle": "Transformando las relaciones entre marcas y creadores a través de la innovación y la narración auténtica.",
+    "boutton": "Empieza Ahora",
     "noCommitment": "Sin compromisos. Cancela cuando quieras.",
     "stats": {
       "brands": "Marcas Globales",
@@ -423,7 +436,7 @@
   },
   "win": {
     "title": "Lo que Ganas con Ambassy",
-  "subtitle": "Aprovecha un ecosistema diseñado para revelar todo tu potencial, acelerar tu éxito y abrirte a nuevas oportunidades en todo el mundo.",
+    "subtitle": "Aprovecha un ecosistema diseñado para revelar todo tu potencial, acelerar tu éxito y abrirte a nuevas oportunidades en todo el mundo.",
     "list": {
       "0": {
         "title": "Colaboraciones Exclusivas con Marcas Premium",
@@ -607,21 +620,21 @@
         "subtitle": "Escucha a los creadores que han elevado su trayectoria con nuestro Plan Pro",
         "items": {
           "0": {
-            "name": "Dermadia",
-            "role": "Cosmética",
-            "quote": "Gracias a Ambassy, he notado un verdadero aumento en mi tráfico y mis ventas. Su acompañamiento me permitió llevar mi negocio al siguiente nivel.",
+            "name": "NeoNov",
+            "role": "Laboratorio Cosmético",
+            "quote": "Gracias a Embassy, ​​he visto un aumento significativo tanto en mi tráfico como en mis ventas. Su apoyo me ayudó a impulsar mi negocio al siguiente nivel.",
             "metrics": ""
           },
           "1": {
-            "name": "Welcome To Dubai",
+            "name": "Orma",
             "role": "Servicios de creación de empresas",
-            "quote": "El soporte prioritario es increíble. Cada vez que tengo una pregunta, recibo una respuesta rápida y útil del equipo.",
+            "quote": "Noté una gran diferencia en mi negocio después de unirme a Embajada. Todo se siente más fluido y profesional.",
             "metrics": ""
           },
           "2": {
-            "name": "Rentop.io",
+            "name": "Rentop.co",
             "role": "Alquiler de coches de lujo",
-            "quote": "Las opciones de personalización de marca realmente me han ayudado a destacar. Mi perfil se ve profesional y he notado un aumento en la participación.",
+            "quote": "Sinceramente, desearía haberme unido antes, me diste el empujón que necesitaba para hacer crecer mi marca.",
             "metrics": ""
           }
         }
@@ -723,28 +736,24 @@
     "badge": "Historias de Éxito",
     "title": "Testimonios de nuestros Usuarios VIP",
     "subtitle": "Escucha directamente de marcas que crecieron con nuestras herramientas VIP.",
-    "testimonials": [
-      {
         "0": {
           "name": "Dermadia",
           "role": "Cosméticos",
-          "quote": "Gracias a Ambassy, vi un aumento real en mi tráfico y ventas. Su apoyo me ayudó a llevar mi negocio al siguiente nivel.",
+          "quote": "Ambassy me ha dado confianza en mi proyecto. Siento que formo parte de un círculo privilegiado y eso me motiva cada día.",
           "metrics": ""
         },
         "1": {
           "name": "Welcome To Dubai",
           "role": "Servicios de Creación de Empresas",
-          "quote": "El soporte prioritario es increíble. Cada vez que tengo una pregunta, recibo una respuesta rápida y útil del equipo.",
+          "quote": "El soporte es increíble. Siempre que tengo una pregunta, recibo una respuesta rápida y útil del equipo.",
           "metrics": ""
         },
         "2": {
-          "name": "Rentop.co",
+          "name": "Orma",
           "role": "Alquiler de coches de lujo",
-          "quote": "Las opciones de personalización de la marca realmente me ayudaron a destacarme. Mi perfil se ve profesional y he notado un aumento en el compromiso.",
+          "quote": "Desde que me uní, siento que por fin estoy alcanzando mi máximo potencial. Ha sido una experiencia increíble.",
           "metrics": ""
         }
-      }
-    ]
   },
   "faq": {
     "badge": "Preguntas Frecuentes",

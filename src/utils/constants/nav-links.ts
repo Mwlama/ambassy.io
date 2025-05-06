@@ -1,4 +1,17 @@
+import { t } from "i18next";
 import { HelpCircleIcon, LineChartIcon, Link2Icon, LockIcon, NewspaperIcon, QrCodeIcon } from "lucide-react";
+
+const nav = {
+    amb: {
+        title: "AMBASSADOR",
+    },
+    pro: {
+        title: "PRO",
+    },
+    vip: {
+        title: "VIP",
+    },
+};
 
 export const NAV_LINKS = [
     {
@@ -10,19 +23,19 @@ export const NAV_LINKS = [
         href: "/features",
         menu: [
             {
-                title: "For Ambassador",
+                title: t(nav.amb.title),
                 tagline: "Accept, Share, and Earn.",
                 href: "/features/link-shortening",
                 icon: Link2Icon,
             },
             {
-                title: "For Pro",
+                title: t(nav.pro.title),
                 tagline: "Create your Army.",
                 href: "/features/password-protection",
                 icon: LockIcon,
             },
             {
-                title: "For VIP",
+                title: t(nav.vip.title),
                 tagline: "Fully Automated Promotion.",
                 href: "/features/analytics",
                 icon: LineChartIcon,

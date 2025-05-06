@@ -18,6 +18,18 @@
   "nav": {
     "aboutus": "À propos",
     "explore": "Explorer",
+    "amb": {
+      "title": "Pour Ambassadeur",
+      "tagline": "Acceptez, Partagez et Gagnez."
+    },
+    "pro": {
+      "title": "Pour les Pros",
+      "tagline": "Créez votre Armée."
+    },
+    "vip": {
+      "title": "Pour les VIP",
+      "tagline": "Promotion entièrement automatisée."
+    },
     "pricing": "Tarifs",
     "benefits": "Avantages",
     "resources": "Ressources"
@@ -135,7 +147,7 @@
     "badge": "À propos",
     "title": "À propos d'Ambassy",
     "subtitle": "Nous ne faisons pas que connecter les marques aux créateurs. Nous vous accompagnons pour faire décoller votre business et marquer les esprits.",
-    "boutton": "Lancez-vous dès maintenant.",
+    "boutton": "Lancez-vous dès maintenant",
     "noCommitment": "Pas d'engagement. Annulez à tout moment.",
     "stats": {
       "brands": "Marques Mondiales",
@@ -634,21 +646,21 @@
         "subtitle": "Écoutez les marques qui ont évolué grâce à nos outils avancés",
         "items": {
           "0": {
-            "name": "Dermadia",
-            "role": "Cosmétique",
-            "quote": "Grâce à Ambassy, j’ai constaté une réelle hausse de mon trafic et de mes ventes. Leur accompagnement m’a permis de franchir un cap dans le développement de mon activité.",
+            "name": "NeoNov",
+            "role": "Laboratoire Cosmétique",
+            "quote": "Grâce à Ambassy, j’ai constaté une véritable augmentation de mon trafic et de mes ventes. Leur accompagnement m’a permis de faire passer mon entreprise au niveau supérieur.",
             "metrics": ""
           },
           "1": {
-            "name": "Welcome To Dubai",
+            "name": "Orma",
             "role": "Services de Création d’Entreprise",
-            "quote": "Le support prioritaire est incroyable. Chaque fois que j'ai une question, je reçois une réponse rapide et utile de l'équipe.",
+            "quote": "J'ai constaté une réelle différence dans mon entreprise depuis que j'ai rejoint Ambassador. Tout semble plus fluide et plus professionnel.",
             "metrics": ""
           },
           "2": {
             "name": "Rentop.co",
             "role": "Location de voitures de luxe",
-            "quote": "Les options de personnalisation de la marque m'ont vraiment aidé à me démarquer. Mon profil a l'air professionnel, et j'ai vu une augmentation de l'engagement.",
+            "quote": "Honnêtement, j'aurais aimé vous rejoindre plus tôt, vous m'avez donné l'impulsion dont j'avais besoin pour développer ma marque.",
             "metrics": ""
           }
         }
@@ -750,28 +762,25 @@
     "badge": "Histoires de Réussite",
     "title": "Avis de nos Utilisateurs VIP",
     "subtitle": "Découvrez les témoignages de marques ayant évolué grâce à nos outils VIP.",
-    "testimonials": [
-      {
         "0": {
           "name": "Dermadia",
           "role": "Cosmétique",
-          "quote": "Grâce à Ambassy, j’ai constaté une réelle hausse de mon trafic et de mes ventes. Leur accompagnement m’a permis de franchir un cap dans le développement de mon activité.",
+          "quote": "Ambassy m’a permis de prendre confiance en mon projet. Je sens que je fais partie d’un cercle privilégié et ça me motive chaque jour",
           "metrics": ""
         },
         "1": {
           "name": "Welcome To Dubai",
           "role": "Services de Création d’Entreprise",
-          "quote": "Le support prioritaire est incroyable. Chaque fois que j'ai une question, je reçois une réponse rapide et utile de l'équipe.",
+          "quote": "Le support est incroyable. Chaque fois que j'ai une question, je reçois une réponse rapide et utile de l'équipe.",
           "metrics": ""
         },
         "2": {
-          "name": "Rentop.co",
+          "name": "Orma",
           "role": "Location de voitures de luxe",
-          "quote": "Les options de personnalisation de la marque m'ont vraiment aidé à me démarquer. Mon profil a l'air professionnel, et j'ai vu une augmentation de l'engagement.",
+          "quote": "Depuis que j'ai rejoint l'équipe, j'ai l'impression d'atteindre enfin mon plein potentiel. C'est une aventure incroyable.",
           "metrics": ""
         }
-      }
-    ]
+      
   },
   "faq": {
     "badge": "FAQ",

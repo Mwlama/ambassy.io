@@ -102,7 +102,7 @@ const AboutUsPage = () => {
         </AnimationContainer>
         <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row justify-center gap-4">
           <Link
-            href="/get-started"
+            href="https://ambassy.pages.dev/register"
             className="mt-4 px-8 py-4 bg-fuchsia-500/50 backdrop-blur-sm border border-white/20 text-white font-medium rounded-full hover:bg-neutral-500/30 transition-all duration-300"
           >
             {t('aboutUs.boutton')}
@@ -480,7 +480,7 @@ const AboutUsPage = () => {
             </motion.p>
             <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row justify-center gap-4">
               <Link
-                href="/get-started"
+                href="https://ambassy.pages.dev/register"
                 className="px-8 py-4 bg-black backdrop-blur-sm border border-white/20 text-white font-medium rounded-full hover:bg-black/30 transition-all duration-300"
               >
                 {t('common.getStarted')}

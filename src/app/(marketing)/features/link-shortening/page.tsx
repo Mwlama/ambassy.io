@@ -192,7 +192,7 @@ const ForAmbassadorsPage = () => {
             </AnimationContainer>
             <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row justify-center gap-4">
               <Link
-                href="/get-started"
+                href="https://ambassy.pages.dev/register"
                 className="mt-4 px-8 py-4 bg-fuchsia-500/50 backdrop-blur-sm border border-white/20 text-white font-medium rounded-full hover:bg-neutral-500/30 transition-all duration-300"
               >
                 {t('ambassador.hero.cta')}
@@ -465,7 +465,7 @@ const ForAmbassadorsPage = () => {
                 </p>
                 <div className="mt-10 flex flex-col sm:flex-row gap-4">
                   <Button size="lg" className="px-10 py-7 text-lg" asChild>
-                    <Link href="/dashboard">
+                    <Link href="https://ambassy.pages.dev/register">
                       {t('ambassador.finalCta.apply')}
                       <ArrowRightIcon className="ml-2 h-5 w-5" />
                     </Link>

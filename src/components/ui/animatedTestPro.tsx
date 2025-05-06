@@ -15,7 +15,7 @@ export function AnimatedTestPro() {
       name: t('proPlan.testimonials.items.0.name'),
       designation: t('proPlan.testimonials.items.0.role'),
       metrics: t('proPlan.testimonials.items.0.metrics'),
-      src: "/dermadia.png",
+      src: "/Neonovv.png",
     },
     {
       quote: t('proPlan.testimonials.items.2.quote'),

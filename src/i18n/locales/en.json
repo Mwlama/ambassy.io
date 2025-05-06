@@ -18,6 +18,18 @@
   "nav": {
     "aboutus": "About Us",
     "explore": "Explore",
+      "amb": {
+        "title": "For Ambassador",
+        "tagline": "Accept, Share, and Earn."
+      },
+      "pro": {
+        "title": "For Pro",
+        "tagline": "Create your Army."
+      },
+      "vip": {
+        "title": "For VIP",
+        "tagline": "Fully Automated Promotion."
+      },
     "pricing": "Pricing",
     "benefits": "Benefits",
     "resources": "Resources"
@@ -133,6 +145,7 @@
     "badge": "About Us",
     "title": "About Ambassy",
     "subtitle": "Transforming brand-creator relationships through innovation and authentic storytelling.",
+    "boutton": "Get Started Now",
     "noCommitment": "No commitments. Cancel anytime.",
     "stats": {
       "brands": "Global Brands",
@@ -608,21 +621,21 @@
         "subtitle": "Hear from creators who have elevated their journey with our Pro Plan",
         "items": {
           "0": {
-            "name": "Dermadia",
-            "role": "Cosmetic",
+            "name": "NeoNov",
+            "role": "Cosmetic Laboratory",
             "quote": "Thanks to Ambassy, I’ve seen a real increase in both my traffic and my sales. Their support helped me take my business to the next level.",
             "metrics": ""
           },
           "1": {
-            "name": "Welcome To Dubai",
-            "role": "Business Creation Services",
-            "quote": "The priority support is amazing. Whenever I have a question, I get a quick and helpful response from the team.",
+            "name": "Orma",
+            "role": "Cosmetic for Men",
+            "quote": "I noticed a real difference in my business after joining ambassy. Everything just feels smoother and more professional.",
             "metrics": ""
           },
           "2": {
-            "name": "Rentop.io",
+            "name": "Rentop.co",
             "role": "Luxury Car Rental",
-            "quote": "The custom branding options have really helped me stand out. My profile looks professional, and I've seen an increase in engagement.",
+            "quote": "Honestly, I wish I had joined sooner, you gave me the push I needed to grow my brand.",
             "metrics": ""
           }
         }
@@ -724,28 +737,24 @@
     "badge": "Success Stories",
     "title": "Feedback from Our VIP Users",
     "subtitle": "Hear from brands that grew with our VIP tools.",
-    "testimonials": [
-      {
         "0": {
           "name": "Dermadia",
           "role": "Cosmetics",
-          "quote": "Thanks to Ambassy, I saw a real increase in traffic and sales. Their support helped me take my business to the next level.",
+          "quote": "Ambassy has given me confidence in my project. I feel like I'm part of a privileged circle and that motivates me every day.",
           "metrics": ""
         },
         "1": {
           "name": "Welcome To Dubai",
           "role": "Business Setup Services",
-          "quote": "The priority support is incredible. Every time I have a question, I get a quick and helpful response from the team.",
+          "quote": "The support is amazing. Whenever I have a question, I receive a quick and helpful response from the team.",
           "metrics": ""
         },
         "2": {
-          "name": "Rentop.co",
+          "name": "Orma",
           "role": "Luxury Car Rentals",
-          "quote": "The brand customization options really helped me stand out. My profile looks professional, and I saw an increase in engagement.",
+          "quote": "Since I joined, I feel like I’m finally reaching my true potential. It’s been an amazing journey.",
           "metrics": ""
         }
-      }
-    ]
   },
   "faq": {
     "badge": "FAQ",
