@@ -126,12 +126,22 @@ const VIPPlanPage = () => {
             {t('vipPlan.hero.subtitle')}            </p>
             </AnimationContainer>
             <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row justify-center gap-4">
-              <Link
-                href="https://ambassy.pages.dev/register"
-                className="mt-4 px-8 py-4 bg-fuchsia-500/50 backdrop-blur-sm border border-white/20 text-white font-medium rounded-full hover:bg-neutral-500/30 transition-all duration-300"
-              >
-                {t('vipPlan.hero.getStarted')}
-              </Link>
+            <Link
+              href="https://ambassy.pages.dev/register"
+              className="mt-4 px-8 py-4 relative bg-gradient-to-r from-fuchsia-500 to-purple-500 backdrop-blur-sm border border-white/20 text-white text-bold font-medium rounded-full hover:from-fuchsia-600 hover:to-purple-600 hover:border-white/40 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-fuchsia-500/20 hover:shadow-xl active:shadow-md active:scale-95 overflow-hidden group"
+            >
+              {/* Glow effect */}
+              <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-fuchsia-500/50 to-purple-500/50 blur-xl opacity-0 group-hover:opacity-70 transition-opacity duration-300"></span>
+              
+              {/* Shine effect */}
+              <span className="absolute -inset-x-full top-0 h-full w-1/2 bg-gradient-to-r from-transparent via-white/20 to-transparent transform -skew-x-12 group-hover:animate-[shine_1.5s_ease_infinite] opacity-0 group-hover:opacity-100"></span>
+              
+              {/* Inner highlight */}
+              <span className="absolute inset-0 rounded-full bg-gradient-to-b from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+              
+              {/* Text with proper z-index */}
+              <span className="relative z-10">{t('vipPlan.hero.getStarted')}</span>
+            </Link>
             </motion.div>
             <p className="mt-4 text-sm text-gray-400">{t('vipPlan.hero.noCommitments')}</p>
           </motion.div>
@@ -258,7 +268,7 @@ const VIPPlanPage = () => {
 
       {/* Final CTA Section */}
       <section className="py-20 relative">
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-fuchsia-700 to-transparent z-0"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-fuchsia-700/70 to-transparent z-0"></div>
         
         <MaxWidthWrapper className="relative z-10">
           <AnimationContainer delay={0.5} className="w-full">
@@ -277,11 +287,11 @@ const VIPPlanPage = () => {
                     <ArrowRightIcon className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
-                <Button size="lg" variant="outline" className="px-10 py-7 text-lg" asChild>
+                {/* <Button size="lg" variant="outline" className="px-10 py-7 text-lg" asChild>
                   <Link href="/contact">
                   {t('vipPlan.cta.contact')}
                   </Link>
-                </Button>
+                </Button> */}
               </div>
               <p className="mt-6 text-gray-300 text-sm text-muted-foreground">
               {t('vipPlan.cta.noObligations')}

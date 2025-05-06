@@ -101,12 +101,22 @@ const AboutUsPage = () => {
           </p>
         </AnimationContainer>
         <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row justify-center gap-4">
-          <Link
-            href="https://ambassy.pages.dev/register"
-            className="mt-4 px-8 py-4 bg-fuchsia-500/50 backdrop-blur-sm border border-white/20 text-white font-medium rounded-full hover:bg-neutral-500/30 transition-all duration-300"
-          >
-            {t('aboutUs.boutton')}
-          </Link>
+        <Link
+              href="https://ambassy.pages.dev/register"
+              className="mt-4 px-8 py-4 relative bg-gradient-to-r from-fuchsia-500 to-purple-500 backdrop-blur-sm border border-white/20 text-white text-bold font-medium rounded-full hover:from-fuchsia-600 hover:to-purple-600 hover:border-white/40 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-fuchsia-500/20 hover:shadow-xl active:shadow-md active:scale-95 overflow-hidden group"
+            >
+              {/* Glow effect */}
+              <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-fuchsia-500/50 to-purple-500/50 blur-xl opacity-0 group-hover:opacity-70 transition-opacity duration-300"></span>
+              
+              {/* Shine effect */}
+              <span className="absolute -inset-x-full top-0 h-full w-1/2 bg-gradient-to-r from-transparent via-white/20 to-transparent transform -skew-x-12 group-hover:animate-[shine_1.5s_ease_infinite] opacity-0 group-hover:opacity-100"></span>
+              
+              {/* Inner highlight */}
+              <span className="absolute inset-0 rounded-full bg-gradient-to-b from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+              
+              {/* Text with proper z-index */}
+              <span className="relative z-10">{t('aboutUs.boutton')}</span>
+            </Link>
         </motion.div>
         <p className="mt-4 text-sm text-gray-400">{t('aboutUs.noCommitment')}</p>
       </motion.div>
@@ -235,7 +245,7 @@ const AboutUsPage = () => {
               <motion.div
                 key={index}
                 variants={fadeInUp}
-                className="p-8 bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 hover:bg-gray-800/70 transition-all duration-300 group"
+                className="p-8 bg-black-800/10 backdrop-blur-sm border border-fuchsia-600 hover:bg-gray-500 transition-all duration-300 group"
               >
                 <div className="text-4xl mb-4 text-fuchsia-500 group-hover:text-blue-600 transition-colors duration-300">
                   {value.icon}
