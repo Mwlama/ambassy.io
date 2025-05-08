@@ -46,7 +46,7 @@ export function Integrations({
             <div className="flex h-full w-full flex-row items-stretch justify-between gap-10">
                 <div className="flex flex-col justify-center">
                     <Circle ref={div7Ref}>
-                        <Icons.user className="text-black" />
+                        <Icons.user className="h-20 w-20" />
                     </Circle>
                 </div>
                 <div className="flex flex-col justify-center">

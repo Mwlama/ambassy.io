@@ -4,7 +4,7 @@ import Image from 'next/image';
 export const Icons = {
     logo: (props: LucideProps) => (
         <Image 
-        src="/Ambassylogo.png" 
+        src="/ambassy2Dok.png" 
         alt="Logo" 
         width={1600} 
         height={1600} 

@@ -34,7 +34,7 @@ const HomePage = () => {
             </MaxWidthWrapper >
           {/* Key Advantages Section */}
           <AnimationContainer delay={0.1} >
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-20 mx-auto max-w-7xl">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-10 mx-auto max-w-7xl">
             <div className="bg-black/8 backdrop-blur-sm border border-fuchsia-800 rounded-2xl p-8 hover:border-gray-500 transition-all mx-auto max-w-sm text-center">
                 <h3 className="text-xl font-bold mb-3">
                 {t('benef.list.0.title')}
