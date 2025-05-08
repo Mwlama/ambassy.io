@@ -60,10 +60,10 @@ const MobileNavbar = () => {
                                 </Link>
                             ) : (
                                 <>
-                                    <Link href="/auth/sign-in" className={buttonVariants({ variant: "outline", className: "w-full" })}>
+                                    <Link href="https://ambassy.pages.dev/login" className={buttonVariants({ variant: "outline", className: "w-full" })}>
                                         {t('common.signIn')}
                                     </Link>
-                                    <Link href="/auth/sign-up" className={buttonVariants({ className: "w-full" })}>
+                                    <Link href="https://ambassy.pages.dev/login" className={buttonVariants({ className: "w-full" })}>
                                         {t('common.signUp')}
                                     </Link>
                                 </>

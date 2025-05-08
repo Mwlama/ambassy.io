@@ -70,7 +70,7 @@ const VideoBanner: React.FC = () => {
                 href={video.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-none w-[250px] group"
+                className="flex-none w-[200px] group"
               >
                 <div className="relative rounded-2xl overflow-hidden shadow-lg bg-transparent transition-transform group-hover:scale-105">
                   <div className="aspect-[9/16]">

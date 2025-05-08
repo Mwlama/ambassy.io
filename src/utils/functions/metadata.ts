@@ -13,12 +13,12 @@ export const generateMetadata = ({
         {
             rel: "icon",
             sizes: "32x32",
-            url: "/Ambassylogo.png"
+            url: "/ambassy2Dok.png"
         },
         {
             rel: "icon",
             sizes: "16x16",
-            url: "/Ambassylogo.png"
+            url: "/ambassy2Dok.png"
         },
     ],
     noIndex = false
