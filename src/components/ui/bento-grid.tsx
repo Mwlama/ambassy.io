@@ -16,8 +16,8 @@ export const CARDS = [
         Icon: Link2Icon,
         name: t('features.bento.items.0.title'),
         description: t('features.bento.items.0.subtitle') ,
-        href: "/features/password-protection",
-        cta: "Learn more",
+        href: "https://ambassy.pages.dev/register",
+        cta: t('ambassador.hero.cta'),
         className: "col-span-3 lg:col-span-1",
         background: (
             <Card className="absolute top-10 left-10 origin-top rounded-none rounded-tl-md transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_0%,#000_100%)] group-hover:scale-105 border border-border border-r-0">
@@ -46,8 +46,8 @@ export const CARDS = [
         Icon: SearchIcon,
         name: t('features.bento.items.1.title'),
         description: t('features.bento.items.1.subtitle'),
-        href: "/features/password-protection",
-        cta: "Learn more",
+        href: "https://ambassy.pages.dev/register",
+        cta: t('ambassador.hero.cta'),
         className: "col-span-3 lg:col-span-2",
         background: (
             <Command className="absolute right-10 top-10 w-[70%] origin-to translate-x-0 border border-border transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_40%,#000_100%)] group-hover:-translate-x-10 p-2">
@@ -67,8 +67,8 @@ export const CARDS = [
         Icon: WaypointsIcon,
         name: t('features.bento.items.2.title'),
         description: t('features.bento.items.2.subtitle'),
-        href: "/features/password-protection",
-        cta: "Learn more",
+        href: "https://ambassy.pages.dev/register",
+        cta: t('ambassador.hero.cta'),
         className: "col-span-3 lg:col-span-2 max-w-full overflow-hidden",
         background: (
             <Integrations className="absolute right-2 pl-28 md:pl-0 top-4 h-[300px] w-[600px] border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
@@ -79,12 +79,12 @@ export const CARDS = [
         name: t('features.bento.items.3.title'),
         description: t('features.bento.items.3.subtitle'),
         className: "col-span-3 lg:col-span-1",
-        href: "/features/password-protection",
-        cta: "Learn more",
+        href: "https://ambassy.pages.dev/register",
+        cta: t('ambassador.hero.cta'),
         background: (
             <Calendar
                 mode="single"
-                selected={new Date(2022, 4, 11, 0, 0, 0)}
+                selected={new Date(2025, 4, 11, 0, 0, 0)}
                 className="absolute right-0 top-10 origin-top rounded-md border border-border transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_40%,#000_100%)] group-hover:scale-105"
             />
         ),

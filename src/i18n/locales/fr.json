@@ -44,8 +44,8 @@
     },
     "process": {
       "title": "Le Processus",
-      "subtitle": "Transformez les abonnés en clients, les ambassadeurs en votre force de vente",
-      "description": "Ambassy est la plateforme ultime qui connecte les professionnels avec un réseau sélectionné d'ambassadeurs de médias sociaux, permettant des campagnes marketing ciblées, traçables et transformatives qui convertissent la portée des médias sociaux en revenus réels."
+      "subtitle": "Transformez les abonnés en Clients, les Ambassadeurs en votre force de vente",
+      "description": "Ambassy est la plateforme qui connecte les professionnels avec un réseau d'ambassadeurs de réseaux sociaux, permettant des campagnes marketing ciblées, traçables et transformatives qui convertissent la portée des réseaux sociaux en revenus réels."
     }
   },
   "badges":{
@@ -80,12 +80,12 @@
       },
       "2": {
         "title": "Gestion Simplifiée",
-        "description": "Lancez votre campagne, suivez vos performances et développez vos ventes sur un tableau de bord intuitif."
+        "description": "Lancez votre Campagne, suivez vos Performances et développez vos ventes sur un tableau de bord intuitif."
       }
     }
   },
   "pricing": {
-    "title": "Prix simples",
+    "title": "Prix",
     "subtitle": "Choisissez un forfait qui vous convient.",
     "description": "Commencez avec Ambassy aujourd'hui et profitez de plus de fonctionnalités avec nos forfaits pro.",
     "plans": {
@@ -189,7 +189,7 @@
     },
     "team": {
       "title": "Notre Équipe",
-      "description": "Rencontrez la force motrice d'Influencer: une équipe dynamique de rêveurs, créateurs et innovateurs, qui redéfinissent l'avenir du marketing. Avec une passion collective et une expertise unique, nos collaborateurs transforment les données en action, la créativité en impact, et les nouvelles idées en nouvelles réalités.",
+      "description": "Rencontrez la force motrice d'Ambassadeur: une équipe dynamique de rêveurs, créateurs et innovateurs, qui redéfinissent l'avenir du marketing. Avec une passion collective et une expertise unique, nos collaborateurs transforment les données en action, la créativité en impact, et les nouvelles idées en nouvelles réalités.",
       "members": "Membres d'Équipe",
       "countries": "Pays",
       "languages": "Langues",
@@ -328,7 +328,7 @@
     "items": {
       "0": {
         "title": "Trouvez et Recrutez des Ambassadeurs en Quelques Secondes",
-        "subtitle": "Commencez à partager, suivez les ventes et recevez votre argent.",
+        "subtitle": "Commencez à partager, suivez les impacts et recevez votre Argent.",
         "cardTitle": "Commencer",
         "cardDescription": "Envoyez la procédure et les liens d’affiliation à l’Ambassadeur",
         "0": "Collez votre procédure",
@@ -338,9 +338,9 @@
         "title": "Lancez une Campagne, Donnez du Pouvoir aux Ambassadeurs et Laissez votre Produit se Répandre comme une Traînée de Poudre !",
         "subtitle": "Trouvez rapidement, partagez et discutez avec votre armée d’Ambassadeurs.",
         "cardTitle": "Cherchez votre Ambassadeur",
-        "0": "Hmi.shopify/hdf00c",
-        "1": "MrBeast.shopify/sdv0n0",
-        "2": "candace.shopify/03gndo",
+        "0": "Hmii.shopify/hdf00c",
+        "1": "MrsBeast.shopify/sdv0n0",
+        "2": "Nasdass.shopify/03gndo",
         "3": "Poupette.shopify/09vmmw",
         "4": "dylan.shopify/s09vws",
         "5": "julien.shopify/sd8fv5"
@@ -400,7 +400,7 @@
   "ambassador": {
   "hero": {
     "titl" : "AMBASSADOR",
-    "title": "Transformez Votre Influence en Impact Durable",
+    "title": "Transformez Votre Influence en Impact",
     "subtitle": "Rejoignez une communauté de créateurs qui transforment leur passion en véritable métier. Des partenariats authentiques, des revenus concrets, un potentiel illimité.",
     "cta": "Commencer Maintenant"
   },

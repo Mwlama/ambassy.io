@@ -51,7 +51,7 @@ export function Integrations({
                 </div>
                 <div className="flex flex-col justify-center">
                     <Circle ref={div6Ref} className="h-16 w-16">
-                        <Icons.openai className="h-6 w-6" />
+                        <Icons.openai />
                     </Circle>
                 </div>
                 <div className="flex flex-col justify-center gap-2">
@@ -115,8 +115,9 @@ export function Integrations({
 }
 
 const Icons = {
-    openai: (props: LucideProps) => (
-         <img src="/icons/ambassy2Dok.png" alt="Facebook" className="h-10 w-10" width={10} height={10} />
+    openai: () => (
+         <img src="/icons/ambassy2Dok.png" alt="Ambassy" className="h-10 w-10" />
+         
     ),
     user: (props: LucideProps) => (
         <svg
