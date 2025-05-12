@@ -1,6 +1,6 @@
-// // auth
-// import SignInForm from "./auth/signin-form";
-// import SignUpForm from "./auth/signup-form";
+// auth
+import SignInForm from "./auth/signin-form";
+import SignUpForm from "./auth/signup-form";
 
 // global
 import { Icons } from "./global/icons";
@@ -22,8 +22,8 @@ import PricingCards from "./pricing-cards";
 
 
 export {
-    // SignInForm,
-    // SignUpForm,
+    SignInForm,
+    SignUpForm,
 
     Icons,
     MaxWidthWrapper,
