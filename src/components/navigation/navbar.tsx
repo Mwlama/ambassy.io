@@ -133,12 +133,12 @@ const Navbar = () => {
                             
                             <div className="flex items-center gap-x-4">
                                 <Link
-                                    href="https://ambassy.lovable.app/"
+                                    href="https://ambassy.lovable.app/login"
                                     className={buttonVariants({ size: "sm", variant: "ghost" })}
                                 >
                                     {t('common.signIn')}
                                 </Link>
-                                <Link href="https://ambassy.lovable.app/" className={buttonVariants({ size: "sm" })}>
+                                <Link href="https://ambassy.lovable.app/register" className={buttonVariants({ size: "sm" })}>
                                     {t('common.getStarted')}
                                     <ZapIcon className="size-3.5 ml-1.5 text-fuchsia-600 fill-fuchsia-500" />
                                 </Link>

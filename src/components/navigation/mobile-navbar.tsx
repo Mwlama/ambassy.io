@@ -60,10 +60,10 @@ const MobileNavbar = () => {
                                 </Link>
                             ) : (
                                 <>
-                                    <Link href="https://ambassy.lovable.app/" className={buttonVariants({ variant: "outline", className: "w-full" })}>
+                                    <Link href="https://ambassy.lovable.app/login" className={buttonVariants({ variant: "outline", className: "w-full" })}>
                                         {t('common.signIn')}
                                     </Link>
-                                    <Link href="https://ambassy.lovable.app/" className={buttonVariants({ className: "w-full" })}>
+                                    <Link href="https://ambassy.lovable.app/register" className={buttonVariants({ className: "w-full" })}>
                                         {t('common.signUp')}
                                     </Link>
                                 </>

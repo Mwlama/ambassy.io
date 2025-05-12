@@ -16,7 +16,7 @@ export const CARDS = [
         Icon: Link2Icon,
         name: t('features.bento.items.0.title'),
         description: t('features.bento.items.0.subtitle') ,
-        href: "https://ambassy.lovable.app/",
+        href: "https://ambassy.lovable.app/register",
         cta: t('ambassador.hero.cta'),
         className: "col-span-3 lg:col-span-1",
         background: (
@@ -46,7 +46,7 @@ export const CARDS = [
         Icon: SearchIcon,
         name: t('features.bento.items.1.title'),
         description: t('features.bento.items.1.subtitle'),
-        href: "https://ambassy.lovable.app/",
+        href: "https://ambassy.lovable.app/register",
         cta: t('ambassador.hero.cta'),
         className: "col-span-3 lg:col-span-2",
         background: (
@@ -67,7 +67,7 @@ export const CARDS = [
         Icon: WaypointsIcon,
         name: t('features.bento.items.2.title'),
         description: t('features.bento.items.2.subtitle'),
-        href: "https://ambassy.lovable.app/",
+        href: "https://ambassy.lovable.app/register",
         cta: t('ambassador.hero.cta'),
         className: "col-span-3 lg:col-span-2 max-w-full overflow-hidden",
         background: (
@@ -79,7 +79,7 @@ export const CARDS = [
         name: t('features.bento.items.3.title'),
         description: t('features.bento.items.3.subtitle'),
         className: "col-span-3 lg:col-span-1",
-        href: "https://ambassy.lovable.app/",
+        href: "https://ambassy.lovable.app/register",
         cta: t('ambassador.hero.cta'),
         background: (
             <Calendar
