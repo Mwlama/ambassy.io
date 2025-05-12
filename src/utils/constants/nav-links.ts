@@ -14,19 +14,19 @@ export const NAV_LINKS = [
             {
                 title: "Plan",
                 tagline: "AMBASSADOR",
-                href: "/features/link-shortening",
+                href: "/features/ambassador",
                 icon: Link2Icon,
             },
             {
                 title: "Plan",
                 tagline: "PRO",
-                href: "/features/password-protection",
+                href: "/features/pro",
                 icon: LockIcon,
             },
             {
                 title: "Plan",
                 tagline: "VIP",
-                href: "/features/analytics",
+                href: "/features/vip",
                 icon: LineChartIcon,
             },
             // {

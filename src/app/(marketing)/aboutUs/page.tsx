@@ -102,7 +102,7 @@ const AboutUsPage = () => {
         </AnimationContainer>
         <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row justify-center gap-4">
         <Link
-              href="https://ambassy.pages.dev/register"
+              href="https://ambassy.lovable.app/"
               className="mt-4 px-8 py-4 relative bg-gradient-to-r from-fuchsia-500 to-purple-500 backdrop-blur-sm border border-white/20 text-white text-bold font-medium rounded-full hover:from-fuchsia-600 hover:to-purple-600 hover:border-white/40 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-fuchsia-500/20 hover:shadow-xl active:shadow-md active:scale-95 overflow-hidden group"
             >
               {/* Glow effect */}
@@ -490,7 +490,7 @@ const AboutUsPage = () => {
             </motion.p>
             <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row justify-center gap-4">
               <Link
-                href="https://ambassy.pages.dev/register"
+                href="https://ambassy.lovable.app/"
                 className="px-8 py-4 bg-black backdrop-blur-sm border border-white/20 text-white font-medium rounded-full hover:bg-black/30 transition-all duration-300"
               >
                 {t('common.getStarted')}

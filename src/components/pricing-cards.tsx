@@ -1,6 +1,7 @@
 "use client";
 
 import { t } from 'i18next';
+import Link from 'next/link';
 import { useState } from 'react';
 
 export default function PricingSection() {
@@ -87,10 +88,11 @@ export default function PricingSection() {
               <span className="text-sm">{t('pricing.plans.ambassador.bullet5')}</span>
             </div>
           </div>
-          
+          <Link href="https://ambassy.lovable.app" passHref>
           <button className="mt-6 bg-black text-white border border-white py-3 rounded-md hover:bg-gray-500 transition-colors w-full">
           {t('common.getStarted')}
           </button>
+          </Link>
         </div>
         
         {/* Pro Card */}
@@ -138,10 +140,11 @@ export default function PricingSection() {
               <span className="text-sm">{t('pricing.plans.pro.bullet6')}</span>
             </div>
           </div>
-          
+          <Link href="https://ambassy.lovable.app" passHref>
           <button className="mt-6 bg-purple-500 text-white py-3 rounded-md hover:bg-purple-600 transition-colors w-full">
           {t('common.getStarted')}
           </button>
+          </Link>
         </div>
         
         {/* VIP Card */}
@@ -194,9 +197,11 @@ export default function PricingSection() {
             </div>
           </div>
           
-          <button className="mt-6 bg-yellow-500 text-black py-3 rounded-md hover:bg-yellow-400 transition-colors w-full">
-          {t('common.getStarted')}
-          </button>
+          <Link href="https://ambassy.lovable.app" passHref>
+            <button className="mt-6 bg-yellow-500 text-black py-3 rounded-md hover:bg-yellow-400 transition-colors w-full">
+              {t('common.getStarted')}
+            </button>
+          </Link>
         </div>
       </div>
     </div>

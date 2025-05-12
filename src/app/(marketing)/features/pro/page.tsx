@@ -5,15 +5,15 @@ import { AnimationContainer, MaxWidthWrapper } from "@/components";
 import { Button } from "@/components/ui/button";
 import { LampContainer } from "@/components/ui/lamp";
 import MagicBadge from "@/components/ui/magic-badge";
-import MagicVIP from "@/components/ui/MagicVIP";
+import MagicPro from "@/components/ui/MagicPro";
 import { COMPANIES } from "@/utils";
 import { motion } from 'framer-motion';
-import { ArrowRightIcon, CheckCircle, TrendingUp, DollarSign, Users, Globe, Zap, Shield, BarChart, MessageCircle, Settings, Video, Rocket, Target, PieChart, Headphones, ShoppingCart } from "lucide-react";
+import { ArrowRightIcon, CheckCircle, TrendingUp, DollarSign, Users, Globe, Zap, Shield, BarChart, MessageCircle, Settings, Video } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { Vortex } from "@/components/ui/vortex";
 import { t } from "i18next";
-import { AnimatedTestimonialsDemo } from "@/components/ui/animatedTest";
+import { AnimatedTestPro } from "@/components/ui/animatedTestPro";
 
 // Animation variants
 const fadeInUp = {
@@ -31,71 +31,104 @@ const staggerChildren = {
   }
 };
 
-// VIP Plan Benefits
-const vipBenefits = [
+// Pro Plan Benefits
+const proBenefits = [
   {
-    title: t('vipPlan.advantages.0.title'),
-    description: t('vipPlan.advantages.0.description'),
-    icon: <Globe className="h-6 w-6" />
-  },
-  {
-    title: t('vipPlan.advantages.1.title'),
-    description: t('vipPlan.advantages.1.description'),
-    icon: <Target className="h-6 w-6" />
-  },
-  {
-    title: t('vipPlan.advantages.2.title'),
-    description: t('vipPlan.advantages.2.description'),
-    icon: <Rocket className="h-6 w-6" />
-  },
-  {
-    title: t('vipPlan.advantages.3.title'),
-    description: t('vipPlan.advantages.3.description'),
-    icon: <PieChart className="h-6 w-6" />
-  },
-  {
-    title: t('vipPlan.advantages.4.title'),
-    description: t('vipPlan.advantages.4.description'),
+    title: t('proPlan.features.list.0.title'),
+    description: t('proPlan.features.list.0.description'),
     icon: <CheckCircle className="h-6 w-6" />
   },
   {
-    title: t('vipPlan.advantages.5.title'),
-    description: t('vipPlan.advantages.5.description'),
-    icon: <Headphones className="h-6 w-6" />
+    title: t('proPlan.features.list.1.title'),
+    description: t('proPlan.features.list.1.description'),
+    icon: <BarChart className="h-6 w-6" />
   },
-  
+  {
+    title: t('proPlan.features.list.2.title'),
+    description: t('proPlan.features.list.2.description'),
+    icon: <Shield className="h-6 w-6" />
+  },
+  {
+    title: t('proPlan.features.list.3.title'),
+    description: t('proPlan.features.list.3.description'),
+    icon: <Settings className="h-6 w-6" />
+  },
+  {
+    title: t('proPlan.features.list.4.title'),
+    description: t('proPlan.features.list.4.description'),
+    icon: <Users className="h-6 w-6" />
+  },
+  {
+    title: t('proPlan.features.list.5.title'),
+    description: t('proPlan.features.list.5.description'),
+    icon: <TrendingUp className="h-6 w-6" />
+  },
+  {
+    title: t('proPlan.features.list.6.title'),
+    description: t('proPlan.features.list.6.description'),
+    icon: <MessageCircle className="h-6 w-6" />
+  },
+  {
+    title: t('proPlan.features.list.7.title'),
+    description: t('proPlan.features.list.7.description'),
+    icon: <Video className="h-6 w-6" />
+  }
 ];
 
-// VIP Plan Success Metrics
+// Pro Plan Success Metrics
 const successMetrics = [
-  { metric: t('vipPlan.metrics.1.metric'), value: "2M+", period: t('vipPlan.metrics.1.period') },
-  { metric: t('vipPlan.metrics.2.metric'), value: "30%", period: t('vipPlan.metrics.2.period') },
-  { metric: t('vipPlan.metrics.3.metric'), value: "25%", period: t('vipPlan.metrics.3.period') },
-  { metric: t('vipPlan.metrics.4.metric'), value: "5x", period: t('vipPlan.metrics.4.period') }
+  { metric: t('proPlan.metrics.items.0.label'), value: t('proPlan.metrics.items.0.value'), period: t('proPlan.metrics.items.0.period') },
+  { metric: t('proPlan.metrics.items.1.label'), value: t('proPlan.metrics.items.1.value'), period: t('proPlan.metrics.items.1.period') },
+  { metric: t('proPlan.metrics.items.2.label'), value: t('proPlan.metrics.items.2.value'), period: t('proPlan.metrics.items.2.period') },
+  { metric: t('proPlan.metrics.items.3.label'), value: t('proPlan.metrics.items.3.value'), period: t('proPlan.metrics.items.3.period') }
+];
+
+// Testimonials
+const testimonials = [
+  {
+    name: t('proPlan.testimonials.items.0.name'),
+    role: t('proPlan.testimonials.items.0.role'),
+    image: "/pro1.png",
+    quote: t('proPlan.testimonials.items.0.quote'),
+    metrics: t('proPlan.testimonials.items.0.metrics')
+  },
+  {
+    name: t('proPlan.testimonials.items.1.name'),
+    role: t('proPlan.testimonials.items.1.role'),
+    image: "/pro2.png",
+    quote: t('proPlan.testimonials.items.1.quote'),
+    metrics: t('proPlan.testimonials.items.1.metrics')
+  },
+  {
+    name: t('proPlan.testimonials.items.2.name'),
+    role: t('proPlan.testimonials.items.2.role'),
+    image: "/pro4.png",
+    quote: t('proPlan.testimonials.items.2.quote'),
+    metrics: t('proPlan.testimonials.items.2.metrics')
+  }
 ];
 
 // FAQ Items
 const faqItems = [
   {
-    question: t('vipPlan.faq.1.question'),
-    answer: t('ambassador.faq.1.answer')
+    question: t('proPlan.faq.items.0.question'),
+    answer: t('proPlan.faq.items.0.answer')
   },
   {
-    question: t('vipPlan.faq.2.question'),
-    answer: t('ambassador.faq.2.answer')
+    question: t('proPlan.faq.items.1.question'),
+    answer: t('proPlan.faq.items.1.answer')
   },
   {
-    question: t('vipPlan.faq.3.question'),
-    answer: t('ambassador.faq.3.answer')
+    question: t('proPlan.faq.items.2.question'),
+    answer: t('proPlan.faq.items.2.answer')
   },
   {
-    question: t('vipPlan.faq.4.question'),
-    answer: t('ambassador.faq.4.answer')
+    question: t('proPlan.faq.items.3.question'),
+    answer: t('proPlan.faq.items.3.answer')
   }
 ];
 
-
-const VIPPlanPage = () => {
+const ProPlanPage = () => {
   const [openFAQ, setOpenFAQ] = useState<number | null>(null);
   const [activeTab, setActiveTab] = useState<"features" | "benefits">("features");
 
@@ -118,16 +151,17 @@ const VIPPlanPage = () => {
             className="mx-auto flex max-w-5xl flex-col items-center justify-center px-4 text-center relative z-10"
           >
             <AnimationContainer delay={0.1}>
-            <MagicBadge title= {t('vipPlan.hero.badge')} />
+            <MagicBadge title={t('proPlan.hero.titl')} />
             <h1 className="text-2xl md:text-4xl lg:text-7xl font-semibold font-heading text-center mt-20 !leading-tight">
-            {t('vipPlan.hero.title')}
+              {t('proPlan.hero.title')}
             </h1>
             <p className="text-base md:text-lg mt-6 text-center text-muted-foreground">
-            {t('vipPlan.hero.subtitle')}            </p>
+            {t('proPlan.hero.subtitle')}
+            </p>
             </AnimationContainer>
             <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row justify-center gap-4">
             <Link
-              href="https://ambassy.pages.dev/register"
+              href="https://ambassy.lovable.app/"
               className="mt-4 px-8 py-4 relative bg-gradient-to-r from-fuchsia-500 to-purple-500 backdrop-blur-sm border border-white/20 text-white text-bold font-medium rounded-full hover:from-fuchsia-600 hover:to-purple-600 hover:border-white/40 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-fuchsia-500/20 hover:shadow-xl active:shadow-md active:scale-95 overflow-hidden group"
             >
               {/* Glow effect */}
@@ -140,45 +174,50 @@ const VIPPlanPage = () => {
               <span className="absolute inset-0 rounded-full bg-gradient-to-b from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
               
               {/* Text with proper z-index */}
-              <span className="relative z-10">{t('vipPlan.hero.getStarted')}</span>
+              <span className="relative z-10">{t('proPlan.hero.cta')}</span>
             </Link>
             </motion.div>
-            <p className="mt-4 text-sm text-gray-400">{t('vipPlan.hero.noCommitments')}</p>
+            <p className="mt-4 text-sm text-gray-400">
+              {t('proPlan.cta.note')}
+              </p>
           </motion.div>
           
         </section>
+
 
       <MaxWidthWrapper className="py-20">
         {/* Key Advantages Section */}
         <AnimationContainer delay={0.1} className="w-full mb-20">
           <div className="text-center mb-12">
-            <MagicBadge title={t('vipPlan.advantages.badge')} />
-            <h2 className="text-3xl md:text-4xl font-bold mt-6">{t('vipPlan.advantages.title')}</h2>
+            <MagicBadge title="Why Pro?" />
+            <h2 className="text-3xl md:text-4xl font-bold mt-6">
+            {t('proPlan.features.title')}
+            </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mt-4">
-            {t('vipPlan.advantages.subtitle')}
+            {t('proPlan.features.subtitle')}
             </p>
           </div>
 
           {/* Toggle Between Features and Benefits */}
           <div className="flex justify-center gap-4 mb-8">
             <Button
-              variant={activeTab === "features" ? "subtle" : "outline"}
+              variant={activeTab === "features" ? "primary" : "outline"}
               onClick={() => setActiveTab("features")}
             >
-              {t('vipPlan.advantages.features')}
+              {t('common.features')}
             </Button>
             <Button
               variant={activeTab === "benefits" ? "primary" : "outline"}
               onClick={() => setActiveTab("benefits")}
             >
-              {t('vipPlan.advantages.benefits')}
+              {t('common.benefits')}
             </Button>
           </div>
 
           {/* Features/Benefits Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {(activeTab === "features" ? vipBenefits.slice(0, 3) : vipBenefits.slice(3, 6)).map((benefit, index) => (
-              <div key={index} className="bg-black/10 backdrop-blur-sm border border-gray-800 rounded-2xl p-8 hover:border-gray-700 transition-all">
+            {(activeTab === "features" ? proBenefits.slice(0, 3) : proBenefits.slice(3, 6)).map((benefit, index) => (
+              <div key={index} className="bg-black/8 backdrop-blur-sm border border-fuchsia-600 rounded-2xl p-8 hover:border-gray-700 transition-all">
                 <div className="w-12 h-12 bg-gradient-to-br from-purple-600 to-blue-600 rounded-xl flex items-center justify-center mb-6">
                   {benefit.icon}
                 </div>
@@ -192,10 +231,12 @@ const VIPPlanPage = () => {
         {/* Success Metrics */}
         <AnimationContainer delay={0.2} className="w-full mb-20">
           <div className="bg-gradient-to-br from-gray-900 to-black border border-gray-800 rounded-2xl p-10">
-            <div className="text-center mb-12">
-              <h2 className="text-white text-3xl font-bold">{t('vipPlan.metrics.title')}</h2>
+            <div className="text-white text-center mb-12">
+              <h2 className="text-3xl font-bold">
+              {t('proPlan.metrics.title')}
+                </h2>
               <p className="text-muted-foreground mt-4">
-              {t('vipPlan.metrics.subtitle')}
+              {t('proPlan.metrics.subtitle')}
               </p>
             </div>
 
@@ -216,22 +257,27 @@ const VIPPlanPage = () => {
         {/* Testimonials */}
         <AnimationContainer delay={0.3} className="w-full mb-20">
           <div className="text-center mb-12">
-            <MagicBadge title={t('vipPlan.testimonials.badge')} />
-            <h2 className="text-3xl md:text-4xl font-bold mt-6">{t('vipPlan.testimonials.title')}</h2>
+            <MagicBadge title="Success Stories" />
+            <h2 className="text-3xl md:text-4xl font-bold mt-6">
+            {t('proPlan.testimonials.title')}
+            </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mt-4">
-            {t('vipPlan.testimonials.title')}
+            {t('proPlan.testimonials.subtitle')}
             </p>
           </div>
-              <AnimatedTestimonialsDemo />
+
+          <AnimatedTestPro />
         </AnimationContainer>
 
         {/* FAQ Section */}
-        <AnimationContainer delay={0.4} className="w-full mb-20">
+        <AnimationContainer delay={0.4} className="w-full">
           <div className="text-center mb-12">
-            <MagicBadge title={t('vipPlan.faq.badge')} />
-            <h2 className="text-3xl md:text-4xl font-bold mt-6">{t('vipPlan.faq.title')}</h2>
+            <MagicBadge title="FAQ" />
+            <h2 className="text-3xl md:text-4xl font-bold mt-6">
+              {t('proPlan.faq.title')}
+            </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mt-4">
-            {t('vipPlan.faq.subtitle')}
+            {t('proPlan.faq.subtitle')}
             </p>
           </div>
 
@@ -268,42 +314,40 @@ const VIPPlanPage = () => {
 
       {/* Final CTA Section */}
       <section className="py-20 relative">
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-fuchsia-700/70 to-transparent z-0"></div>
+        <div className="absolute inset-0 bg-transparent"></div>
         
         <MaxWidthWrapper className="relative z-10">
           <AnimationContainer delay={0.5} className="w-full">
             <div className="flex flex-col items-center justify-center text-center">
-              <MagicBadge title={t('vipPlan.cta.badge')} />
-              <h2 className="mt-6 bg-gradient-to-b from-white to-gray-400 bg-clip-text text-4xl font-bold text-transparent sm:text-5xl md:text-6xl">
-              {t('vipPlan.cta.title')}
+              <MagicBadge title="Join Today" />
+              <h2 className="mt-6 bg-gradient-to-b from-gray-200 via-gray-500 to-gray-400 bg-clip-text text-4xl font-bold text-transparent sm:text-5xl md:text-6xl">
+              {t('proPlan.cta.title')}
               </h2>
-              <p className="mt-6 max-w-2xl text-lg text-gray-300">
-              {t('vipPlan.cta.subtitle')} 
+              <p className="mt-6 max-w-2xl text-lg text-gray-400">
+              {t('proPlan.cta.description')}
               </p>
               <div className="mt-10 flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="px-10 py-7 text-lg" asChild>
-                  <Link href="https://ambassy.pages.dev/register">
-                  {t('vipPlan.cta.getStarted')}
+                  <Link href="https://ambassy.lovable.app/">
+                  {t('proPlan.cta.apply')}
                     <ArrowRightIcon className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
                 {/* <Button size="lg" variant="outline" className="px-10 py-7 text-lg" asChild>
                   <Link href="/contact">
-                  {t('vipPlan.cta.contact')}
-                  </Link>
+                  {t('proPlan.cta.support')}                  </Link>
                 </Button> */}
               </div>
-              <p className="mt-6 text-gray-300 text-sm text-muted-foreground">
-              {t('vipPlan.cta.noObligations')}
+              <p className="mt-6 text-sm text-muted-foreground">
+              {t('proPlan.cta.note')}
               </p>
             </div>
           </AnimationContainer>
         </MaxWidthWrapper>
       </section>
-    </div>
+      </div>
     </>
-    
   );
 };
 
-export default VIPPlanPage;
+export default ProPlanPage;
