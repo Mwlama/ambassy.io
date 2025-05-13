@@ -9,13 +9,13 @@ const INTERNAL_LINKS = [
   {
     titleKey: "twoWays.ambassador.title",
     descriptionKey: "twoWays.ambassador.description",
-    link: "/features/link-shortening",
+    link: "/features/ambassador",
     image: "/assets/twoways1.jpg", // Path to the team image
   },
   {
     titleKey: "twoWays.pro.title",
     descriptionKey: "twoWays.pro.description",
-    link: "/features/password-protection",
+    link: "/features/pro",
     image: "/assets/twoways2.jpg", // Path to the about image
   },
 ];
