@@ -561,6 +561,7 @@
         "cta": "Upgrade Now"
       },
       "features": {
+        "titl" :"Why Pro?",
         "title": "What You Get with the Pro Plan",
         "subtitle": "Enhance your capabilities with a suite of powerful features designed to help you succeed.",
         "list": {
@@ -636,6 +637,12 @@
             "name": "Rentop.co",
             "role": "Luxury Car Rental",
             "quote": "Honestly, I wish I had joined sooner, you gave me the push I needed to grow my brand.",
+            "metrics": ""
+          },
+          "3": {
+            "name": "The Masked Chef",
+            "role": "Fast-Food",
+            "quote": "Thanks to Ambassy, our ambassadors can easily share their positive experiences. It creates great momentum and gets people talking about us naturally!",
             "metrics": ""
           }
         }

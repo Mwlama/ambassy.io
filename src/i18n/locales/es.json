@@ -560,6 +560,7 @@
         "cta": "Mejorar Ahora"
       },
       "features": {
+        "titl" :"¿Por qué Pro?",
         "title": "Lo que Obtienes con el Plan Pro",
         "subtitle": "Mejora tus capacidades con una suite de funciones potentes diseñadas para ayudarte a tener éxito.",
         "list": {
@@ -635,6 +636,12 @@
             "name": "Rentop.co",
             "role": "Alquiler de coches de lujo",
             "quote": "Sinceramente, desearía haberme unido antes, me diste el empujón que necesitaba para hacer crecer mi marca.",
+            "metrics": ""
+          },
+          "3": {
+            "name": "The Masked Chef",
+            "role": "Comida Rápida",
+            "quote": "Gracias a Ambassy, nuestros embajadores comparten fácilmente sus experiencias positivas. ¡Esto crea una verdadera dinámica y hace que se hable de nosotros de forma natural!",
             "metrics": ""
           }
         }

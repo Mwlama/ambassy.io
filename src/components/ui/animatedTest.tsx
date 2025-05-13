@@ -7,7 +7,7 @@ export function AnimatedTestimonialsDemo() {
       quote: t('vipPlan.testimonials.1.quote'),
       name: t('vipPlan.testimonials.1.name'),
       designation: t('vipPlan.testimonials.1.role'),
-      src: "/pro2.png",
+      src: "/wtd.png",
     },
     {
       quote: t('vipPlan.testimonials.0.quote'),
@@ -16,9 +16,9 @@ export function AnimatedTestimonialsDemo() {
       src: "/dermadia.png",
     },
     {
-      quote: t('vipPlan.testimonials.2.quote'),
-      name: t('vipPlan.testimonials.2.name'),
-      designation: t('vipPlan.testimonials.2.role'),
+      quote: t('proPlan.testimonials.items.1.quote'),
+      name: t('proPlan.testimonials.items.1.name'),
+      designation: t('proPlan.testimonials.items.1.role'),
       src: "/Orma.jpg",
     },
   ];

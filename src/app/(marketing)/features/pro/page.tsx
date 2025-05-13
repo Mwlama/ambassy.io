@@ -95,7 +95,7 @@ const testimonials = [
   {
     name: t('proPlan.testimonials.items.1.name'),
     role: t('proPlan.testimonials.items.1.role'),
-    image: "/pro2.png",
+    image: "/masked.jpeg",
     quote: t('proPlan.testimonials.items.1.quote'),
     metrics: t('proPlan.testimonials.items.1.metrics')
   },
@@ -189,7 +189,7 @@ const ProPlanPage = () => {
         {/* Key Advantages Section */}
         <AnimationContainer delay={0.1} className="w-full mb-20">
           <div className="text-center mb-12">
-            <MagicBadge title="Why Pro?" />
+            <MagicBadge title={t('proPlan.features.titl')} />
             <h2 className="text-3xl md:text-4xl font-bold mt-6">
             {t('proPlan.features.title')}
             </h2>

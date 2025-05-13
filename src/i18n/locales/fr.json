@@ -586,6 +586,7 @@
         "cta": "Passer au Plan Pro"
       },
       "features": {
+        "titl" :"Pourquoi Pro?",
         "title": "Ce que Vous Obtenez avec le Plan Pro",
         "subtitle": "Améliorez vos capacités avec une suite de fonctionnalités puissantes conçues pour vous aider à réussir.",
         "list": {
@@ -653,7 +654,7 @@
           },
           "1": {
             "name": "Orma",
-            "role": "Services de Création d’Entreprise",
+            "role": "Cosmétique Homme",
             "quote": "J'ai constaté une réelle différence dans mon entreprise depuis que j'ai rejoint Ambassador. Tout semble plus fluide et plus professionnel.",
             "metrics": ""
           },
@@ -661,6 +662,12 @@
             "name": "Rentop.co",
             "role": "Location de voitures de luxe",
             "quote": "Honnêtement, j'aurais aimé vous rejoindre plus tôt, vous m'avez donné l'impulsion dont j'avais besoin pour développer ma marque.",
+            "metrics": ""
+          },
+          "3": {
+            "name": "The Masked Chef",
+            "role": "Restauration Rapide",
+            "quote": "Grâce à Ambassy, nos ambassadeurs partagent facilement leur expérience positive. Ça crée une vraie dynamique et fait parler de nous naturellement!",
             "metrics": ""
           }
         }
