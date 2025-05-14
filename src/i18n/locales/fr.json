@@ -45,7 +45,7 @@
     "process": {
       "title": "Le Processus",
       "subtitle": "Transformez les abonnés en Clients, les Ambassadeurs en votre force de vente",
-      "description": "Ambassy est la plateforme qui connecte les professionnels avec un réseau d'ambassadeurs de réseaux sociaux, permettant des campagnes marketing ciblées, traçables et transformatives qui convertissent la portée des réseaux sociaux en revenus réels."
+      "description": "Ambassy connecte les professionnels à un réseau d’ambassadeurs sur les réseaux sociaux, permettant des campagnes marketing ciblées et traçables qui transforment la portée sur les réseaux sociaux en résultats concrets."
     }
   },
   "badges":{
@@ -310,7 +310,7 @@
   },
   "twoWays": {
     "title": "Lancez-vous",
-    "subtitle": "Deux façons de commencer avec Ambassy",
+    "subtitle": "Deux Façons de Commencer avec Ambassy",
     "description": "Unissez vos forces avec Ambassy pour amplifier la présence de votre marque grâce à notre réseau d'ambassadeurs passionnés.",
     "ambassador": {
       "title": "Ambassadeur",
