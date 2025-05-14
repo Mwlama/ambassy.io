@@ -17,6 +17,7 @@ import SearchBar from "@/components/searchBar";
 import InternalLinksSection from "@/components/ui/aboutUs";
 import TwoWays from "@/components/ui/twoWays";
 import { useTranslation } from "react-i18next";
+import BackToUp from "@uiw/react-back-to-top";
 
 const ThemeToggle = dynamic(() => import("@/components/ui/ThemeToggle"), { ssr: false });
 
@@ -25,7 +26,21 @@ const HomePage = () => {
     const { t } = useTranslation();
 
     return (
-        <div className="overflow-x-hidden scrollbar-hide size-full">                    
+        <div className="overflow-x-hidden scrollbar-hide size-full"> 
+       
+            <BackToUp
+                style={{ position: "fixed", bottom: 20, right: 80 }}
+                
+                width={50}
+                height={50}
+                
+
+                onClick={() => {
+                    window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
+            >/\</BackToUp>
+            
+                        
             {/* Hero Section */}
             <MaxWidthWrapper>
                 <div className="flex flex-col justify-center w-full">

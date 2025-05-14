@@ -428,7 +428,7 @@ const AboutUsPage = () => {
         </div>
       </motion.section>
 
-      {/* Partner Logos Section */}
+      {/* Partner Logos Section
       <section className="py-20 bg-black">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -462,7 +462,7 @@ const AboutUsPage = () => {
             ))}
           </motion.div>
         </div>
-      </section>
+      </section> */}
 
       {/* Final CTA Section */}
       <motion.section
