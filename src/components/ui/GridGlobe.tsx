@@ -10,7 +10,7 @@ const World = dynamic(() => import("./Globe").then((m) => m.World), {
 const GridGlobe = () => {
   const globeConfig = {
     pointSize: 9,
-    globeColor: "#000000", // Fully transparent
+    globeColor: "#222831", // Fully transparent
     showAtmosphere: false,
     atmosphereColor: "#000000", // Semi-transparent white
     atmosphereAltitude: 0.15,
