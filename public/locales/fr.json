@@ -1,6 +1,6 @@
 {
   "common": {
-    "getStarted": "Commencer",
+    "getStarted": "Lancez-Vous",
     "learnMore": "En savoir plus",
     "signIn": "Se connecter",
     "signUp": "S'inscrire",
@@ -162,7 +162,7 @@
     },
     "pro": {
       "title": "Pro & VIP",
-      "description": "Collaborez avec l'équipe d'experts d'Ambassy pour amplifier la portée de votre marque, en exploitant notre armée d'ambassadeurs influents pour générer des résultats pour les marques e-commerce en pleine croissance."
+      "description": "Collaborez avec une armée d'ambassadeurs pour amplifier la portée de votre marque, en exploitant notre armée d'ambassadeurs influents pour générer des résultats pour les marques e-commerce en pleine croissance."
     }
   },
   "stats": {

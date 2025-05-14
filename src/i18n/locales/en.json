@@ -38,7 +38,7 @@
     "hero": {
       "title": "Find the right Ambassadors to make your ",
       "titlee": "Brand Shine",
-      "subtitle": "One click. Thousands of ambassadors. A brand that takes off! Connect with the right people to reach the right audiences-starting today.",
+      "subtitle": "Connect with thousands of ambassadors and watch your brand soar, all with one click.",
       "cta": "Try For Free",
       "search":"Search by product, niche, or location..."
     },
@@ -130,7 +130,9 @@
     "product": "Product",
     "features": "Features",
     "pricing": "Pricing",
-    "integration": "Integration",
+    "ambassador": "Ambassador",
+    "pro": "PRO",
+    "vip": "VIP",
     "payments": "Payments",
     "company": "Company",
     "aboutUs": "About Us",
@@ -377,7 +379,7 @@
         "titl" : "AMBASSADOR",
         "title": "Turn Your Influence into Impact",
         "subtitle": "Join a vibrant community of creators turning passion into a career. Authentic partnerships, rewarding incentives, and unlimited potential.",
-        "cta": "Get Started Now"
+        "cta": "Join the Community"
       },
       "journey": {
         "title": "Your Ambassador Journey",

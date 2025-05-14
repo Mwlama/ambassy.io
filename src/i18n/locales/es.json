@@ -38,7 +38,7 @@
     "hero": {
       "title": "Encuentra a los Embajadores ideales para hacer brillar ",
       "titlee": "Tu Marca",
-      "subtitle": "Un clic. Miles de embajadores. ¡Una marca que despega! Conecta con las personas adecuadas para llegar a las audiencias adecuadas, ¡desde hoy!",
+      "subtitle": "Conéctate con miles de embajadores y observa cómo tu marca despega, todo con un solo clic.",
       "cta": "Prueba gratis",
       "search":"Buscar por producto, nicho o ubicación..."
     },
@@ -130,7 +130,9 @@
     "product": "Producto",
     "features": "Características",
     "pricing": "Precios",
-    "integration": "Integración",
+    "ambassador": "Embajador",
+    "pro": "PRO",
+    "vip": "VIP",
     "payments": "Pagos",
     "company": "Empresa",
     "aboutUs": "Sobre nosotros",

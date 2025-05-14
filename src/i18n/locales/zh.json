@@ -38,7 +38,7 @@
     "hero": {
       "title": "寻找合适的品牌大使，让您的",
       "titlee": "品牌闪耀",
-      "subtitle": "一键点击，数千位大使，腾飞品牌！立即联系合适的人，触达合适的受众。",
+      "subtitle": "只需一键，连接成千上万的品牌大使，让您的品牌腾飞。",
       "cta": "免费试用",
       "search":"按产品、细分市场或位置搜索..."
     },
@@ -130,7 +130,9 @@
     "product": "产品",
     "features": "功能",
     "pricing": "价格",
-    "integration": "集成",
+    "ambassador": "大使",
+    "pro": "专业版",
+    "vip": "贵宾",
     "payments": "支付",
     "company": "公司",
     "aboutUs": "关于我们",

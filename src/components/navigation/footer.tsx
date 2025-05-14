@@ -39,19 +39,24 @@ const Footer = () => {
                                         </Link>
                                     </li>
                                     <li className="mt-2">
-                                        <Link href="" className="hover:text-foreground transition-all duration-300">
+                                        <Link href="/pricing" className="hover:text-foreground transition-all duration-300">
                                             {t('footer.pricing')}
                                         </Link>
                                     </li>
                                     
                                     <li className="mt-2">
-                                        <Link href="" className="hover:text-foreground transition-all duration-300">
-                                            {t('footer.integration')}
+                                        <Link href="/feature/ambassador" className="hover:text-foreground transition-all duration-300">
+                                            {t('footer.ambassador')}
                                         </Link>
                                     </li>
                                     <li className="mt-2">
-                                        <Link href="/payment" className="hover:text-foreground transition-all duration-300">
-                                            {t('footer.payments')}
+                                        <Link href="/feature/pro" className="hover:text-foreground transition-all duration-300">
+                                            {t('footer.pro')}
+                                        </Link>
+                                    </li>
+                                    <li className="mt-2">
+                                        <Link href="/features/vip" className="hover:text-foreground transition-all duration-300">
+                                            {t('footer.vip')}
                                         </Link>
                                     </li>
                                 </ul>

@@ -1,6 +1,6 @@
 {
   "common": {
-    "getStarted": "Commencer",
+    "getStarted": "Lancez-Vous",
     "learnMore": "En savoir plus",
     "signIn": "Se connecter",
     "signUp": "S'inscrire",
@@ -38,7 +38,7 @@
     "hero": {
       "title": "Trouver les bons Ambassadeurs pour faire briller ",
       "titlee": "Votre Marque",
-      "subtitle": "Un clic. Des milliers d'Ambassadeurs. Une marque qui Explose!!! Connectez-vous aux bonnes personnes pour toucher les bonnes audiences, dès aujourd'hui.",
+      "subtitle": "Connectez-vous avec des milliers d’ambassadeurs et voyez votre marque décoller, le tout en un seul clic.",
       "cta": "Essayer gratuitement",
       "search":"Rechercher par produit, niche ou localisation..."
     },
@@ -132,8 +132,9 @@
     "product": "Produit",
     "features": "Fonctionnalités",
     "pricing": "Tarifs",
-    "integration": "Intégration",
-    "payments": "Paiements",
+    "ambassador": "Ambassadeur",
+    "pro": "PRO",
+    "vip": "VIP",
     "company": "Entreprise",
     "aboutUs": "À propos",
     "privacyPolicy": "Politique de confidentialité",
@@ -317,7 +318,7 @@
     },
     "pro": {
       "title": "Pro & VIP",
-      "description": "Collaborez avec l'équipe d'experts d'Ambassy pour amplifier la portée de votre marque, en exploitant notre armée d'ambassadeurs influents pour générer des résultats pour les marques e-commerce en pleine croissance."
+      "description": "Collaborez avec une armée d'ambassadeurs pour amplifier la portée de votre marque, en exploitant notre armée d'ambassadeurs influents pour générer des résultats pour les marques e-commerce en pleine croissance."
     }
   },
   "features": {
@@ -402,7 +403,7 @@
     "titl" : "AMBASSADOR",
     "title": "Transformez Votre Influence en Impact",
     "subtitle": "Rejoignez une communauté de créateurs qui transforment leur passion en véritable métier. Des partenariats authentiques, des revenus concrets, un potentiel illimité.",
-    "cta": "Commencer Maintenant"
+    "cta": "Rejoignez la Communauté"
   },
   "journey": {
     "title": "Votre Compte d’Ambassadeur",
@@ -707,7 +708,7 @@
     "badge": "Plan VIP",
     "title": "Le Marketing Nouvelle Génération",
     "subtitle": "Pour seulement 299,99 $/mois, bénéficiez d’une Gestion totalement Automatisée par un gestionnaire de compte dédié et une mise en avant de vos campagnes afin de propulsé votre Business.",
-    "getStarted": "Commencer",
+    "getStarted": "Passer au Plan VIP",
     "noCommitments": "Sans engagement. Annulable à tout moment."
   },
   "advantages": {
@@ -814,7 +815,7 @@
     "badge": "Rejoignez-nous",
     "title": "Prêt à Dominer Votre Marché ?",
     "subtitle": "Débloquez toute la puissance du Plan VIP et faites passer votre marque au niveau supérieur.",
-    "getStarted": "Commencer",
+    "getStarted": "Lancez-Vous",
     "contact": "Contacter le Support",
     "noObligations": "Aucune obligation. Aucun frais caché. Commencez votre aventure VIP dès aujourd’hui."
   }
