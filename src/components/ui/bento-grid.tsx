@@ -14,8 +14,8 @@ import { t } from "i18next";
 export const CARDS = [
     {
         Icon: Link2Icon,
-        name: t('features.bento.items.0.title'),
-        description: t('features.bento.items.0.subtitle') ,
+        name: t('bento.items.0.title'),
+        description: t('bento.items.0.subtitle') ,
         href: "https://ambassy.lovable.app/register",
         cta: t('ambassador.hero.cta'),
         className: "col-span-3 lg:col-span-1",
@@ -23,19 +23,19 @@ export const CARDS = [
             <Card className="absolute top-10 left-10 origin-top rounded-none rounded-tl-md transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_0%,#000_100%)] group-hover:scale-105 border border-border border-r-0">
                 <CardHeader>
                     <CardTitle>
-                    {t('features.bento.items.0.cardTitle')}
+                    {t('bento.items.0.cardTitle')}
                     </CardTitle>
                     <CardDescription>
-                    {t('features.bento.items.0.cardDescription')}
+                    {t('bento.items.0.cardDescription')}
                     </CardDescription>
                 </CardHeader>
                 <CardContent className="-mt-4">
                     <Label>
-                    {t('features.bento.items.0.0')} 
+                    {t('bento.items.0.0')} 
                     </Label>
                     <Input
                         type="text"
-                        placeholder={t('features.bento.items.0.1')}
+                        placeholder={t('bento.items.0.1')}
                         className="w-full focus-visible:ring-0 focus-visible:ring-transparent"
                     />
                 </CardContent>
@@ -44,29 +44,29 @@ export const CARDS = [
     },
     {
         Icon: SearchIcon,
-        name: t('features.bento.items.1.title'),
-        description: t('features.bento.items.1.subtitle'),
+        name: t('bento.items.1.title'),
+        description: t('bento.items.1.subtitle'),
         href: "https://ambassy.lovable.app/register",
         cta: t('ambassador.hero.cta'),
         className: "col-span-3 lg:col-span-2",
         background: (
             <Command className="absolute right-10 top-10 w-[70%] origin-to translate-x-0 border border-border transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_40%,#000_100%)] group-hover:-translate-x-10 p-2">
-                <Input placeholder= {t('features.bento.items.1.cardTitle')} />
+                <Input placeholder= {t('bento.items.1.cardTitle')} />
                 <div className="mt-1 cursor-pointer">
-                    <div className="px-4 py-2 hover:bg-muted rounded-md">{t('features.bento.items.1.0')}</div>
-                    <div className="px-4 py-2 hover:bg-muted rounded-md">{t('features.bento.items.1.1')}</div>
-                    <div className="px-4 py-2 hover:bg-muted rounded-md">{t('features.bento.items.1.2')}</div>
-                    <div className="px-4 py-2 hover:bg-muted rounded-md">{t('features.bento.items.1.3')}</div>
-                    <div className="px-4 py-2 hover:bg-muted rounded-md">{t('features.bento.items.1.4')}</div>
-                    <div className="px-4 py-2 hover:bg-muted rounded-md">{t('features.bento.items.1.5')}</div>
+                    <div className="px-4 py-2 hover:bg-muted rounded-md">{t('bento.items.1.0')}</div>
+                    <div className="px-4 py-2 hover:bg-muted rounded-md">{t('bento.items.1.1')}</div>
+                    <div className="px-4 py-2 hover:bg-muted rounded-md">{t('bento.items.1.2')}</div>
+                    <div className="px-4 py-2 hover:bg-muted rounded-md">{t('bento.items.1.3')}</div>
+                    <div className="px-4 py-2 hover:bg-muted rounded-md">{t('bento.items.1.4')}</div>
+                    <div className="px-4 py-2 hover:bg-muted rounded-md">{t('bento.items.1.5')}</div>
                 </div>
             </Command>
         ),
     },
     {
         Icon: WaypointsIcon,
-        name: t('features.bento.items.2.title'),
-        description: t('features.bento.items.2.subtitle'),
+        name: t('bento.items.2.title'),
+        description: t('bento.items.2.subtitle'),
         href: "https://ambassy.lovable.app/register",
         cta: t('ambassador.hero.cta'),
         className: "col-span-3 lg:col-span-2 max-w-full overflow-hidden",
@@ -76,8 +76,8 @@ export const CARDS = [
     },
     {
         Icon: CalendarIcon,
-        name: t('features.bento.items.3.title'),
-        description: t('features.bento.items.3.subtitle'),
+        name: t('bento.items.3.title'),
+        description: t('bento.items.3.subtitle'),
         className: "col-span-3 lg:col-span-1",
         href: "https://ambassy.lovable.app/register",
         cta: t('ambassador.hero.cta'),

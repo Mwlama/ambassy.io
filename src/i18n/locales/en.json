@@ -239,6 +239,37 @@
       "description": "Join the thousands of brands and creators who trust Ambassy to deliver authentic and impactful partnerships."
     }
   },
+  "bento": {
+        "items": {
+          "0": {
+            "title": "Find and Hire Ambassadors in Seconds",
+            "subtitle": "Start sharing, track the sales and get your Money.",
+            "cardTitle": "Get Started",
+            "cardDescription": "Send the procedure and affiliate links to the Ambassador",
+              "0": "Paste your procedure",
+              "1": "Paste your link here..."
+          },
+          "1": {
+            "title": "Launch a Campaign, Empower Ambassadors, and let your Product spread like Wildfire!",
+            "subtitle": "Quickly find, share and discuss with your Army of Ambassadors.",
+            "cardTitle": "Search your Ambassador",
+              "0": "Hmi.shopify/hdf00c",
+              "1": "MrBeast.shopify/sdv0n0",
+              "2": "candace.shopify/03gndo",
+              "3": "Poupette.shopify/09vmmw",
+              "4": "dylan.shopify/s09vws",
+              "5": "julien.shopify/sd8fv5"
+          },
+          "2": {
+            "title": "Manage your Army of Ambassadors",
+            "subtitle": "Find ambassadors tailored to your niche, location, and target audience."         
+          },
+          "3": {
+            "title": "Fair Rewards for Real Impact",
+            "subtitle": "You pay ambassadors based on the true impact of each campaign, ensuring everyone receives the compensation they deserve for the results they deliver."
+          }
+        }
+      },
   "benefits": {
     "badge": "Benefits",
     "title": "Unlock Your Potential",
@@ -302,38 +333,7 @@
   "features": {
     "title": "Features",
     "subtitle": "Manage Campaigns Like a Pro",
-    "description": "Ambassy: The Ultimate Communication Tool to Share, Monetize & Organize All Your Campaigns in One Place.",
-    "bento": {
-        "items": {
-          "0": {
-            "title": "Find and Hire Ambassadors in Seconds",
-            "subtitle": "Start sharing, track the sales and get your Money.",
-            "cardTitle": "Get Started",
-            "cardDescription": "Send the procedure and affiliate links to the Ambassador",
-              "0": "Paste your procedure",
-              "1": "Paste your link here..."
-          },
-          "1": {
-            "title": "Launch a Campaign, Empower Ambassadors, and let your Product spread like Wildfire!",
-            "subtitle": "Quickly find, share and discuss with your Army of Ambassadors.",
-            "cardTitle": "Search your Ambassador",
-              "0": "Hmi.shopify/hdf00c",
-              "1": "MrBeast.shopify/sdv0n0",
-              "2": "candace.shopify/03gndo",
-              "3": "Poupette.shopify/09vmmw",
-              "4": "dylan.shopify/s09vws",
-              "5": "julien.shopify/sd8fv5"
-          },
-          "2": {
-            "title": "Manage your Army of Ambassadors",
-            "subtitle": "Find ambassadors tailored to your niche, location, and target audience."         
-          },
-          "3": {
-            "title": "Fair Rewards for Real Impact",
-            "subtitle": "You pay ambassadors based on the true impact of each campaign, ensuring everyone receives the compensation they deserve for the results they deliver."
-          }
-        }
-      }
+    "description": "Ambassy: The Ultimate Communication Tool to Share, Monetize & Organize All Your Campaigns in One Place."
   },
   "cta": {
     "title": "Step into the future of Marketing management",

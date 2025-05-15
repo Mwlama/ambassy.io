@@ -238,6 +238,37 @@
       "description": "加入数千个信任Ambassy提供真实且有影响力的合作伙伴关系的品牌和创作者。"
     }
   },
+  "bento": {
+    "items": {
+      "0": {
+        "title": "几秒内找到并雇佣品牌大使",
+        "subtitle": "开始分享，跟踪销售并获得收入。",
+        "cardTitle": "立即开始",
+        "cardDescription": "将操作流程和联盟链接发送给大使",
+        "0": "粘贴你的操作流程",
+        "1": "在此粘贴你的链接..."
+      },
+      "1": {
+        "title": "发起活动，赋能大使，让你的产品像野火一样传播！",
+        "subtitle": "快速查找、分享并与大使团队交流。",
+        "cardTitle": "搜索你的大使",
+        "0": "Hmi.shopify/hdf00c",
+        "1": "MrBeast.shopify/sdv0n0",
+        "2": "candace.shopify/03gndo",
+        "3": "Poupette.shopify/09vmmw",
+        "4": "dylan.shopify/s09vws",
+        "5": "julien.shopify/sd8fv5"
+      },
+      "2": {
+        "title": "管理你的品牌大使团队",
+        "subtitle": "根据你的细分领域、地理位置和目标受众寻找合适的大使。"
+      },
+      "3": {
+        "title": "公平奖励真正的影响力",
+        "subtitle": "根据每次活动的真实影响向大使支付报酬，确保每个人都因结果获得应得的报酬。"
+      }
+    }
+  },
   "benefits": {
   "badge": "优势",
   "title": "释放您的潜力",
@@ -301,38 +332,7 @@
   "features": {
   "title": "功能",
   "subtitle": "像专业人士一样管理活动",
-  "description": "Ambassy：终极沟通工具，让你在一个平台上分享、变现并组织所有营销活动。",
-  "bento": {
-    "items": {
-      "0": {
-        "title": "几秒内找到并雇佣品牌大使",
-        "subtitle": "开始分享，跟踪销售并获得收入。",
-        "cardTitle": "立即开始",
-        "cardDescription": "将操作流程和联盟链接发送给大使",
-        "0": "粘贴你的操作流程",
-        "1": "在此粘贴你的链接..."
-      },
-      "1": {
-        "title": "发起活动，赋能大使，让你的产品像野火一样传播！",
-        "subtitle": "快速查找、分享并与大使团队交流。",
-        "cardTitle": "搜索你的大使",
-        "0": "Hmi.shopify/hdf00c",
-        "1": "MrBeast.shopify/sdv0n0",
-        "2": "candace.shopify/03gndo",
-        "3": "Poupette.shopify/09vmmw",
-        "4": "dylan.shopify/s09vws",
-        "5": "julien.shopify/sd8fv5"
-      },
-      "2": {
-        "title": "管理你的品牌大使团队",
-        "subtitle": "根据你的细分领域、地理位置和目标受众寻找合适的大使。"
-      },
-      "3": {
-        "title": "公平奖励真正的影响力",
-        "subtitle": "根据每次活动的真实影响向大使支付报酬，确保每个人都因结果获得应得的报酬。"
-      }
-    }
-  }
+  "description": "Ambassy：终极沟通工具，让你在一个平台上分享、变现并组织所有营销活动。"
 },
   "cta": {
     "title": "步入营销管理的未来",

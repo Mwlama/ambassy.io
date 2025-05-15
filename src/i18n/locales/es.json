@@ -238,6 +238,37 @@
       "description": "Únete a los miles de marcas y creadores que confían en Ambassy para ofrecer asociaciones auténticas e impactantes."
     }
   },
+  "bento": {
+    "items": {
+      "0": {
+        "title": "Encuentra y Contrata Embajadores en Segundos",
+        "subtitle": "Empieza a compartir, haz seguimiento de las ventas y recibe tu dinero.",
+        "cardTitle": "Empezar",
+        "cardDescription": "Envía el procedimiento y los enlaces de afiliación al Embajador",
+        "0": "Pega tu procedimiento",
+        "1": "Pega tu enlace aquí..."
+      },
+      "1": {
+        "title": "Lanza una Campaña, Da Poder a los Embajadores y ¡Deja que tu Producto se Propague como Fuego!",
+        "subtitle": "Encuentra, comparte y comunica rápidamente con tu ejército de Embajadores.",
+        "cardTitle": "Busca tu Embajador",
+        "0": "Hmi.shopify/hdf00c",
+        "1": "MrBeast.shopify/sdv0n0",
+        "2": "candace.shopify/03gndo",
+        "3": "Poupette.shopify/09vmmw",
+        "4": "dylan.shopify/s09vws",
+        "5": "julien.shopify/sd8fv5"
+      },
+      "2": {
+        "title": "Gestiona tu Ejército de Embajadores",
+        "subtitle": "Encuentra embajadores adaptados a tu nicho, ubicación y público objetivo."
+      },
+      "3": {
+        "title": "Recompensas Justas por un Impacto Real",
+        "subtitle": "Pagas a los embajadores en función del impacto real de cada campaña, garantizando que todos reciban una compensación justa por los resultados que logran."
+      }
+    }
+  },
   "benefits": {
     "badge": "Ventajas",
     "title": "Desbloquea Tu Potencial",
@@ -301,38 +332,7 @@
  "features": {
   "title": "Funciones",
   "subtitle": "Gestiona Campañas como un Profesional",
-  "description": "Ambassy: La herramienta de comunicación definitiva para compartir, monetizar y organizar todas tus campañas en un solo lugar.",
-  "bento": {
-    "items": {
-      "0": {
-        "title": "Encuentra y Contrata Embajadores en Segundos",
-        "subtitle": "Empieza a compartir, haz seguimiento de las ventas y recibe tu dinero.",
-        "cardTitle": "Empezar",
-        "cardDescription": "Envía el procedimiento y los enlaces de afiliación al Embajador",
-        "0": "Pega tu procedimiento",
-        "1": "Pega tu enlace aquí..."
-      },
-      "1": {
-        "title": "Lanza una Campaña, Da Poder a los Embajadores y ¡Deja que tu Producto se Propague como Fuego!",
-        "subtitle": "Encuentra, comparte y comunica rápidamente con tu ejército de Embajadores.",
-        "cardTitle": "Busca tu Embajador",
-        "0": "Hmi.shopify/hdf00c",
-        "1": "MrBeast.shopify/sdv0n0",
-        "2": "candace.shopify/03gndo",
-        "3": "Poupette.shopify/09vmmw",
-        "4": "dylan.shopify/s09vws",
-        "5": "julien.shopify/sd8fv5"
-      },
-      "2": {
-        "title": "Gestiona tu Ejército de Embajadores",
-        "subtitle": "Encuentra embajadores adaptados a tu nicho, ubicación y público objetivo."
-      },
-      "3": {
-        "title": "Recompensas Justas por un Impacto Real",
-        "subtitle": "Pagas a los embajadores en función del impacto real de cada campaña, garantizando que todos reciban una compensación justa por los resultados que logran."
-      }
-    }
-  }
+  "description": "Ambassy: La herramienta de comunicación definitiva para compartir, monetizar y organizar todas tus campañas en un solo lugar."
 },
   "cta": {
     "title": "Entra en el futuro de la gestión de marketing",
