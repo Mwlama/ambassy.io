@@ -116,13 +116,13 @@ const HeroSection: React.FC = () => {
                         </div>
                       ))}
                     </div>
-                    <div className="relative mt-2">
+                    {/* <div className="relative mt-2">
                       <div className="absolute inset-0 flex items-center justify-center p-2 pointer-events-none">
                         <p className="text-xl sm:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600">
                           +3k Ambassadors available
                         </p>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               )}
@@ -162,8 +162,8 @@ const HeroSection: React.FC = () => {
                   </div>
                   <div className="relative mt-4">
                     <div className="absolute inset-0 flex items-center justify-center p-4 pointer-events-none">
-                      <p className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600">
-                        +3k Ambassadors available
+                      <p className="text-2xl font-bold text-transparent bg-clip-text bg-neutral-400">
+                        {t('common.3k')}
                       </p>
                     </div>
                   </div>

@@ -115,32 +115,32 @@ const Footer = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="www.linkedin.com/in/ambassy-app-327303352" className="hover:text-foreground transition-all duration-300">
+                                        <Link href="https://www.snapchat.com/add/ambassy.io?share_id=NSyBNM7XnbA&locale=en-GB" className="hover:text-foreground transition-all duration-300">
                                             <Image src="/assets/snap.svg" alt="Snapchat" className="w-9 h-9 hover:opacity-80 transition-all duration-300" width={10}  height={10}/>
                                         </Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <Link href="www.linkedin.com/in/ambassy-app-327303352" className="hover:text-foreground transition-all duration-300">
                                             <Image src="/assets/twitch.svg" alt="Twitch" className="w-9 h-9 hover:opacity-80 transition-all duration-300" width={10}  height={10}/>
                                         </Link>
-                                    </li>
+                                    </li> */}
                                     <li>
-                                        <Link href="www.linkedin.com/in/ambassy-app-327303352" className="hover:text-foreground transition-all duration-300">
+                                        <Link href="http://t.me/Mwlamane" className="hover:text-foreground transition-all duration-300">
                                             <Image src="/assets/telegram.svg" alt="Telegram" className="w-9 h-9 hover:opacity-80 transition-all duration-300" width={10}  height={10}/>
                                         </Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <Link href="www.linkedin.com/in/ambassy-app-327303352" className="hover:text-foreground transition-all duration-300">
                                             <Image src="/assets/discord.svg" alt="Discord" className="w-9 h-9 hover:opacity-80 transition-all duration-300" width={10}  height={10}/>
                                         </Link>
-                                    </li>
+                                    </li> */}
                                     <li>
-                                        <Link href="www.linkedin.com/in/ambassy-app-327303352" className="hover:text-foreground transition-all duration-300">
+                                        <Link href="https://www.tiktok.com/@ambassy.io?_t=ZN-8wN5keKr75i&_r=1" className="hover:text-foreground transition-all duration-300">
                                             <Image src="/assets/tiktok.svg" alt="Discord" className="w-9 h-9 hover:opacity-80 transition-all duration-300" width={10}  height={10}/>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="www.linkedin.com/in/ambassy-app-327303352" className="hover:text-foreground transition-all duration-300">
+                                        <Link href="https://www.youtube.com/@ambassyapp" className="hover:text-foreground transition-all duration-300">
                                             <Image src="/assets/youtube.svg" alt="Discord" className="w-9 h-9 hover:opacity-80 transition-all duration-300" width={10}  height={10}/>
                                         </Link>
                                     </li>
