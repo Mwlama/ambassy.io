@@ -115,7 +115,7 @@ const Footer = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="https://www.snapchat.com/add/ambassy.io?share_id=NSyBNM7XnbA&locale=en-GB" className="hover:text-foreground transition-all duration-300">
+                                        <Link href="https://www.snapchat.com/add/ambassy.io?share_id=NSyBNM7XnbA&locale=en-GB                                    " className="hover:text-foreground transition-all duration-300">
                                             <Image src="/assets/snap.svg" alt="Snapchat" className="w-9 h-9 hover:opacity-80 transition-all duration-300" width={10}  height={10}/>
                                         </Link>
                                     </li>
