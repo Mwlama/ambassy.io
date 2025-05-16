@@ -3,7 +3,7 @@ import { Metadata } from "next";
 export const generateMetadata = ({
     title = `${process.env.NEXT_PUBLIC_APP_NAME} The Communication Management Platform`,
     description = `${process.env.NEXT_PUBLIC_APP_NAME} is the Ambassy platform for businesses. It helps you build, brand, and track your Ambassadors.`,
-    image = "/ambassy2Dok.png",
+    image = "/ambassy3D.jpg",
     icons = [
         {
             rel: "icon",
