@@ -211,7 +211,7 @@ const HomePage = () => {
                                 {t('cta.description')}
                             </p>
                             <Link
-                            href="https://app.ambassy.io/login">
+                            href="https://app.ambassy.io/register">
                             <div className="mt-6 mb-10">
                                 <Button>
                                     {t('common.getStarted')}

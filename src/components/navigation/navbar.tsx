@@ -138,7 +138,7 @@ const Navbar = () => {
                                 >
                                     {t('common.signIn')}
                                 </Link>
-                                <Link href="https://app.ambassy.io/login" className={buttonVariants({ size: "sm" })}>
+                                <Link href="https://app.ambassy.io/register" className={buttonVariants({ size: "sm" })}>
                                     {t('common.getStarted')}
                                     <ZapIcon className="size-3.5 ml-1.5 text-fuchsia-600 fill-fuchsia-500" />
                                 </Link>

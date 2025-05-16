@@ -88,7 +88,7 @@ export default function PricingSection() {
               <span className="text-sm">{t('pricing.plans.ambassador.bullet5')}</span>
             </div>
           </div>
-          <Link href="https://app.ambassy.io/login" passHref>
+          <Link href="https://app.ambassy.io/register" passHref>
           <button className="mt-6 bg-black text-white border border-white py-3 rounded-md hover:bg-gray-500 transition-colors w-full">
           {t('common.getStarted')}
           </button>
@@ -140,7 +140,7 @@ export default function PricingSection() {
               <span className="text-sm">{t('pricing.plans.pro.bullet6')}</span>
             </div>
           </div>
-          <Link href="https://app.ambassy.io/login" passHref>
+          <Link href="https://app.ambassy.io/register" passHref>
           <button className="mt-6 bg-purple-500 text-white py-3 rounded-md hover:bg-purple-600 transition-colors w-full">
           {t('common.getStarted')}
           </button>
@@ -197,7 +197,7 @@ export default function PricingSection() {
             </div>
           </div>
           
-          <Link href="https://app.ambassy.io/login" passHref>
+          <Link href="https://app.ambassy.io/register" passHref>
             <button className="mt-6 bg-yellow-500 text-black py-3 rounded-md hover:bg-yellow-400 transition-colors w-full">
               {t('common.getStarted')}
             </button>

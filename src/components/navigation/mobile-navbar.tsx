@@ -63,7 +63,7 @@ const MobileNavbar = () => {
                                     <Link href="https://app.ambassy.io/login" className={buttonVariants({ variant: "outline", className: "w-full" })}>
                                         {t('common.signIn')}
                                     </Link>
-                                    <Link href="https://app.ambassy.io/login" className={buttonVariants({ className: "w-full" })}>
+                                    <Link href="https://app.ambassy.io/register" className={buttonVariants({ className: "w-full" })}>
                                         {t('common.signUp')}
                                     </Link>
                                 </>
