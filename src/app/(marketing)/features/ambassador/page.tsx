@@ -192,7 +192,7 @@ const ForAmbassadorsPage = () => {
             </AnimationContainer>
             <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row justify-center gap-4">
             <Link
-              href="https://ambassy.lovable.app/register"
+              href="https://app.ambassy.io/login"
               className="mt-4 px-8 py-4 relative bg-gradient-to-r from-fuchsia-500 to-purple-500 backdrop-blur-sm border border-white/20 text-white text-bold font-medium rounded-full hover:from-fuchsia-600 hover:to-purple-600 hover:border-white/40 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-fuchsia-500/20 hover:shadow-xl active:shadow-md active:scale-95 overflow-hidden group"
             >
               {/* Glow effect */}
@@ -475,7 +475,7 @@ const ForAmbassadorsPage = () => {
                 </p>
                 <div className="mt-10 flex flex-col sm:flex-row gap-4">
                   <Button size="lg" className="px-10 py-7 text-lg" asChild>
-                    <Link href="https://ambassy.lovable.app/register">
+                    <Link href="https://app.ambassy.io/login">
                       {t('ambassador.finalCta.apply')}
                       <ArrowRightIcon className="ml-2 h-5 w-5" />
                     </Link>
