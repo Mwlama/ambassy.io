@@ -25,8 +25,8 @@ export const PLANS = [
         name: "Pro",
         info: "For shops and brands looking to skyrocket their growth",
         price: {
-            monthly: 39.99,
-            yearly: Math.round(39.99 * 12 * (1 - 0.12)), // Applying a 12% discount for yearly plan
+            monthly: 49.99,
+            yearly: 499, // Applying a 12% discount for yearly plan
         },
         features: [
             { text: "All Ambassador features" },
@@ -48,8 +48,8 @@ export const PLANS = [
         name: "VIP",
         info: "For busy shop owners who want effortless promotion and skyrocket",
         price: {
-            monthly: 299.99,
-            yearly: Math.round(299.99 * 12 * (1 - 0.12)),
+            monthly: 99,
+            yearly:  999,
         },
         features: [
             { text: "All Ambassador & Pro features" },

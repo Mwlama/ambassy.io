@@ -17,12 +17,12 @@ export default function PricingSection() {
       yearly: { price: t('pricing.plans.ambassador.price'), period: '' }
     },
     pro: {
-      monthly: { price: '$39.99', period: t('common.monthlyy') },
-      yearly: { price: '$422', period: t('common.yearlyy') }
+      monthly: { price: '$49.99', period: t('common.monthlyy') },
+      yearly: { price: '$499', period: t('common.yearlyy') }
     },
     vip: {
-      monthly: { price: '$299.99', period: t('common.monthlyy') },
-      yearly: { price: '$3168', period: t('common.yearlyy') }
+      monthly: { price: '$99', period: t('common.monthlyy') },
+      yearly: { price: '$999', period: t('common.yearlyy') }
     }
   };
 
